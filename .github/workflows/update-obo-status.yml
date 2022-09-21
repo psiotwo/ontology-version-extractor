@@ -1,4 +1,4 @@
-name: Do things every midnight
+name: Update OBO Ontology Version
 on:
   workflow_dispatch:
   schedule:
