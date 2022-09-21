@@ -9,6 +9,7 @@ import org.apache.hc.core5.http.HttpHost;
 import org.apache.hc.core5.http.protocol.HttpContext;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -28,7 +29,8 @@ public class Utils {
                 .custom()
                 .setDefaultRequestConfig(config);
 
-        final List<String> nonProxyHosts = Arrays.asList(System.getProperty("http.nonProxyHosts").split(","));
+        final String nonProxyHostsString = System.getProperty("http.nonProxyHosts");
+        final List<String> nonProxyHosts = nonProxyHostsString != null ? Arrays.asList(nonProxyHostsString.split(",")) : Collections.emptyList();
         final String proxyHost = System.getProperty("http.proxyHost");
         if (proxyHost != null && !proxyHost.isEmpty()) {
             final String proxyPort = System.getProperty("http.proxyPort");
