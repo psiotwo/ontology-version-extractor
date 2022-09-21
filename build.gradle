@@ -2,7 +2,6 @@ plugins {
     id 'java'
     id 'application'
     id 'io.freefair.lombok' version '6.4.1'
-//    id 'com.github.johnrengelman.shadow' version '7.0.0'
 }
 
 sourceCompatibility = '11'
@@ -15,28 +14,12 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-}
-
-test {
-    useJUnitPlatform()
-}
-
 application {
     mainClass = 'cz.sio2.obo.OBOFoundryVersionFetcher'
     run {
         systemProperties System.getProperties()
     }
 }
-//
-//shadowJar {
-//    mergeServiceFiles()
-//    manifest {
-//        attributes 'Main-Class': 'cz.sio2.obo.OBOFoundryVersionFetcher'
-//    }
-//}
 
 repositories {
     mavenCentral()
