@@ -1,5 +1,6 @@
 name: Do things every midnight
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
 
