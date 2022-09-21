@@ -10,3 +10,10 @@ Use-case: Checking, which ontologies need updating.
 Currently configured for OBO ontologies:
 
 `gradle run output.csv` will generate `output.csv` with list of OBO ontologies and their current versions.
+
+## Latest OBO ontology versions
+
+Currently, no UI is available, so follow these steps:
+1) Go to respective scheduled job: https://github.com/psiotwo/ontology-version-extractor/actions/workflows/update-obo-status.yml
+2) Click on the latest "Update OBO Ontology Version" job
+3) Download the artifact "output", unzip it. THe resulting CSV file contains a map from an accessUrl, to the versionIri found at this accessUrl.
