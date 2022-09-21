@@ -1,4 +1,5 @@
 name: Do things every midnight
+on:
   schedule:
     - cron: "0 0 * * *"
 
