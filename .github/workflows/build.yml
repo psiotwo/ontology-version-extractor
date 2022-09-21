@@ -1,4 +1,4 @@
-name: Java CI with Maven
+name: Build & Test
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
       - name: Run
-        run: ./gradlew build
+        run: ./gradlew build test
