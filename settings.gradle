@@ -1,0 +1,3 @@
+rootProject.name = 'ontology-version-extractor'
+enableFeaturePreview("VERSION_CATALOGS")
+

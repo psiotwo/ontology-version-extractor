@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-3.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-3.owl"
+     versionIRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-3.owl">
+    <Prefix name="" IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-3.owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="xsp" IRI="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Prefix name="imgt-ontology-v1-0-3" IRI="http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-3.owl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Marie-Paule Lefranc</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>VÃ©ronique Giudicelli</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>IMGT-ONTOLOGY manages the immunogenetics knowledge through diverse facets that rely on the seven axioms of the Formal IMGT-ONTOLOGY, or IMGT-Kaleidoscope: &quot;IDENTIFICATION&quot;, &quot;CLASSIFICATION&quot;, &quot;DESCRIPTION&quot;, &quot;NUMEROTATION&quot;, &quot;LOCALIZATION&quot;, &quot;ORIENTATION&quot; and &quot;OBTENTION&quot;. These axioms postulate that any object, any process and any relation have to be identified, classified, described, numbered, localized and orientated, and that the way it is obtained can be characterized. As the same axioms can be used to generate concepts for multi-scale level approaches, the Formal IMGT-ONTOLOGY represents a paradigm for system biology ontologies, which need to identify, to classify, to describe, to number, to localize and to orientate objects, processes and relations at the molecule, cell, tissue, organ, organism or population levels.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>IMGT-ONTOLOGY</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>1.0.3</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <Literal>IMGT-ONTOLOGY is the first ontology for immunogenetics and immunoinformatics and the global reference in the domain. It was created as early as in 1989 to manage the complexity of immunogenetics data in IMGTÂ®, the international ImMunoGeneTics information systemÂ® (http://www.imgt.org). IMGT-ONTOLOGY provides a semantic specification of the terms to be used in immunogenetics and immunoinformatics and manages the related knowledge, thus allowing the standardization for immunogenetics data from genome, proteome, genetics, two-dimensional (2D) and three-dimensional (3D) structures.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AA-chain"/>
+    </Declaration>

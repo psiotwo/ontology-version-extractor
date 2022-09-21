@@ -1,0 +1,4 @@
+file,ontologyIri,versionIri,versionInfo
+imgt-v1-0-3-header.owl,http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-3.owl,http://www.imgt.org/download/IMGT-ONTOLOGY/IMGT-ONTOLOGY-v1-0-3.owl,1.0.3
+mamo-2020-08-24-header.xml,http://identifiers.org/mamo,,2020-08-24
+cto-1-0-0-header.xml,http://purl.obolibrary.org/obo/cto.owl,,Version Release: 1.0.0

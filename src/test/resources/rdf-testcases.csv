@@ -1,0 +1,5 @@
+file,ontologyIri,versionIri,versionInfo
+doid-2022-02-13-header.rdf,http://purl.obolibrary.org/obo/doid/doid-merged.owl,http://purl.obolibrary.org/obo/doid/releases/2022-02-21/doid-merged.owl,
+cido-1-0-337-header.rdf,http://purl.obolibrary.org/obo/cido.owl,,1.0.337
+cheminf-2.0-header.rdf,http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl,,2.0
+tads-2015-08-20-header.rdf,http://purl.obolibrary.org/obo/tads.owl,http://purl.obolibrary.org/obo/tads/2015-08-20/tads.owl,
