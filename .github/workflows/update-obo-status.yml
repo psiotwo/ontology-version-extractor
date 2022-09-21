@@ -18,7 +18,7 @@ jobs:
       uses: gradle/gradle-build-action@v2
 
     - name: Run
-      run: ./gradlew run output.csv
+      run: ./gradlew run --args="output.csv"
 
     - name: Archive output file
       uses: actions/upload-artifact@v3
