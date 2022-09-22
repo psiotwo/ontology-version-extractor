@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'application'
-    id 'io.freefair.lombok' version '6.4.1'
+    id 'io.freefair.lombok' version '6.5.1'
 }
 
 sourceCompatibility = '11'
@@ -23,6 +23,7 @@ application {
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -30,6 +31,7 @@ dependencies {
     implementation libs.picocli
     implementation libs.httpclient5
     implementation libs.jena
+    implementation 'com.github.psiotwo:ontology-version-extractor:main'
 
     testImplementation libs.bundles.testDependencies
     testRuntimeOnly libs.bundles.testRuntimeOnly
