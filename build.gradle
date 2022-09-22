@@ -40,3 +40,15 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId = 'com.github.psiotwo'
+            artifactId = 'ontology-version-extractor'
+            version = '1.0-SNAPSHOT'
+
+            from components.java
+        }
+    }
+}
