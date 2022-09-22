@@ -41,7 +41,7 @@ public class OBOFoundryVersionFetcher {
         try (Writer writer = new FileWriter(file)) {
             writer.write("<html><head></head><body><h1>Latest OBO ontology versions</h1>" +
                     "<span style=\"color:green\">green = Version IRI successfully extracted from owl:versionIri.</span><br/>" +
-                    "<span style=\"color:yellow\">green = Version IRI successfully generated from owl:versionInfo.</span><br/>" +
+                    "<span style=\"color:orange\">green = Version IRI successfully generated from owl:versionInfo.</span><br/>" +
                     "<span style=\"color:red\">green = Version IRI cannot be extracted.</span><br/><br/>" +
                     "<hr/><table>");
             List<Map.Entry<String, String>> list = new ArrayList<>(map.entrySet());
