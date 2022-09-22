@@ -9,7 +9,7 @@ sourceCompatibility = '11'
 targetCompatibility = '11'
 
 group 'com.github.psiotwo'
-version '0.0.1'
+version '0.0.2-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -46,7 +46,7 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = 'com.github.psiotwo'
             artifactId = 'ontology-version-extractor'
-            version = '0.0.1'
+            version = '0.0.2-SNAPSHOT'
 
             from components.java
         }
