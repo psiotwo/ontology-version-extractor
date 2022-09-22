@@ -31,7 +31,6 @@ dependencies {
     implementation libs.picocli
     implementation libs.httpclient5
     implementation libs.jena
-    implementation 'com.github.psiotwo:ontology-version-extractor:main'
 
     testImplementation libs.bundles.testDependencies
     testRuntimeOnly libs.bundles.testRuntimeOnly
