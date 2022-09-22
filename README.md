@@ -7,7 +7,7 @@ Use-case: Checking, which ontologies need updating.
 
 ## Latest OBO ontology versions
 
-Go to https://psiotwo.github.io/ontology-version-extractor
+Go to https://psiotwo.github.io/ontology-version-extractor/output.csv.html
 
 ## Usage
 
