@@ -1,9 +1,17 @@
 <html>
 <head></head>
 <body><h1>Latest OBO ontology versions</h1>
-<span style="color:green">green = Version IRI successfully extracted from owl:versionIri.</span><br/>
-<span style="color:orange">green = Version IRI generated from ontology IRI and owl:versionInfo.</span><br/>
-<span style="color:red">green = Version IRI cannot be extracted.</span><br/><br/>
+See the <a href="https://obofoundry.org/id-policy.html">OBO Foundry Identifier Policy</a> for details on correct version identification in OBO Foundry.  The following version types are recognized:
+<ul>
+    <li><span style="color:green">STANDARD_OBO_VERSION_IRI_1 = owl:versionIri compliant with the OBO Foundry Identifier Policy.</span><br/></li>
+    <li><span style="color:lawngreen">STANDARD_OBO_VERSION_IRI_2 = owl:versionIri compliant with the OBO Foundry Identifier Policy.</span><br/></li>
+    <li><span style="color:lightgreen">NON_STANDARD_OBO_VERSION_IRI = owl:versionIri present, with partial compliance with the OBO Foundry Identifier Policy.</span><br/></li>
+    <li><span style="color:gold">NON_OBO_VERSION_IRI = owl:versionIri successfully extracted from owl:versionIri, but not OBO compliant.</span><br/></li>
+    <li><span style="color:orange">NO_VERSION_IRI_BUT_VERSIONINFO = No/invalid owl:versionIri present, only owl:versionInfo.</span><br/></li>
+    <li><span style="color:tomato">NO_VERSION_INFORMATION = No owl:versionIri neither owl:versionInfo present.</span><br/></li>
+    <li><span style="color:red">UNKNOWN = A problem (e.g. failing connection) occurred when fetching ontology header.</span><br/></li>
+</ul>
+
 <table border="1" style="border-collapse: collapse;">
     <tr>
         <th style="padding: 15px;">

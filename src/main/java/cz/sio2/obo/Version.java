@@ -9,8 +9,6 @@ import java.util.regex.Pattern;
 
 import static cz.sio2.obo.Constants.NS_REGEX;
 
-import static cz.sio2.obo.Constants.NS_REGEX;
-
 /**
  * Object that represents the version extracted from the ontology.
  */
