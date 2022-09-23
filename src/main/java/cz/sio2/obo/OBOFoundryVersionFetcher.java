@@ -6,15 +6,10 @@ import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.*;
 
-import java.awt.*;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.Writer;
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.List;
 
 import static cz.sio2.obo.Constants.HEADER_LENGTH;
 
@@ -24,12 +19,16 @@ public class OBOFoundryVersionFetcher {
     //    private static final String registry = "https://raw.githubusercontent.com/OBOFoundry/OBOFoundry.github.io/master/registry/ontologies.ttl";
     private static final String registry = "https://obofoundry.org/registry/ontologies.ttl";
 
-    private static void writeCSV(final String file, Map<String,String> map) {
+    private static void writeCSV(final String file, Map<String,Version> map) {
         try (Writer writer = new FileWriter(file)) {
-            for (Map.Entry<String, String> entry : map.entrySet()) {
-                writer.append(entry.getKey())
+            for (Map.Entry<String, Version> entry : map.entrySet()) {
+                final Version v = entry.getValue();
+                writer.append(v != null ? VersionType.get(v.getOwlOntologyIri()
+                                , v.getOwlVersionIri(), v.getOwlVersionInfo()).name() : VersionType.UNKNOWN.name())
                         .append(',')
-                        .append(entry.getValue())
+                        .append(entry.getKey())
+                        .append(',')
+                        .append((v != null ? v.getOboVersion() : "ERROR"))
                         .append(System.lineSeparator());
             }
         } catch (IOException ex) {
@@ -37,39 +36,9 @@ public class OBOFoundryVersionFetcher {
         }
     }
 
-    private static void writeHTML(final String file, Map<String,String> map) {
-        try (Writer writer = new FileWriter(file)) {
-            writer.write("<html><head></head><body><h1>Latest OBO ontology versions</h1>" +
-                    "<span style=\"color:green\">green = Version IRI successfully extracted from owl:versionIri.</span><br/>" +
-                    "<span style=\"color:orange\">green = Version IRI successfully generated from owl:versionInfo.</span><br/>" +
-                    "<span style=\"color:red\">green = Version IRI cannot be extracted.</span><br/><br/>" +
-                    "<hr/><table>");
-            List<Map.Entry<String, String>> list = new ArrayList<>(map.entrySet());
-            list.sort(Map.Entry.comparingByKey());
-
-            for (Map.Entry<String, String> entry : list) {
-                String c;
-                boolean failed = entry.getValue() == null || entry.getValue().equals("null");
-                if ( failed ) {
-                    c = "red";
-                } else if ( entry.getValue().contains("GENERATED") ) {
-                    c = "orange";
-                } else {
-                    c = "green";
-                }
-                writer.append("<tr style=\"color:" + c + ";\"><td>");
-                writer.append(entry.getKey());
-                writer.append("</td><td>");
-                if ( !failed ) {
-                    writer.append(entry.getValue());
-                }
-                writer.append("</td></tr>");
-            }
-            String pattern = "MM-dd-yyyy HH:mm:ss";
-            SimpleDateFormat simpleDateFormat =new SimpleDateFormat(pattern, new Locale("en"));
-            String date = simpleDateFormat.format(new Date());
-            writer.append("</table><hr/><a href=\"https://github.com/psiotwo/ontology-version-extractor\">GitHub project</a><br/>");
-            writer.append("Updated: " + date + "</body></html>");
+    private static void writeHTML(final String file, Map<String,Version> map) {
+        try {
+            new HTMLReport().writeHTML(map, new FileOutputStream(file));
         } catch (IOException ex) {
             ex.printStackTrace(System.err);
         }
@@ -85,13 +54,13 @@ public class OBOFoundryVersionFetcher {
 
         final VersionFetcher f = new VersionFetcher();
 
-        final Map<String, String> map = new HashMap<>();
+        final Map<String, Version> map = new HashMap<>();
 
         while (rs.hasNext()) {
             final String url = rs.next().get("ontology").asLiteral().getString();
             log.info(url);
             final Version v = f.fetch(new URL(url), HEADER_LENGTH);
-            map.put(url, (v != null ? v.getOboVersion() : "ERROR"));
+            map.put(url, v);
         }
 
         log.info("FINISHED.");

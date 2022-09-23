@@ -1,0 +1,35 @@
+<html>
+<head></head>
+<body><h1>Latest OBO ontology versions</h1>
+<span style="color:green">green = Version IRI successfully extracted from owl:versionIri.</span><br/>
+<span style="color:orange">green = Version IRI generated from ontology IRI and owl:versionInfo.</span><br/>
+<span style="color:red">green = Version IRI cannot be extracted.</span><br/><br/>
+<table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th style="padding: 15px;">
+            Version Type
+        </th>
+        <th style="padding: 15px;">
+            Ontology IRI
+        </th>
+        <th style="padding: 15px;">
+            Version IRI
+        </th>
+    </tr>
+    <#list ontologies as ontology>
+    <tr style="color:${ontology.type.color}">
+        <td style="padding: 15px;">
+            ${ontology.type}
+        </td>
+        <td style="padding: 15px;">
+            ${ontology.ontologyIri}
+        </td>
+        <td style="padding: 15px;">
+            ${ontology.versionIri}
+        </td>
+    </tr>
+    </#list>
+</table>
+<a href="https://github.com/psiotwo/ontology-version-extractor">GitHub project</a><br/>, ${date}
+</body>
+</html>

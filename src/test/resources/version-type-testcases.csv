@@ -1,0 +1,11 @@
+type,ontologyIri,versionIri,versionInfo
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ado.owl,http://purl.obolibrary.org/obo/ado/releases/2022-06-11/ado.owl,
+NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/ado.owl,http://purl.obolibrary.org/obo/ado/releases/2022-06-11/adox.owl,
+STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/bfo.owl,http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl,
+NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/bfo.owl,http://purl.obolibrary.org/obo/bfo/2019-08-26/bfox.owl,
+NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/apollo_sv.owl,http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl,
+NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/apollo_sv.owl,http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_svx.owl,
+NON_OBO_VERSION_IRI,,https://bio.scai.fraunhofer.de/ontology/epilepsy/2021-05-28/EPIO.owl,
+NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/cido.owl,,1.0.337
+NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/aro.owl,,
+UNKNOWN,,,

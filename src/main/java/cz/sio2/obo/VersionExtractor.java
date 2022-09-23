@@ -3,6 +3,8 @@ package cz.sio2.obo;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static cz.sio2.obo.Constants.NS_OBO_HTTP;
+
 public abstract class VersionExtractor {
 
     protected abstract Pattern getFormatMatcher();
@@ -28,6 +30,12 @@ public abstract class VersionExtractor {
             return false;
         }
         version.setOwlOntologyIri(get(getIriMatcher(),singleLine));
+
+        final String versionIri = version.getOwlOntologyIri();
+        if (versionIri != null) {
+            version.setOwlOntologyIri(versionIri.replace("&obo;", NS_OBO_HTTP));
+        }
+
         version.setOwlVersionIri(get(getVersionIriMatcher(),singleLine));
         version.setOwlVersionInfo(get(getVersionInfoMatcher(),singleLine));
         return true;

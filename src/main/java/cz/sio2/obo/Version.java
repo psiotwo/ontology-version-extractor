@@ -3,10 +3,12 @@ package cz.sio2.obo;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static cz.sio2.obo.Constants.NS_OBO_REGEX;
+import static cz.sio2.obo.Constants.NS_REGEX;
+
 import static cz.sio2.obo.Constants.NS_REGEX;
 
 /**
@@ -48,5 +50,18 @@ public class Version {
         final String baseIri = m.group(1);
 
         return baseIri + "/GENERATED-" + owlVersionInfo.replaceAll(" ","-").toLowerCase() + "/" + ontologyId + ".owl";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Version version = (Version) o;
+        return Objects.equals(owlOntologyIri, version.owlOntologyIri) && Objects.equals(owlVersionIri, version.owlVersionIri) && Objects.equals(owlVersionInfo, version.owlVersionInfo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(owlOntologyIri, owlVersionIri, owlVersionInfo);
     }
 }

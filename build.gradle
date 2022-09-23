@@ -29,9 +29,11 @@ repositories {
 
 dependencies {
     implementation libs.slf4j
+    implementation libs.slf4jsimple
     implementation libs.picocli
     implementation libs.httpclient5
     implementation libs.jena
+    implementation libs.freemarker
 
     testImplementation libs.bundles.testDependencies
     testRuntimeOnly libs.bundles.testRuntimeOnly
