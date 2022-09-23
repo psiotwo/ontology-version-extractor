@@ -1,5 +1,5 @@
 # ontology-version-extractor [![Build & Test](https://github.com/psiotwo/ontology-version-extractor/actions/workflows/build.yml/badge.svg)](https://github.com/psiotwo/ontology-version-extractor/actions/workflows/build.yml) [![](https://jitpack.io/v/psiotwo/ontology-version-extractor.svg)](https://jitpack.io/#psiotwo/ontology-version-extractor) [![Update OBO Ontology Version](https://github.com/psiotwo/ontology-version-extractor/actions/workflows/update-obo-status.yml/badge.svg)](https://github.com/psiotwo/ontology-version-extractor/actions/workflows/update-obo-status.yml)
-This is a simple tool to extract versions from web ontologies, based on the snippet of the ontology (assuming that whenever a new version is released, their version number is also updated).
+This is a simple tool to extract versions from web ontologies, based on fetching and analysing a starting snippet of the ontology for some version-related information.
 
 Use-case: Checking, which ontologies need updating.
 
