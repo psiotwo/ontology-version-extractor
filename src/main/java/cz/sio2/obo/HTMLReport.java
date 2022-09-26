@@ -1,9 +1,15 @@
 package cz.sio2.obo;
 
-import freemarker.template.*;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
+import freemarker.template.TemplateException;
+import freemarker.template.TemplateExceptionHandler;
 import lombok.extern.slf4j.Slf4j;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -45,7 +51,7 @@ public class HTMLReport {
                     record.setType(VersionType.UNKNOWN);
                     record.setVersionIri("");
                 } else {
-                    record.setType(VersionType.get(entry.getValue().getOwlOntologyIri(), entry.getValue().getOwlVersionIri(), entry.getValue().getOwlVersionInfo() ));
+                    record.setType(VersionType.get(entry.getValue().getOwlOntologyIri(), entry.getValue().getOwlVersionIri(), entry.getValue().getOwlVersionInfo()));
                     String oboVersion = entry.getValue().getOboVersion();
                     record.setVersionIri(oboVersion != null ? oboVersion : "");
                 }

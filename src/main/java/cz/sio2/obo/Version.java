@@ -32,10 +32,10 @@ public class Version {
     private String owlVersionInfo;
 
     public String getOboVersion() {
-        if ( owlVersionIri != null ) {
+        if (owlVersionIri != null) {
             return owlVersionIri;
         }
-        if ( owlOntologyIri == null || owlVersionInfo == null) {
+        if (owlOntologyIri == null || owlVersionInfo == null) {
             return null;
         }
 
@@ -47,7 +47,7 @@ public class Version {
         final String ontologyId = m.group(2);
         final String baseIri = m.group(1);
 
-        return baseIri + "/GENERATED-" + owlVersionInfo.replaceAll(" ","-").toLowerCase() + "/" + ontologyId + ".owl";
+        return baseIri + "/GENERATED-" + owlVersionInfo.replaceAll(" ", "-").toLowerCase() + "/" + ontologyId + ".owl";
     }
 
     @Override

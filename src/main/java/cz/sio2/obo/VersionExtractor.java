@@ -29,15 +29,15 @@ public abstract class VersionExtractor {
         if (!getFormatMatcher().matcher(singleLine).matches()) {
             return false;
         }
-        version.setOwlOntologyIri(get(getIriMatcher(),singleLine));
+        version.setOwlOntologyIri(get(getIriMatcher(), singleLine));
 
         final String versionIri = version.getOwlOntologyIri();
         if (versionIri != null) {
             version.setOwlOntologyIri(versionIri.replace("&obo;", NS_OBO_HTTP));
         }
 
-        version.setOwlVersionIri(get(getVersionIriMatcher(),singleLine));
-        version.setOwlVersionInfo(get(getVersionInfoMatcher(),singleLine));
+        version.setOwlVersionIri(get(getVersionIriMatcher(), singleLine));
+        version.setOwlVersionInfo(get(getVersionInfoMatcher(), singleLine));
         return true;
     }
 }
