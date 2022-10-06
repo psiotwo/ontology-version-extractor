@@ -2,6 +2,7 @@ package cz.sio2.obo;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Objects;
 import java.util.regex.Matcher;
@@ -14,6 +15,7 @@ import static cz.sio2.obo.Constants.*;
  */
 @Getter
 @Setter
+@Slf4j
 public class Version {
 
     /**
@@ -71,7 +73,7 @@ public class Version {
 
         if ( versionIriVersion != null ) {
             if ( versionInfoVersion != null && !versionIriVersion.equals(versionInfoVersion) ) {
-                throw new RuntimeException("Versions differ: " + versionIriVersion + " : " + versionInfoVersion);
+                log.info("Versions differ: " + versionIriVersion + " : " + versionInfoVersion + ", using version from versionIri");
             }
             return versionIriVersion;
         } else {
