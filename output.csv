@@ -119,7 +119,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/envo.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fbbi.owl,http://purl.obolibrary.org/obo/fbbi/releases/2020-11-06/fbbi.owl
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fao.owl,http://purl.obolibrary.org/obo/fao/releases/2020-05-07/fao.owl
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/aro.owl,null
-NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/vo.owl,http://purl.obolibrary.org/obo/vo/GENERATED-1.1.201/vo.owl
+NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/vo.owl,http://purl.obolibrary.org/obo/vo/GENERATED-1.1.202/vo.owl
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/pso.owl,http://purl.obolibrary.org/obo/pso/releases/2020-05-19/pso.owl
 UNKNOWN,http://purl.obolibrary.org/obo/oarcs.owl,null
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/micro.owl,http://purl.obolibrary.org/obo/MicrO/GENERATED-micro-(an-ontology-of-prokaryotic-phenotypic-and-metabolic-characters).--version-1.5.1-released-6/14/2018.--includes-terms-and-term-synonyms-extracted-from-&gt;-3000-prokaryotic-taxonomic-descriptions,-collected-from-a-large-number-of-taxonomic-descriptions-from-archaea,-cyanobacteria,-bacteroidetes,-firmicutes-and-mollicutes.--the-ontology-and-the-synonym-lists-were-developed-to-facilitate-the-automated-extraction-of-phenotypic-data-and-character-states-from-prokaryotic-taxonomic-descriptions-using-a-natural-language-processing-algorithm-(micropie).--micropie-was-developed-by-hong-cui,-elvis-hsin-hui-wu,-and-jin-mao-(university-of-arizona)-in-collaboration-with-carrine-e.-blank-(university-of-montana)-and-lisa-r.-moore-(university-of-southern-maine).--descriptions-and-links-to-micropie-can-be-found-at-http://avatol.org/ngp/nlp/overview-2/.-https://github.com/biosemantics/micropie2--the-most-current-version-of-micro-can-be-downloaded-from-https://github.com/carrineblank/micro./MicrO.owl
@@ -142,7 +142,7 @@ NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/apollo_sv.owl,http:/
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/omo.owl,http://purl.obolibrary.org/obo/omo/releases/2022-04-27/omo.owl
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/aism.owl,http://purl.obolibrary.org/obo/aism/releases/2022-08-25/aism.owl
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/hso.owl,http://purl.obolibrary.org/obo/hso/2021-12-13/hso.owl
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/hp.owl,http://purl.obolibrary.org/obo/hp/releases/2022-06-11/hp.owl
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/hp.owl,http://purl.obolibrary.org/obo/hp/releases/2022-10-05/hp.owl
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cdno.owl,http://purl.obolibrary.org/obo/cdno/releases/2022-09-22/cdno.owl
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ddpheno.owl,http://purl.obolibrary.org/obo/ddpheno/releases/2022-01-19/ddpheno.owl
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/poro.owl,http://purl.obolibrary.org/obo/poro/releases/2016-10-06/poro.owl
