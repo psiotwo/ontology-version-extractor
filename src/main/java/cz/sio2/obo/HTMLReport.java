@@ -50,19 +50,23 @@ public class HTMLReport {
                 if (failed) {
                     record.setType(VersionType.UNKNOWN);
                     record.setVersionIri("");
+                    record.setVersionInfo("");
                     record.setVersion("");
                 } else {
                     record.setType(VersionType.get(entry.getValue().getOwlOntologyIri(), entry.getValue().getOwlVersionIri(), entry.getValue().getOwlVersionInfo()));
-                    String versionIri = entry.getValue().getOboVersionIri();
+                    String versionIri = entry.getValue().getOwlVersionIri();
                     record.setVersionIri(versionIri != null ? versionIri : "");
                     String version = entry.getValue().getVersion();
                     record.setVersion(version != null ? version : "");
+                    String versionInfo = entry.getValue().getOwlVersionInfo();
+                    record.setVersionInfo(versionInfo != null ? versionInfo : "");
                 }
 
                 records.add(record);
             }
 
             dataModel.put("ontologies", records.stream().sorted(comp).collect(Collectors.toList()));
+            dataModel.put("types", Arrays.asList(VersionType.values()));
 
             Template temp = cfg.getTemplate("output-template.html");
             Writer out = new OutputStreamWriter(os);

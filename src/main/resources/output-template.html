@@ -1,50 +1,69 @@
 <html>
-<head></head>
-<body><h1>Latest OBO ontology versions</h1>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body class="w3-container">
+<h1>Current OBO ontology versions</h1>
 See the <a href="https://obofoundry.org/id-policy.html">OBO Foundry Identifier Policy</a> for details on correct version identification in OBO Foundry.  The following version types are recognized:
 <ul>
-    <li><span style="color:green">STANDARD_OBO_VERSION_IRI_1 = owl:versionIri compliant with the OBO Foundry Identifier Policy.</span></li>
-    <li><span style="color:lawngreen">STANDARD_OBO_VERSION_IRI_2 = owl:versionIri compliant with the OBO Foundry Identifier Policy.</span></li>
-    <li><span style="color:lightgreen">NON_STANDARD_OBO_VERSION_IRI = owl:versionIri present, with partial compliance with the OBO Foundry Identifier Policy.</span></li>
-    <li><span style="color:gold">NON_OBO_VERSION_IRI = owl:versionIri successfully extracted from owl:versionIri, but not OBO compliant.</span></li>
-    <li><span style="color:orange">NO_VERSION_IRI_BUT_VERSIONINFO = No/invalid owl:versionIri present, only owl:versionInfo.</span></li>
-    <li><span style="color:tomato">NO_VERSION_INFORMATION = No owl:versionIri neither owl:versionInfo present.</span></li>
-    <li><span style="color:red">UNKNOWN = A problem (e.g. failing connection) occurred when fetching ontology header.</span></li>
+    <#list types as type>
+    <li><span class="w3-tag w3-round-large w3-large w3-${type.color}">${type.shortName}</span> = ${type.description}</li>
+    </#list>
 </ul>
 
-<table border="1" style="border-collapse: collapse;">
+<input class="w3-round-xlarge w3-input w3-border w3-padding" type="text" placeholder="Filter ontologies.." id="myInput" onkeyup="myFunction()">
+<table class="w3-table w3-border w3-bordered" id="myTable">
     <tr>
-        <th style="padding: 15px;">
+        <th>
             Version Type
         </th>
-        <th style="padding: 15px;">
-            Ontology IRI
+        <th>
+            Ontology
         </th>
-        <th style="padding: 15px;">
-            Version
-        </th>
-        <th style="padding: 15px;">
-            Version IRI
+        <th>
+            Extracted Version
         </th>
     </tr>
     <#list ontologies as ontology>
-    <tr style="color:${ontology.type.color}">
-        <td style="padding: 15px;">
-            ${ontology.type}
+    <tr class="w3-text-${ontology.type.color}">
+        <td>
+            <span class="w3-tag w3-round-large w3-large w3-${ontology.type.color}">${ontology.type.shortName}</span>
         </td>
-        <td style="padding: 15px;">
-            ${ontology.ontologyIri}
+        <td>
+            <h4><a href="${ontology.ontologyIri}">${ontology.ontologyIri}</a></h4>
+            <ul>
+                <li><span class="w3-small w3-text-gray">owl:versionIri:</span><span class="w3-padding">${ontology.versionIri}</span></li>
+                <li><span class="w3-small w3-text-gray">owl:versionInfo:</span><span class="w3-padding">${ontology.versionInfo}</span></li>
+            </ul>
         </td>
-        <td style="padding: 15px;">
-            ${ontology.version}
-        </td>
-        <td style="padding: 15px;">
-            ${ontology.versionIri}
+        <td>
+            <span>${ontology.version}</span>
         </td>
     </tr>
     </#list>
 </table>
 Download the <a href="output.csv">table as CSV</a>.
 Updated ${date}, source code at <a href="https://github.com/psiotwo/ontology-version-extractor">GitHub</a>.
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
 </body>
 </html>
