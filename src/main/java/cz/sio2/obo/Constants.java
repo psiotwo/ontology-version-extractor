@@ -14,7 +14,7 @@ public class Constants {
     /**
      * Regex for extracting ontology version from an IRI
      */
-    public static final String VERSION_FROM_VERSION_IRI_REGEX = "https?://purl[.]obolibrary[.]org/obo/(.+)/([^/.]+)/([^/.]+)[.]owl";
+    public static final String VERSION_FROM_VERSION_IRI_REGEX = "https?://purl[.]obolibrary[.]org/obo/(.+/)?([^/]+)/([^/]+)[.]owl";
 
     /**
      * Regex for extracting ontology version from an IRI

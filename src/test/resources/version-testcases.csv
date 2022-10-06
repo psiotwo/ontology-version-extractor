@@ -3,3 +3,5 @@ ontologyIri,versionIri,versionInfo,computedVersionIri,computedVersion
 http://purl.obolibrary.org/obo/cdno.owl,,v123,http://purl.obolibrary.org/obo/cdno/GENERATED-v123/cdno.owl,123
 http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl,,2.0,http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf/GENERATED-2.0/cheminf.owl,2.0
 http://purl.obolibrary.org/obo/cto.owl,,Version Release: 1.0.0,http://purl.obolibrary.org/obo/cto/GENERATED-version-release:-1.0.0/cto.owl,1.0.0
+http://purl.obolibrary.org/obo/mmo.owl,http://purl.obolibrary.org/obo/mmo/2.39/mmo.owl,,http://purl.obolibrary.org/obo/mmo/2.39/mmo.owl,2.39
+http://purl.obolibrary.org/obo/cvdo.owl,http://purl.obolibrary.org/obo/2020-03-05/cvdo.owl,,http://purl.obolibrary.org/obo/2020-03-05/cvdo.owl,2020-03-05
