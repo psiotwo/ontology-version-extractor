@@ -55,7 +55,8 @@ public class HTMLReport {
                     record.setType(VersionType.get(entry.getValue().getOwlOntologyIri(), entry.getValue().getOwlVersionIri(), entry.getValue().getOwlVersionInfo()));
                     String versionIri = entry.getValue().getOboVersionIri();
                     record.setVersionIri(versionIri != null ? versionIri : "");
-                    record.setVersion(entry.getValue().getVersion());
+                    String version = entry.getValue().getVersion();
+                    record.setVersion(version != null ? version : "");
                 }
 
                 records.add(record);
