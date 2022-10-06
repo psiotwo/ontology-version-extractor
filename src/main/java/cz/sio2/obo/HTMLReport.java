@@ -50,10 +50,12 @@ public class HTMLReport {
                 if (failed) {
                     record.setType(VersionType.UNKNOWN);
                     record.setVersionIri("");
+                    record.setVersion("");
                 } else {
                     record.setType(VersionType.get(entry.getValue().getOwlOntologyIri(), entry.getValue().getOwlVersionIri(), entry.getValue().getOwlVersionInfo()));
-                    String oboVersion = entry.getValue().getOboVersion();
-                    record.setVersionIri(oboVersion != null ? oboVersion : "");
+                    String versionIri = entry.getValue().getOboVersionIri();
+                    record.setVersionIri(versionIri != null ? versionIri : "");
+                    record.setVersion(entry.getValue().getVersion());
                 }
 
                 records.add(record);

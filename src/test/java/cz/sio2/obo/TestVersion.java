@@ -8,11 +8,12 @@ public class TestVersion {
 
     @ParameterizedTest
     @CsvFileSource(resources = "/version-testcases.csv", numLinesToSkip = 1, delimiter = ',')
-    public void testGetOboVersionReturnsVersionIriIfPresent(String ontologyIri, String versionIri, String versionInfo, String generatedVersionIri) {
+    public void testGetOboVersionReturnsVersionIriIfPresent(String ontologyIri, String versionIri, String versionInfo, String computedVersionIri, String computedVersion) {
         final Version version = new Version();
         version.setOwlOntologyIri(ontologyIri);
         version.setOwlVersionIri(versionIri);
         version.setOwlVersionInfo(versionInfo);
-        Assertions.assertEquals(generatedVersionIri, version.getOboVersion());
+        Assertions.assertEquals(computedVersion, version.getVersion());
+        Assertions.assertEquals(computedVersionIri, version.getOboVersionIri());
     }
 }

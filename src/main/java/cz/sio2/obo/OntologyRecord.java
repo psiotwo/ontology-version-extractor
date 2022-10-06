@@ -14,4 +14,6 @@ public class OntologyRecord {
     public String ontologyIri;
 
     public String versionIri;
+
+    public String version;
 }

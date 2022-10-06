@@ -7,7 +7,7 @@ import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static cz.sio2.obo.Constants.NS_REGEX;
+import static cz.sio2.obo.Constants.*;
 
 /**
  * Object that represents the version extracted from the ontology.
@@ -31,7 +31,7 @@ public class Version {
      */
     private String owlVersionInfo;
 
-    public String getOboVersion() {
+    public String getOboVersionIri() {
         if (owlVersionIri != null) {
             return owlVersionIri;
         }
@@ -48,6 +48,35 @@ public class Version {
         final String baseIri = m.group(1);
 
         return baseIri + "/GENERATED-" + owlVersionInfo.replaceAll(" ", "-").toLowerCase() + "/" + ontologyId + ".owl";
+    }
+
+    public String getVersion() {
+        String versionInfoVersion = null;
+        if (owlVersionInfo != null) {
+            final Matcher m = Pattern.compile(VERSION_FROM_VERSION_INFO_REGEX).matcher(owlVersionInfo);
+            if (m.matches()) {
+                versionInfoVersion = m.group(1);
+            } else {
+                versionInfoVersion = owlVersionInfo;
+            }
+        }
+
+        String versionIriVersion = null;
+        if (owlVersionIri != null) {
+            final Matcher m = Pattern.compile(VERSION_FROM_VERSION_IRI_REGEX).matcher(owlVersionIri);
+            if (m.matches()) {
+                versionIriVersion = m.group(2);
+            }
+        }
+
+        if ( versionIriVersion != null ) {
+            if ( versionInfoVersion != null && !versionIriVersion.equals(versionInfoVersion) ) {
+                throw new RuntimeException("Versions differ: " + versionIriVersion + " : " + versionInfoVersion);
+            }
+            return versionIriVersion;
+        } else {
+            return versionInfoVersion;
+        }
     }
 
     @Override

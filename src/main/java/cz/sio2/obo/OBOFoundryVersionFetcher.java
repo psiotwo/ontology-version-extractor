@@ -36,7 +36,9 @@ public class OBOFoundryVersionFetcher {
                         .append(',')
                         .append(entry.getKey())
                         .append(',')
-                        .append((v != null ? v.getOboVersion() : "ERROR"))
+                        .append((v != null ? v.getVersion() : "ERROR"))
+                        .append(',')
+                        .append((v != null ? v.getOboVersionIri() : "ERROR"))
                         .append(System.lineSeparator());
             }
         } catch (IOException ex) {
