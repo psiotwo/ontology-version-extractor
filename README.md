@@ -5,7 +5,7 @@ Use-case: Checking, which ontologies need to be updated in a local catalog.
 
 ## Latest OBO ontology versions
 
-Go to https://psiotwo.github.io/ontology-version-extractor/output.csv.html
+See the [HTML report](https://psiotwo.github.io/ontology-version-extractor/output.html), download the [RDF data](https://psiotwo.github.io/ontology-version-extractor/output.ttl) or [CSV data](https://psiotwo.github.io/ontology-version-extractor/output.csv).
 
 ## Usage
 
