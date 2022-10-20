@@ -418,7 +418,7 @@
 <http://purl.obolibrary.org/obo/mfmo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <&obo;mfmo/2013-11-16/mfmo.owl> .
+                <http://purl.obolibrary.org/obo/mfmo/2013-11-16/mfmo.owl> .
 
 <http://purl.obolibrary.org/obo/miapa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -712,7 +712,7 @@
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <&obo;foodon/releases/2022-09-27/foodon.owl> .
+                <http://purl.obolibrary.org/obo/foodon/releases/2022-09-27/foodon.owl> .
 
 <http://purl.obolibrary.org/obo/cheminf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -907,9 +907,9 @@
 <http://purl.obolibrary.org/obo/fbcv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fbcv/releases/2022-08-11/fbcv.owl> ;
+                <http://purl.obolibrary.org/obo/fbcv/releases/2022-10-20/fbcv.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-08-11" .
+                "2022-10-20" .
 
 <http://purl.obolibrary.org/obo/iceo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -926,7 +926,7 @@
 <http://purl.obolibrary.org/obo/omit.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <&obo;omit/dev/omit.owl> .
+                <http://purl.obolibrary.org/obo/omit/dev/omit.owl> .
 
 <http://purl.obolibrary.org/obo/disdriv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -965,7 +965,7 @@
 <http://purl.obolibrary.org/obo/genepio.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <&obo;genepio/releases/2022-02-06/genepio.owl> .
+                <http://purl.obolibrary.org/obo/genepio/releases/2022-02-06/genepio.owl> .
 
 <http://purl.obolibrary.org/obo/emapa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;

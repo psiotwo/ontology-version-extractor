@@ -31,7 +31,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/wbls.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/colao.owl,http://purl.obolibrary.org/obo/colao/releases/2022-08-25/colao.owl,2022-08-25,2022-08-25
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/flopo.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/doid.owl,http://purl.obolibrary.org/obo/doid/releases/2022-09-29/doid.owl,null,2022-09-29
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fbcv.owl,http://purl.obolibrary.org/obo/fbcv/releases/2022-08-11/fbcv.owl,2022-08-11,2022-08-11
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fbcv.owl,http://purl.obolibrary.org/obo/fbcv/releases/2022-10-20/fbcv.owl,2022-10-20,2022-10-20
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/planp.owl,http://purl.obolibrary.org/obo/planp/releases/2020-03-28/planp.owl,null,2020-03-28
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/pato.owl,http://purl.obolibrary.org/obo/pato/releases/2022-08-31/pato.owl,2022-08-31,2022-08-31
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/to.owl,http://purl.obolibrary.org/obo/to/releases/2022-04-13/to.owl,null,2022-04-13
@@ -50,7 +50,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/bspo.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ddanat.owl,http://purl.obolibrary.org/obo/ddanat/releases/2020-04-13/ddanat.owl,null,2020-04-13
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/gecko.owl,http://purl.obolibrary.org/obo/gecko/releases/2021-01-18/gecko.owl,null,2021-01-18
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/uberon.owl,http://purl.obolibrary.org/obo/uberon/releases/2022-09-30/uberon.owl,null,2022-09-30
-NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/foodon.owl,file:///home/runner/work/ontology-version-extractor/ontology-version-extractor/web/&obo;foodon/releases/2022-09-27/foodon.owl,null,null
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/foodon.owl,http://purl.obolibrary.org/obo/foodon/releases/2022-09-27/foodon.owl,null,2022-09-27
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/uo.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/chmo.owl,http://purl.obolibrary.org/obo/chmo/releases/2022-04-19/chmo.owl,null,2022-04-19
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/zp.owl,http://purl.obolibrary.org/obo/zp/releases/2021-12-12/zp.owl,2021-12-12,2021-12-12
@@ -97,14 +97,14 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/phipo.owl,http://purl.
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mro.owl,http://purl.obolibrary.org/obo/mro/2022-10-17/mro.owl,2022-10-17,2022-10-17
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ecao.owl,http://purl.obolibrary.org/obo/ecao/releases/2020-05-22/ecao.owl,null,2020-05-22
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/agro.owl,http://purl.obolibrary.org/obo/agro/releases/2021-11-05/agro.owl,null,2021-11-05
-NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/genepio.owl,file:///home/runner/work/ontology-version-extractor/ontology-version-extractor/web/&obo;genepio/releases/2022-02-06/genepio.owl,null,null
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/genepio.owl,http://purl.obolibrary.org/obo/genepio/releases/2022-02-06/genepio.owl,null,2022-02-06
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/ons.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cob.owl,http://purl.obolibrary.org/obo/cob/releases/2022-05-02/cob.owl,2022-05-02,2022-05-02
-NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/omit.owl,file:///home/runner/work/ontology-version-extractor/ontology-version-extractor/web/&obo;omit/dev/omit.owl,null,null
+NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/omit.owl,http://purl.obolibrary.org/obo/omit/dev/omit.owl,null,dev
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/sepio.owl,null,null,null
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/ico.owl,null,1.0.187,1.0.187
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/clyh.owl,http://purl.obolibrary.org/obo/clyh/releases/2020-05-29/clyh.owl,null,2020-05-29
-NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mfmo.owl,file:///home/runner/work/ontology-version-extractor/ontology-version-extractor/web/&obo;mfmo/2013-11-16/mfmo.owl,null,null
+STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mfmo.owl,http://purl.obolibrary.org/obo/mfmo/2013-11-16/mfmo.owl,null,2013-11-16
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cmo.owl,http://purl.obolibrary.org/obo/cmo/releases/2019-02-19/cmo.owl,null,2019-02-19
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/pr.owl,http://purl.obolibrary.org/obo/pr/67.0/pr.owl,null,67.0
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/ino.owl,null,1.1.13,1.1.13
