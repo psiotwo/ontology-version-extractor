@@ -21,15 +21,16 @@ jobs:
         gradle-home-cache-cleanup: true
 
     - name: Run
-      run: mkdir -p web && ./gradlew run --args="web/output.csv"
+      run: mkdir -p web && ./gradlew run --args="extract -o web/output.ttl" && ./gradlew run --args="transform -i web/output.ttl -o web/output.html" && ./gradlew run --args="transform -i web/output.ttl -o web/output.csv"
 
     - name: Archive output file
       uses: actions/upload-artifact@v3
       with:
         name: output
         path: |
+           web/output.ttl
            web/output.csv
-           web/output.csv.html
+           web/output.html
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@v4

@@ -71,8 +71,8 @@ public class Version {
             }
         }
 
-        if ( versionIriVersion != null ) {
-            if ( versionInfoVersion != null && !versionIriVersion.equals(versionInfoVersion) ) {
+        if (versionIriVersion != null) {
+            if (versionInfoVersion != null && !versionIriVersion.equals(versionInfoVersion)) {
                 log.info("Versions differ: " + versionIriVersion + " : " + versionInfoVersion + ", using version from versionIri");
             }
             return versionIriVersion;

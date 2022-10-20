@@ -16,7 +16,7 @@ repositories {
 }
 
 application {
-    mainClass = 'cz.sio2.obo.OBOFoundryVersionFetcher'
+    mainClass = 'cz.sio2.obo.commands.CLI'
     run {
         systemProperties System.getProperties()
     }

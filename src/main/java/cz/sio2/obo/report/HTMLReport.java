@@ -1,10 +1,12 @@
-package cz.sio2.obo;
+package cz.sio2.obo.report;
 
+import cz.sio2.obo.OntologyRecord;
+import cz.sio2.obo.Version;
+import cz.sio2.obo.VersionType;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
 import freemarker.template.TemplateExceptionHandler;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -14,7 +16,6 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
-@Slf4j
 public class HTMLReport {
 
     static Configuration cfg = new Configuration();
