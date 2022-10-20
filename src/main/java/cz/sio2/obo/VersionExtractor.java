@@ -24,19 +24,20 @@ public abstract class VersionExtractor {
         }
     }
 
+    private String sanitize(final String input) {
+        if (input == null) {
+            return null;
+        }
+        return input.replace("&obo;", NS_OBO_HTTP);
+    }
+
     public boolean extract(final String s, final Version version) {
         final String singleLine = s.replace('\n', ' ');
         if (!getFormatMatcher().matcher(singleLine).matches()) {
             return false;
         }
-        version.setOwlOntologyIri(get(getIriMatcher(), singleLine));
-
-        final String versionIri = version.getOwlOntologyIri();
-        if (versionIri != null) {
-            version.setOwlOntologyIri(versionIri.replace("&obo;", NS_OBO_HTTP));
-        }
-
-        version.setOwlVersionIri(get(getVersionIriMatcher(), singleLine));
+        version.setOwlOntologyIri(sanitize(get(getIriMatcher(), singleLine)));
+        version.setOwlVersionIri(sanitize(get(getVersionIriMatcher(), singleLine)));
         version.setOwlVersionInfo(get(getVersionInfoMatcher(), singleLine));
         return true;
     }
