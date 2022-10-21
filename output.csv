@@ -92,7 +92,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/xpo.owl,http://purl.ob
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/txpo.owl,http://purl.obolibrary.org/obo/txpo/releases/2020-03-03/txpo.owl,2020/07/09,2020-03-03
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/opl.owl,http://purl.obolibrary.org/obo/opl/2021-01-28/opl.owl,2021-01-28,2021-01-28
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/vto.owl,http://purl.obolibrary.org/obo/vto/2020-11-13/vto.owl,null,2020-11-13
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/symp.owl,http://purl.obolibrary.org/obo/symp/releases/2022-10-18/symp.owl,null,2022-10-18
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/symp.owl,http://purl.obolibrary.org/obo/symp/releases/2022-10-20/symp.owl,null,2022-10-20
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/phipo.owl,http://purl.obolibrary.org/obo/phipo/releases/2022-07-29/phipo.owl,2022-07-29,2022-07-29
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mro.owl,http://purl.obolibrary.org/obo/mro/2022-10-17/mro.owl,2022-10-17,2022-10-17
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ecao.owl,http://purl.obolibrary.org/obo/ecao/releases/2020-05-22/ecao.owl,null,2020-05-22
@@ -179,7 +179,7 @@ STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mfomd.owl,http://purl.
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/ovae.owl,null,Vision Release: 1.0.34,1.0.34
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/ohpi.owl,http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30,null,null
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ohmi.owl,http://purl.obolibrary.org/obo/ohmi/2019-09-17/ohmi.owl,2019-09-17,2019-09-17
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/rbo.owl,http://purl.obolibrary.org/obo/rbo/releases/2022-10-06/rbo.owl,2022-10-06,2022-10-06
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/rbo.owl,http://purl.obolibrary.org/obo/rbo/releases/2022-10-20/rbo.owl,2022-10-20,2022-10-20
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cio.owl,http://purl.obolibrary.org/obo/cio/releases/2015-03-10/cio.owl,null,2015-03-10
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/clo.owl,null,2.1.178,2.1.178
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/apo.owl,http://purl.obolibrary.org/obo/apo/releases/2022-10-10/apo.owl,2022-10-10,2022-10-10

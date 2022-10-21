@@ -18,13 +18,13 @@ See the <a href="https://obofoundry.org/id-policy.html">OBO Foundry Identifier P
 <input class="w3-round-xlarge w3-input w3-border w3-padding" type="text" placeholder="Filter ontologies.." id="myInput" onkeyup="myFunction()">
 <table class="w3-table w3-border w3-bordered" id="myTable">
     <tr>
-        <th>
+        <th onclick="sortTable(0)">
             Version Type
         </th>
-        <th>
+        <th onclick="sortTable(1)">
             Ontology
         </th>
-        <th>
+        <th onclick="sortTable(2)">
             Extracted Version
         </th>
     </tr>
@@ -1220,12 +1220,12 @@ See the <a href="https://obofoundry.org/id-policy.html">OBO Foundry Identifier P
         <td>
             <h4><a href="http://purl.obolibrary.org/obo/rbo.owl">http://purl.obolibrary.org/obo/rbo.owl</a></h4>
             <ul>
-                <li><span class="w3-small w3-text-gray">owl:versionIri:</span><span class="w3-padding">http://purl.obolibrary.org/obo/rbo/releases/2022-10-06/rbo.owl</span></li>
-                <li><span class="w3-small w3-text-gray">owl:versionInfo:</span><span class="w3-padding">2022-10-06</span></li>
+                <li><span class="w3-small w3-text-gray">owl:versionIri:</span><span class="w3-padding">http://purl.obolibrary.org/obo/rbo/releases/2022-10-20/rbo.owl</span></li>
+                <li><span class="w3-small w3-text-gray">owl:versionInfo:</span><span class="w3-padding">2022-10-20</span></li>
             </ul>
         </td>
         <td>
-            <span>2022-10-06</span>
+            <span>2022-10-20</span>
         </td>
     </tr>
     <tr class="w3-text-green">
@@ -1280,12 +1280,12 @@ See the <a href="https://obofoundry.org/id-policy.html">OBO Foundry Identifier P
         <td>
             <h4><a href="http://purl.obolibrary.org/obo/symp.owl">http://purl.obolibrary.org/obo/symp.owl</a></h4>
             <ul>
-                <li><span class="w3-small w3-text-gray">owl:versionIri:</span><span class="w3-padding">http://purl.obolibrary.org/obo/symp/releases/2022-10-18/symp.owl</span></li>
+                <li><span class="w3-small w3-text-gray">owl:versionIri:</span><span class="w3-padding">http://purl.obolibrary.org/obo/symp/releases/2022-10-20/symp.owl</span></li>
                 <li><span class="w3-small w3-text-gray">owl:versionInfo:</span><span class="w3-padding"></span></li>
             </ul>
         </td>
         <td>
-            <span>2022-10-18</span>
+            <span>2022-10-20</span>
         </td>
     </tr>
     <tr class="w3-text-green">
@@ -2805,7 +2805,7 @@ See the <a href="https://obofoundry.org/id-policy.html">OBO Foundry Identifier P
     </tr>
 </table>
 Download the the table as <a href="output.ttl">RDF</a> or as <a href="output.csv">CSV</a>.
-Updated 10-20-2022 13:26:38, source code at <a href="https://github.com/psiotwo/ontology-version-extractor">GitHub</a>.
+Updated 10-21-2022 02:00:11, source code at <a href="https://github.com/psiotwo/ontology-version-extractor">GitHub</a>.
 
 <script>
 function myFunction() {
@@ -2822,6 +2822,61 @@ function myFunction() {
         tr[i].style.display = "";
       } else {
         tr[i].style.display = "none";
+      }
+    }
+  }
+}
+
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("myTable");
+  switching = true;
+  // Set the sorting direction to ascending:
+  dir = "asc";
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = 1; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      /* Check if the two rows should switch place,
+      based on the direction, asc or desc: */
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      // Each time a switch is done, increase this count by 1:
+      switchcount ++;
+    } else {
+      /* If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again. */
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
       }
     }
   }
