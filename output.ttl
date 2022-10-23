@@ -360,9 +360,9 @@
 <http://purl.obolibrary.org/obo/dron.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/dron/releases/2022-10-02/dron.owl> ;
+                <http://purl.obolibrary.org/obo/dron/releases/2022-10-22/dron.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-02" .
+                "2022-10-22" .
 
 <http://purl.obolibrary.org/obo/xao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -712,7 +712,7 @@
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/foodon/releases/2022-09-27/foodon.owl> .
+                <http://purl.obolibrary.org/obo/foodon/releases/2022-10-22/foodon.owl> .
 
 <http://purl.obolibrary.org/obo/cheminf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
