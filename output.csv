@@ -77,7 +77,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/maxo.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/wbbt.owl,http://purl.obolibrary.org/obo/wbbt/releases/2022-06-13/wbbt.owl,null,2022-06-13
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/iceo.owl,null,2.1,2.1
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/dpo.owl,http://purl.obolibrary.org/obo/dpo/releases/2022-10-20/dpo.owl,2022-10-20,2022-10-20
-NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mp.owl,http://purl.obolibrary.org/obo/mp/releases/2022-10-11,null,null
+NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mp.owl,http://purl.obolibrary.org/obo/mp/releases/2022-10-19,null,null
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/cido.owl,null,1.0.337,1.0.337
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/stato.owl,null,RC1.4,1.4
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/nbo.owl,http://purl.obolibrary.org/obo/nbo/releases/2021-02-15/nbo.owl,2021-02-15,2021-02-15
