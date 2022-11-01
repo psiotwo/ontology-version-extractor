@@ -48,21 +48,15 @@ public class VersionFetcher {
             final boolean supportsRangeRequests = supportsRangeRequests(httpClient, url);
             if (supportsRangeRequests) {
                 log.info("- range request (first part)");
-                HttpGet request1 = new HttpGet(url.toString());
-                request1.addHeader(HttpHeaders.RANGE, "bytes=0-" + maxBytes);
-                request1.addHeader(HttpHeaders.ACCEPT_ENCODING, "none");
-                String s1 = extractContentFromResponse(httpClient.execute(request1), maxBytes);
+                final String s1 = getRange(httpClient, url, maxBytes, true);
                 log.info("- range request (second part)");
-                HttpGet request2 = new HttpGet(url.toString());
-                request2.addHeader(HttpHeaders.RANGE, "bytes=-" + maxBytes);
-                request2.addHeader(HttpHeaders.ACCEPT_ENCODING, "none");
-                String s2 = extractContentFromResponse(httpClient.execute(request2), maxBytes);
+                final String s2 = getRange(httpClient, url, maxBytes, false);
                 log.info("- done, extracting");
                 return extractVersion(s1 + s2);
             } else {
                 log.info("- not supporting range request, fetching the whole ontology.");
                 HttpGet request1 = new HttpGet(url.toString());
-                String s1 = extractContentFromResponse(httpClient.execute(request1), maxBytes);
+                final String s1 = extractContentFromResponse(httpClient.execute(request1), maxBytes);
                 log.info("- done, extracting");
                 return extractVersion(s1);
             }
@@ -70,6 +64,17 @@ public class VersionFetcher {
             log.info("An error occurred during fetching ontology from URL " + url, e);
         }
         return null;
+    }
+
+    private String getRange(final CloseableHttpClient httpClient, final URL url, final int maxBytes, final boolean fromStart) {
+        try {
+            HttpGet req = new HttpGet(url.toString());
+            req.addHeader(HttpHeaders.RANGE, "bytes=" + (fromStart ? "0":"") + "-" + maxBytes);
+            req.addHeader(HttpHeaders.ACCEPT_ENCODING, "none");
+            return extractContentFromResponse(httpClient.execute(req), maxBytes);
+        } catch(Exception e) {
+            return "";
+        }
     }
 
     private String extractContentFromResponse(final CloseableHttpResponse response, final int maxBytes) throws IOException {
