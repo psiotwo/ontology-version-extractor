@@ -1,11 +1,17 @@
 package cz.sio2.obo;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
+import org.apache.hc.client5.http.classic.methods.HttpHead;
+import org.apache.hc.client5.http.config.RequestConfig;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
 import org.apache.hc.client5.http.impl.classic.HttpClientBuilder;
 import org.apache.hc.core5.http.HttpHeaders;
+import org.apache.hc.core5.http.HttpResponse;
+import org.apache.hc.core5.http.ProtocolException;
+import org.apache.hc.core5.util.Timeout;
 
 import java.io.IOException;
 import java.net.URL;
@@ -26,27 +32,71 @@ public class VersionFetcher {
         extractors.add(new XMLVersionExtractor());
     }
 
+    /**
+     * Fetches relevant parts of an ontology file which contain version information. Currently, it takes
+     * - first maxBytes of the document
+     * - last maxBytes of the document
+     *
+     * @param url      URL to fetch the document from
+     * @param maxBytes maximal number of bytes to fetch from each side of the document
+     * @return Version information from the ontology
+     */
     public Version fetch(final URL url, final int maxBytes) {
-        final HttpClientBuilder httpClientBuilder = createBuilder();
-        final CloseableHttpClient httpClient = httpClientBuilder.build();
-        final HttpGet httpGet = new HttpGet(url.toString());
-        httpGet.addHeader(HttpHeaders.RANGE, "bytes=0-" + maxBytes);
-        final CloseableHttpResponse response;
-        try {
-            response = httpClient.execute(httpGet);
-            if (response.getCode() >= 200 && response.getCode() < 300) {
-                final String s = new String(response.getEntity().getContent().readNBytes(maxBytes - 1), StandardCharsets.UTF_8);
-                final Version version = new Version();
-                for (final VersionExtractor e : extractors) {
-                    if (e.extract(s, version)) {
-                        return version;
-                    }
-                }
-                return null;
+        final RequestConfig cfg = RequestConfig.custom().setConnectTimeout(Timeout.ofMinutes(1)).build();
+        final HttpClientBuilder httpClientBuilder = createBuilder().setDefaultRequestConfig(cfg);
+        try (final CloseableHttpClient httpClient = httpClientBuilder.build()) {
+            final boolean supportsRangeRequests = supportsRangeRequests(httpClient, url);
+            if (supportsRangeRequests) {
+                log.info("- range request (first part)");
+                HttpGet request1 = new HttpGet(url.toString());
+                request1.addHeader(HttpHeaders.RANGE, "bytes=0-" + maxBytes);
+                request1.addHeader(HttpHeaders.ACCEPT_ENCODING, "none");
+                String s1 = extractContentFromResponse(httpClient.execute(request1), maxBytes);
+                log.info("- range request (second part)");
+                HttpGet request2 = new HttpGet(url.toString());
+                request2.addHeader(HttpHeaders.RANGE, "bytes=-" + maxBytes);
+                request2.addHeader(HttpHeaders.ACCEPT_ENCODING, "none");
+                String s2 = extractContentFromResponse(httpClient.execute(request2), maxBytes);
+                log.info("- done, extracting");
+                return extractVersion(s1 + s2);
+            } else {
+                log.info("- not supporting range request, fetching the whole ontology.");
+                HttpGet request1 = new HttpGet(url.toString());
+                String s1 = extractContentFromResponse(httpClient.execute(request1), maxBytes);
+                log.info("- done, extracting");
+                return extractVersion(s1);
             }
-        } catch (IOException e) {
+        } catch (IOException | ProtocolException e) {
             log.info("An error occurred during fetching ontology from URL " + url, e);
         }
         return null;
+    }
+
+    private String extractContentFromResponse(final CloseableHttpResponse response, final int maxBytes) throws IOException {
+        try (response) {
+            if (response.getCode() >= 200 && response.getCode() < 300) {
+                return new String(response.getEntity().getContent().readNBytes(maxBytes), StandardCharsets.UTF_8);
+            }
+            return null;
+        }
+    }
+
+    private Version extractVersion(final String content) {
+        final Version version = new Version();
+        for (final VersionExtractor e : extractors) {
+            if (e.extract(content, version)) {
+                return version;
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Checks whether an url supports range requests.
+     */
+    private boolean supportsRangeRequests(final HttpClient httpClient, final URL url) throws IOException, ProtocolException {
+        final HttpHead request = new HttpHead(url.toString());
+        final HttpResponse response = httpClient.execute(request);
+        return response.getCode() >= 200 && response.getCode() < 300 && response.getHeader(HttpHeaders.ACCEPT_RANGES) != null;
     }
 }
