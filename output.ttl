@@ -908,9 +908,9 @@
 <http://purl.obolibrary.org/obo/cob.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cob/releases/2022-05-02/cob.owl> ;
+                <http://purl.obolibrary.org/obo/cob/releases/2022-11-02/cob.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-05-02" .
+                "2022-11-02" .
 
 <http://purl.obolibrary.org/obo/fbcv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
