@@ -284,7 +284,7 @@
 <http://purl.obolibrary.org/obo/ms.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ms/4.1.107/ms.owl> .
+                <http://purl.obolibrary.org/obo/ms/4.1.108/ms.owl> .
 
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -541,7 +541,7 @@
 <http://purl.obolibrary.org/obo/omp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/omp/releases/2022-10-10/omp.owl> .
+                <http://purl.obolibrary.org/obo/omp/releases/2022-11-11/omp.owl> .
 
 <http://purl.obolibrary.org/obo/kisao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
