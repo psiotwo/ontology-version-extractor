@@ -182,4 +182,4 @@ STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ohmi.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/rbo.owl,http://purl.obolibrary.org/obo/rbo/releases/2022-10-27/rbo.owl,2022-10-27,2022-10-27
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cio.owl,http://purl.obolibrary.org/obo/cio/releases/2015-03-10/cio.owl,null,2015-03-10
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/clo.owl,null,2.1.178,2.1.178
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/apo.owl,http://purl.obolibrary.org/obo/apo/releases/2022-10-10/apo.owl,2022-10-10,2022-10-10
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/apo.owl,http://purl.obolibrary.org/obo/apo/releases/2022-11-14/apo.owl,2022-11-14,2022-11-14
