@@ -125,7 +125,7 @@ NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/micro.owl,null,Mic
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/oarcs.owl,http://purl.obolibrary.org/obo/hao/2019-04-18/hao.owl,2019-04-18,2019-04-18
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ido.owl,http://purl.obolibrary.org/obo/ido/2017-11-03/ido.owl,2017-11-03,2017-11-03
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/geo.owl,null,production version 2016-03-26,production version 2016-03-26
-STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/iao.owl,http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl,null,2020-12-09
+STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/iao.owl,http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl,null,2022-11-07
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/xlmod.owl,http://purl.obolibrary.org/obo/xlmod/release/2019-10-28/xlmod.owl,null,2019-10-28
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/ogg.owl,null,Vision Release: 1.0.59,1.0.59
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/oba.owl,http://purl.obolibrary.org/obo/oba/releases/2022-09-06/oba.owl,2022-09-06,2022-09-06
