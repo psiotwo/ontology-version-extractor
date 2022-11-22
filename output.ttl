@@ -14,7 +14,9 @@
                 "1.1.201" .
 
 <http://purl.obolibrary.org/obo/fideo.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> .
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/fideo/releases/2022-09-01/fideo.owl> .
 
 <http://purl.obolibrary.org/obo/nbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -315,7 +317,7 @@
 <http://purl.obolibrary.org/obo/mp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mp/releases/2022-11-02> .
+                <http://purl.obolibrary.org/obo/mp/releases/2022-11-16> .
 
 <http://purl.obolibrary.org/obo/t4fs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
