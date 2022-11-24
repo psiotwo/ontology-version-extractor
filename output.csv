@@ -93,11 +93,11 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/txpo.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/opl.owl,http://purl.obolibrary.org/obo/opl/2021-01-28/opl.owl,2021-01-28,2021-01-28
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/vto.owl,http://purl.obolibrary.org/obo/vto/2020-11-13/vto.owl,null,2020-11-13
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/symp.owl,http://purl.obolibrary.org/obo/symp/releases/2022-10-20/symp.owl,null,2022-10-20
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/phipo.owl,http://purl.obolibrary.org/obo/phipo/releases/2022-07-29/phipo.owl,2022-07-29,2022-07-29
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/phipo.owl,http://purl.obolibrary.org/obo/phipo/releases/2022-11-23/phipo.owl,2022-11-23,2022-11-23
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mro.owl,http://purl.obolibrary.org/obo/mro/2022-10-17/mro.owl,2022-10-17,2022-10-17
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ecao.owl,http://purl.obolibrary.org/obo/ecao/releases/2020-05-22/ecao.owl,null,2020-05-22
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/agro.owl,http://purl.obolibrary.org/obo/agro/releases/2022-11-02/agro.owl,null,2022-11-02
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/genepio.owl,http://purl.obolibrary.org/obo/genepio/releases/2022-11-22/genepio.owl,null,2022-11-22
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/genepio.owl,http://purl.obolibrary.org/obo/genepio/releases/2022-11-23/genepio.owl,null,2022-11-23
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/ons.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cob.owl,http://purl.obolibrary.org/obo/cob/releases/2022-11-02/cob.owl,2022-11-02,2022-11-02
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/omit.owl,http://purl.obolibrary.org/obo/omit/dev/omit.owl,null,dev

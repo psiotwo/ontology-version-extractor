@@ -485,9 +485,9 @@
 <http://purl.obolibrary.org/obo/phipo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/phipo/releases/2022-07-29/phipo.owl> ;
+                <http://purl.obolibrary.org/obo/phipo/releases/2022-11-23/phipo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-07-29" .
+                "2022-11-23" .
 
 <http://purl.obolibrary.org/obo/ontoavida.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -973,7 +973,7 @@
 <http://purl.obolibrary.org/obo/genepio.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/genepio/releases/2022-11-22/genepio.owl> .
+                <http://purl.obolibrary.org/obo/genepio/releases/2022-11-23/genepio.owl> .
 
 <http://purl.obolibrary.org/obo/emapa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
