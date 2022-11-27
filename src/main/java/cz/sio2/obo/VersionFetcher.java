@@ -60,7 +60,7 @@ public class VersionFetcher {
                 log.info("- done, extracting");
                 return extractVersion(s1);
             }
-        } catch (IOException | ProtocolException e) {
+        } catch (Exception e) {
             log.info("An error occurred during fetching ontology from URL " + url, e);
         }
         return null;
