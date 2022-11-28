@@ -549,11 +549,7 @@
                 "2.30" .
 
 <http://purl.obolibrary.org/obo/oba.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/oba/releases/2022-09-06/oba.owl> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-09-06" .
+        a       <http://www.w3.org/2002/07/owl#Ontology> .
 
 <http://purl.obolibrary.org/obo/agro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -689,9 +685,9 @@
 <http://purl.obolibrary.org/obo/wbls.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbls/releases/2022-10-21/wbls.owl> ;
+                <http://purl.obolibrary.org/obo/wbls/releases/2022-11-27/wbls.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-21" .
+                "2022-11-27" .
 
 <http://purl.obolibrary.org/obo/micro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1017,9 +1013,9 @@
 <http://purl.obolibrary.org/obo/wbphenotype.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbphenotype/releases/2022-10-21/wbphenotype.owl> ;
+                <http://purl.obolibrary.org/obo/wbphenotype/releases/2022-11-27/wbphenotype.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-21" .
+                "2022-11-27" .
 
 <http://purl.obolibrary.org/obo/ogg.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
