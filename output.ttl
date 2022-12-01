@@ -279,7 +279,7 @@
 <http://purl.obolibrary.org/obo/cdao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cdao/2019-06-26/cdao.owl> .
+                <http://purl.obolibrary.org/obo/cdao/2022-11-30/cdao.owl> .
 
 <http://purl.obolibrary.org/obo/ms.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -332,7 +332,7 @@
 <http://purl.obolibrary.org/obo/symp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/symp/releases/2022-10-20/symp.owl> .
+                <http://purl.obolibrary.org/obo/symp/releases/2022-11-30/symp.owl> .
 
 <http://purl.obolibrary.org/obo/sepio.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -383,9 +383,9 @@
 <http://purl.obolibrary.org/obo/fbdv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fbdv/releases/2022-10-19/fbdv.owl> ;
+                <http://purl.obolibrary.org/obo/fbdv/releases/2022-11-30/fbdv.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-19" .
+                "2022-11-30" .
 
 <http://purl.obolibrary.org/obo/mro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -536,7 +536,7 @@
 <http://purl.obolibrary.org/obo/doid.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/doid/releases/2022-11-01/doid.owl> .
+                <http://purl.obolibrary.org/obo/doid/releases/2022-11-30/doid.owl> .
 
 <http://purl.obolibrary.org/obo/omp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -809,9 +809,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2022-10-13/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2022-11-30/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-13" .
+                "2022-11-30" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
