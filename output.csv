@@ -15,7 +15,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fypo.owl,http://purl.o
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mmo.owl,http://purl.obolibrary.org/obo/mmo/2.39/mmo.owl,null,2.39
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/go.owl,http://purl.obolibrary.org/obo/go/releases/2022-11-03/go.owl,2022-11-03,2022-11-03
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/peco.owl,http://purl.obolibrary.org/obo/peco/releases/2020-08-21/peco.owl,null,2020-08-21
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/eco.owl,http://purl.obolibrary.org/obo/eco/releases/2022-10-10/eco.owl,null,2022-10-10
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/eco.owl,http://purl.obolibrary.org/obo/eco/releases/2022-12-04/eco.owl,null,2022-12-04
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/vt.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fbdv.owl,http://purl.obolibrary.org/obo/fbdv/releases/2022-11-30/fbdv.owl,2022-11-30,2022-11-30
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/taxrank.owl,http://purl.obolibrary.org/obo/taxrank/releases/2016-04-15/taxrank.owl,null,2016-04-15
@@ -56,7 +56,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/chmo.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/zp.owl,http://purl.obolibrary.org/obo/zp/releases/2021-12-12/zp.owl,2021-12-12,2021-12-12
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ecocore.owl,http://purl.obolibrary.org/obo/ecocore/releases/2022-03-09/ecocore.owl,2022-03-09,2022-03-09
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/pw.owl,http://purl.obolibrary.org/obo/pw/7.52/pw.owl,null,7.52
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/omp.owl,http://purl.obolibrary.org/obo/omp/releases/2022-11-11/omp.owl,null,2022-11-11
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/omp.owl,http://purl.obolibrary.org/obo/omp/releases/2022-12-04/omp.owl,null,2022-12-04
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cteno.owl,http://purl.obolibrary.org/obo/cteno/releases/2016-10-19/cteno.owl,null,2016-10-19
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/mi.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/amphx.owl,http://purl.obolibrary.org/obo/amphx/releases/2020-12-18/amphx.owl,null,2020-12-18
