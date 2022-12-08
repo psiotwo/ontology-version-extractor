@@ -230,9 +230,9 @@
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/txpo/releases/2020-03-03/txpo.owl> ;
+                <http://purl.obolibrary.org/obo/txpo/releases/2022-12-07/txpo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2020/07/09" .
+                "2022/12/07" .
 
 <http://purl.obolibrary.org/obo/hp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
