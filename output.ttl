@@ -102,9 +102,9 @@
 <http://purl.obolibrary.org/obo/zfa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/zfa/releases/2022-03-15/zfa.owl> ;
+                <http://purl.obolibrary.org/obo/zfa/releases/2022-12-09/zfa.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-03-15" .
+                "2022-12-09" .
 
 <http://purl.obolibrary.org/obo/bspo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -291,9 +291,9 @@
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/maxo/releases/2022-11-21/maxo.owl> ;
+                <http://purl.obolibrary.org/obo/maxo/releases/2022-12-09/maxo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-11-21" .
+                "2022-12-09" .
 
 <http://purl.obolibrary.org/obo/bto.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
