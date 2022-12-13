@@ -247,9 +247,9 @@
 <http://purl.obolibrary.org/obo/ecto.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ecto/releases/2022-08-12/ecto.owl> ;
+                <http://purl.obolibrary.org/obo/ecto/releases/2022-12-12/ecto.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-08-12" .
+                "2022-12-12" .
 
 <http://purl.obolibrary.org/obo/mco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
