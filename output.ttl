@@ -615,9 +615,9 @@
 <http://purl.obolibrary.org/obo/apo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/apo/releases/2022-11-14/apo.owl> ;
+                <http://purl.obolibrary.org/obo/apo/releases/2022-12-13/apo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-11-14" .
+                "2022-12-13" .
 
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
