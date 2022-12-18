@@ -442,9 +442,9 @@
 <http://purl.obolibrary.org/obo/zp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/zp/releases/2021-12-12/zp.owl> ;
+                <http://purl.obolibrary.org/obo/zp/releases/2022-12-17/zp.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2021-12-12" .
+                "2022-12-17" .
 
 <http://purl.obolibrary.org/obo/poro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
