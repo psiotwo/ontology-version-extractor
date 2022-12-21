@@ -480,9 +480,9 @@
 <http://purl.obolibrary.org/obo/gno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/gno/2022-02-23/gno.owl> ;
+                <http://purl.obolibrary.org/obo/gno/2022-12-20/gno.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "V1.10.0" .
+                "V1.11.0" .
 
 <http://purl.obolibrary.org/obo/phipo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
