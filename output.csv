@@ -67,7 +67,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/proco.owl,http://purl.
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/oae.owl,null,1.2.47,1.2.47
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fovt.owl,http://purl.obolibrary.org/obo/fovt/releases/2021-11-10/fovt.owl,null,2021-11-10
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/hsapdv.owl,http://purl.obolibrary.org/obo/hsapdv/releases/2020-03-10/hsapdv.owl,null,2020-03-10
-STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ncbitaxon.owl,http://purl.obolibrary.org/obo/ncbitaxon/2022-10-05/ncbitaxon.owl,null,2022-10-05
+STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ncbitaxon.owl,http://purl.obolibrary.org/obo/ncbitaxon/2022-12-21/ncbitaxon.owl,null,2022-12-21
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mfoem.owl,http://purl.obolibrary.org/obo/MFOEM/2022-07-19/MFOEM.owl,2022-07-19,2022-07-19
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/miapa.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/rxno.owl,http://purl.obolibrary.org/obo/rxno/releases/2021-12-16/rxno.owl,null,2021-12-16
@@ -128,7 +128,7 @@ NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/geo.owl,null,produ
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/iao.owl,http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl,null,2022-11-07
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/xlmod.owl,http://purl.obolibrary.org/obo/xlmod/release/2019-10-28/xlmod.owl,null,2019-10-28
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/ogg.owl,null,Vision Release: 1.0.59,1.0.59
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/oba.owl,http://purl.obolibrary.org/obo/oba/releases/2022-11-26/oba.owl,2022-11-26,2022-11-26
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/oba.owl,http://purl.obolibrary.org/obo/oba/releases/2022-12-21/oba.owl,2022-12-21,2022-12-21
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ornaseq.owl,http://purl.obolibrary.org/obo/ornaseq/2019-07-08/ornaseq.owl,null,2019-07-08
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/upheno.owl,null,null,null
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/opmi.owl,null,2017-06-08,2017-06-08
