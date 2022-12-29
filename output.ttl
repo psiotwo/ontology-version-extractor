@@ -76,9 +76,9 @@
 <http://purl.obolibrary.org/obo/omrse.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/omrse/releases/2022-09-06/omrse.owl> ;
+                <http://purl.obolibrary.org/obo/omrse/releases/2022-12-21/omrse.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-09-06" .
+                "2022-12-21" .
 
 <http://purl.obolibrary.org/obo/ppo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
