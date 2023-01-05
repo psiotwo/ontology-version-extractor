@@ -13,7 +13,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ncit.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/lepao.owl,http://purl.obolibrary.org/obo/lepao/releases/2021-11-20/lepao.owl,2021-11-20,2021-11-20
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fypo.owl,http://purl.obolibrary.org/obo/fypo/releases/2022-11-30/fypo.owl,2022-11-30,2022-11-30
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mmo.owl,http://purl.obolibrary.org/obo/mmo/2.39/mmo.owl,null,2.39
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/go.owl,http://purl.obolibrary.org/obo/go/releases/2022-12-04/go.owl,2022-12-04,2022-12-04
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/go.owl,http://purl.obolibrary.org/obo/go/releases/2023-01-01/go.owl,2023-01-01,2023-01-01
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/peco.owl,http://purl.obolibrary.org/obo/peco/releases/2020-08-21/peco.owl,null,2020-08-21
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/eco.owl,http://purl.obolibrary.org/obo/eco/releases/2022-12-04/eco.owl,null,2022-12-04
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/vt.owl,null,null,null
@@ -132,7 +132,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/oba.owl,http://purl.ob
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ornaseq.owl,http://purl.obolibrary.org/obo/ornaseq/2019-07-08/ornaseq.owl,null,2019-07-08
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/upheno.owl,null,null,null
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/opmi.owl,null,2017-06-08,2017-06-08
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mondo.owl,http://purl.obolibrary.org/obo/mondo/releases/2022-12-01/mondo.owl,null,2022-12-01
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mondo.owl,http://purl.obolibrary.org/obo/mondo/releases/2023-01-04/mondo.owl,null,2023-01-04
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/exo.owl,http://purl.obolibrary.org/obo/exo/releases/2022-06-29/exo.owl,2022-06-29,2022-06-29
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mpio.owl,http://purl.obolibrary.org/obo/mpio/release/2019-01-30/mpio.owl,release version 2019-01-30,2019-01-30
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/epio.owl,https://bio.scai.fraunhofer.de/ontology/epilepsy/2021-05-28/EPIO.owl,Version Release: 1.0.0,1.0.0
