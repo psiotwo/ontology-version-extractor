@@ -715,9 +715,9 @@
 <http://purl.obolibrary.org/obo/ro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ro/releases/2022-10-26/ro.owl> ;
+                <http://purl.obolibrary.org/obo/ro/releases/2023-01-04/ro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-26" .
+                "2023-01-04" .
 
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
