@@ -145,9 +145,9 @@
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/aism/releases/2023-01-18/aism.owl> ;
+                <http://purl.obolibrary.org/obo/aism/releases/2023-01-22/aism.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-01-18" .
+                "2023-01-22" .
 
 <http://purl.obolibrary.org/obo/bco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
