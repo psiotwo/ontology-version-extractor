@@ -145,9 +145,9 @@
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/aism/releases/2023-01-22/aism.owl> ;
+                <http://purl.obolibrary.org/obo/aism/releases/2023-02-06/aism.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-01-22" .
+                "2023-02-06" .
 
 <http://purl.obolibrary.org/obo/bco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -317,7 +317,7 @@
 <http://purl.obolibrary.org/obo/mp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mp/releases/2022-12-28> .
+                <http://purl.obolibrary.org/obo/mp/releases/2023-02-02> .
 
 <http://purl.obolibrary.org/obo/t4fs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -523,14 +523,14 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2023-01-04/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2023-02-06/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/colao/releases/2022-08-25/colao.owl> ;
+                <http://purl.obolibrary.org/obo/colao/releases/2023-02-06/colao.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-08-25" .
+                "2023-02-06" .
 
 <http://purl.obolibrary.org/obo/zfs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1026,9 +1026,9 @@
 <http://purl.obolibrary.org/obo/wbphenotype.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbphenotype/releases/2023-01-03/wbphenotype.owl> ;
+                <http://purl.obolibrary.org/obo/wbphenotype/releases/2023-02-05/wbphenotype.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-01-03" .
+                "2023-02-05" .
 
 <http://purl.obolibrary.org/obo/ogg.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;

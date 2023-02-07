@@ -28,7 +28,7 @@ STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/cdao.owl,http://purl.o
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/ppo.owl,https://raw.githubusercontent.com/PlantPhenoOntology/ppo/master/releases/2018-10-26/ppo.owl,null,null
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/sbo.owl,null,28:08:2021 03:13,28:08:2021 03:13
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/wbls.owl,http://purl.obolibrary.org/obo/wbls/releases/2023-01-03/wbls.owl,2023-01-03,2023-01-03
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/colao.owl,http://purl.obolibrary.org/obo/colao/releases/2022-08-25/colao.owl,2022-08-25,2022-08-25
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/colao.owl,http://purl.obolibrary.org/obo/colao/releases/2023-02-06/colao.owl,2023-02-06,2023-02-06
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/flopo.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/doid.owl,http://purl.obolibrary.org/obo/doid/releases/2023-01-30/doid.owl,null,2023-01-30
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fbcv.owl,http://purl.obolibrary.org/obo/fbcv/releases/2022-12-02/fbcv.owl,2022-12-02,2022-12-02
@@ -77,11 +77,11 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/maxo.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/wbbt.owl,http://purl.obolibrary.org/obo/wbbt/releases/2023-01-03/wbbt.owl,null,2023-01-03
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/iceo.owl,null,2.1,2.1
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/dpo.owl,http://purl.obolibrary.org/obo/dpo/releases/2022-12-02/dpo.owl,2022-12-02,2022-12-02
-NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mp.owl,http://purl.obolibrary.org/obo/mp/releases/2022-12-28,null,null
+NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mp.owl,http://purl.obolibrary.org/obo/mp/releases/2023-02-02,null,null
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/cido.owl,null,1.1.201,1.1.201
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/stato.owl,null,RC1.4,1.4
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/nbo.owl,http://purl.obolibrary.org/obo/nbo/releases/2021-02-15/nbo.owl,2021-02-15,2021-02-15
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/wbphenotype.owl,http://purl.obolibrary.org/obo/wbphenotype/releases/2023-01-03/wbphenotype.owl,2023-01-03,2023-01-03
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/wbphenotype.owl,http://purl.obolibrary.org/obo/wbphenotype/releases/2023-02-05/wbphenotype.owl,2023-02-05,2023-02-05
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/labo.owl,http://purl.obolibrary.org/obo/labo/2021-06-08/labo.owl,2021-06-08,2021-06-08
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/trans.owl,http://purl.obolibrary.org/obo/trans/releases/2022-10-10/trans.owl,null,2022-10-10
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mco.owl,http://purl.obolibrary.org/obo/mco/releases/2019-05-15/mco.owl,null,2019-05-15
@@ -132,14 +132,14 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/oba.owl,http://purl.ob
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ornaseq.owl,http://purl.obolibrary.org/obo/ornaseq/2019-07-08/ornaseq.owl,null,2019-07-08
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/upheno.owl,null,null,null
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/opmi.owl,null,2017-06-08,2017-06-08
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mondo.owl,http://purl.obolibrary.org/obo/mondo/releases/2023-01-04/mondo.owl,null,2023-01-04
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mondo.owl,http://purl.obolibrary.org/obo/mondo/releases/2023-02-06/mondo.owl,null,2023-02-06
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/exo.owl,http://purl.obolibrary.org/obo/exo/releases/2022-06-29/exo.owl,2022-06-29,2022-06-29
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mpio.owl,http://purl.obolibrary.org/obo/mpio/release/2019-01-30/mpio.owl,release version 2019-01-30,2019-01-30
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/epio.owl,https://bio.scai.fraunhofer.de/ontology/epilepsy/2021-05-28/EPIO.owl,Version Release: 1.0.0,1.0.0
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mmusdv.owl,http://purl.obolibrary.org/obo/mmusdv/releases/2020-03-10/mmusdv.owl,null,2020-03-10
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/htn.owl,null,null,null
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/apollo_sv.owl,http://purl.obolibrary.org/obo/apollo_sv/releases/v2023-01-10/apollo_sv.owl,2023-01-10,v2023-01-10
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/aism.owl,http://purl.obolibrary.org/obo/aism/releases/2023-01-22/aism.owl,2023-01-22,2023-01-22
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/aism.owl,http://purl.obolibrary.org/obo/aism/releases/2023-02-06/aism.owl,2023-02-06,2023-02-06
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/omo.owl,http://purl.obolibrary.org/obo/omo/releases/2022-04-27/omo.owl,2022-04-27,2022-04-27
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ngbo.owl,http://purl.obolibrary.org/obo/ngbo/2022-10-05/ngbo.owl,2022-10-05,2022-10-05
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/hso.owl,http://purl.obolibrary.org/obo/hso/2021-12-13/hso.owl,null,2021-12-13
