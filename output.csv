@@ -106,7 +106,7 @@ NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/ico.owl,null,1.0.1
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/clyh.owl,http://purl.obolibrary.org/obo/clyh/releases/2020-05-29/clyh.owl,null,2020-05-29
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mfmo.owl,http://purl.obolibrary.org/obo/mfmo/2013-11-16/mfmo.owl,null,2013-11-16
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cmo.owl,http://purl.obolibrary.org/obo/cmo/releases/2019-02-19/cmo.owl,null,2019-02-19
-NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/pr.owl,http://purl.obolibrary.org/obo/pr/67.0/pr.owl,null,67.0
+NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/pr.owl,http://purl.obolibrary.org/obo/pr/68.0/pr.owl,null,68.0
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/ino.owl,null,1.1.13,1.1.13
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/nomen.owl,null,null,null
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/obib.owl,http://purl.obolibrary.org/obo/obib/2021-11-12/obib.owl,development version,2021-11-12
@@ -163,7 +163,7 @@ STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/bfo.owl,http://purl.ob
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/oostt.owl,http://purl.obolibrary.org/obo/oostt/release/2022-10-27/oostt.owl,release version - 2022-09-23,2022-10-27
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/gsso.owl,http://purl.obolibrary.org/obo/gsso/releases/2.0.5/gsso.owl,null,2.0.5
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/caro.owl,http://purl.obolibrary.org/obo/caro/releases/2022-02-18/caro.owl,2022-02-18,2022-02-18
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/hancestro.owl,http://purl.obolibrary.org/obo/hancestro/releases/2022-05-12/hancestro.owl,2.6,2022-05-12
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/hancestro.owl,http://purl.obolibrary.org/obo/hancestro/releases/2023-02-16/hancestro.owl,2.7,2023-02-16
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ontoneo.owl,http://purl.obolibrary.org/obo/ontoneo/releases/2021-04-29/ontoneo.owl,null,2021-04-29
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/eupath.owl,http://purl.obolibrary.org/obo/eupath/2023-01-19/eupath.owl,2023-01-19,2023-01-19
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cro.owl,http://purl.obolibrary.org/obo/cro/releases/2019-12-11/cro.owl,null,2019-12-11
