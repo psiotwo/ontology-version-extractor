@@ -403,9 +403,9 @@
 <http://purl.obolibrary.org/obo/mro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mro/2022-10-17/mro.owl> ;
+                <http://purl.obolibrary.org/obo/mro/2023-02-22/mro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-17" .
+                "2023-02-22" .
 
 <http://purl.obolibrary.org/obo/geo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -726,9 +726,9 @@
 <http://purl.obolibrary.org/obo/ro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ro/releases/2023-02-19/ro.owl> ;
+                <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-02-19" .
+                "2023-02-22" .
 
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1023,9 +1023,9 @@
 <http://purl.obolibrary.org/obo/pcl.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pcl/releases/2022-10-19/pcl.owl> ;
+                <http://purl.obolibrary.org/obo/pcl/releases/2023-02-17/pcl.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-19" .
+                "2023-02-17" .
 
 <http://purl.obolibrary.org/obo/wbphenotype.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
