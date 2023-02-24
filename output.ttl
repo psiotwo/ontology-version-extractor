@@ -291,9 +291,9 @@
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/maxo/releases/2023-02-19/maxo.owl> ;
+                <http://purl.obolibrary.org/obo/maxo/releases/2023-02-23/maxo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-02-19" .
+                "2023-02-23" .
 
 <http://purl.obolibrary.org/obo/bto.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -315,9 +315,7 @@
                 "PROCO release 20220414" .
 
 <http://purl.obolibrary.org/obo/mp.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mp/releases/2023-02-09> .
+        a       <http://www.w3.org/2002/07/owl#Ontology> .
 
 <http://purl.obolibrary.org/obo/t4fs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -829,9 +827,9 @@
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/2020-12-04/psdo.owl> ;
+                <http://purl.obolibrary.org/obo/2022-02-23/psdo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "1.0.0" .
+                "1.0.1" .
 
 <http://purl.obolibrary.org/obo/fobi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -873,9 +871,9 @@
 <http://purl.obolibrary.org/obo/geno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/geno/releases/2023-02-19/geno.owl> ;
+                <http://purl.obolibrary.org/obo/geno/releases/2023-02-21/geno.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-02-19" .
+                "2023-02-21" .
 
 <http://purl.obolibrary.org/obo/oostt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
