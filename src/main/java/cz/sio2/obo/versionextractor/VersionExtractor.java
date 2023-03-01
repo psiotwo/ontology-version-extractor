@@ -1,4 +1,6 @@
-package cz.sio2.obo;
+package cz.sio2.obo.versionextractor;
+
+import cz.sio2.obo.Version;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

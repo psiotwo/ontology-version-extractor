@@ -1,5 +1,7 @@
-package cz.sio2.obo;
+package cz.sio2.obo.versionextractor;
 
+import cz.sio2.obo.Version;
+import cz.sio2.obo.versionextractor.RDFXMLVersionExtractor;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;

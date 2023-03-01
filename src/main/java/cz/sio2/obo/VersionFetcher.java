@@ -1,5 +1,9 @@
 package cz.sio2.obo;
 
+import cz.sio2.obo.versionextractor.FSVersionExtractor;
+import cz.sio2.obo.versionextractor.RDFXMLVersionExtractor;
+import cz.sio2.obo.versionextractor.VersionExtractor;
+import cz.sio2.obo.versionextractor.XMLVersionExtractor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
