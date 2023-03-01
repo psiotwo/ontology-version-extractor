@@ -1,13 +1,13 @@
-package cz.sio2.obo.versionextractor;
+package cz.sio2.obo.extractor;
 
-import cz.sio2.obo.Version;
+import cz.sio2.obo.OntologyHeader;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static cz.sio2.obo.Constants.NS_OBO_HTTP;
 
-public abstract class VersionExtractor {
+public abstract class Extractor {
 
     protected abstract Pattern getFormatMatcher();
 
@@ -33,7 +33,7 @@ public abstract class VersionExtractor {
         return input.replace("&obo;", NS_OBO_HTTP);
     }
 
-    public boolean extract(final String s, final Version version) {
+    public boolean extract(final String s, final OntologyHeader version) {
         final String singleLine = s.replace('\n', ' ');
         if (!getFormatMatcher().matcher(singleLine).matches()) {
             return false;

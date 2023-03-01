@@ -1,9 +1,9 @@
 package cz.sio2.obo;
 
-import cz.sio2.obo.versionextractor.FSVersionExtractor;
-import cz.sio2.obo.versionextractor.RDFXMLVersionExtractor;
-import cz.sio2.obo.versionextractor.VersionExtractor;
-import cz.sio2.obo.versionextractor.XMLVersionExtractor;
+import cz.sio2.obo.extractor.FSExtractor;
+import cz.sio2.obo.extractor.RDFXMLExtractor;
+import cz.sio2.obo.extractor.Extractor;
+import cz.sio2.obo.extractor.XMLExtractor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -28,12 +28,12 @@ import static cz.sio2.obo.Utils.createBuilder;
 @Slf4j
 public class VersionFetcher {
 
-    final static List<VersionExtractor> extractors = new ArrayList<>();
+    final static List<Extractor> extractors = new ArrayList<>();
 
     static {
-        extractors.add(new RDFXMLVersionExtractor());
-        extractors.add(new FSVersionExtractor());
-        extractors.add(new XMLVersionExtractor());
+        extractors.add(new RDFXMLExtractor());
+        extractors.add(new FSExtractor());
+        extractors.add(new XMLExtractor());
     }
 
     /**
@@ -45,7 +45,7 @@ public class VersionFetcher {
      * @param maxBytes maximal number of bytes to fetch from each side of the document
      * @return Version information from the ontology
      */
-    public Version fetch(final URL url, final int maxBytes) {
+    public OntologyHeader fetch(final URL url, final int maxBytes) {
         final RequestConfig cfg = RequestConfig.custom().setConnectTimeout(Timeout.ofMinutes(1)).build();
         final HttpClientBuilder httpClientBuilder = createBuilder().setDefaultRequestConfig(cfg);
         try (final CloseableHttpClient httpClient = httpClientBuilder.build()) {
@@ -90,9 +90,9 @@ public class VersionFetcher {
         }
     }
 
-    private Version extractVersion(final String content) {
-        final Version version = new Version();
-        for (final VersionExtractor e : extractors) {
+    private OntologyHeader extractVersion(final String content) {
+        final OntologyHeader version = new OntologyHeader();
+        for (final Extractor e : extractors) {
             if (e.extract(content, version)) {
                 return version;
             }

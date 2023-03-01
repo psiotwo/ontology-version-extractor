@@ -11,12 +11,12 @@ import java.util.regex.Pattern;
 import static cz.sio2.obo.Constants.*;
 
 /**
- * Object that represents the version extracted from the ontology.
+ * Object that represents the ontology header extracted from the ontology.
  */
 @Getter
 @Setter
 @Slf4j
-public class Version {
+public class OntologyHeader {
 
     /**
      * owl:Ontology IRI.
@@ -109,7 +109,7 @@ public class Version {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Version version = (Version) o;
+        OntologyHeader version = (OntologyHeader) o;
         return Objects.equals(owlOntologyIri, version.owlOntologyIri) && Objects.equals(owlVersionIri, version.owlVersionIri) && Objects.equals(owlVersionInfo, version.owlVersionInfo);
     }
 

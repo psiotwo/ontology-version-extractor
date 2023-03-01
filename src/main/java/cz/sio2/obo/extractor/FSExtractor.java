@@ -1,8 +1,8 @@
-package cz.sio2.obo.versionextractor;
+package cz.sio2.obo.extractor;
 
 import java.util.regex.Pattern;
 
-public class FSVersionExtractor extends VersionExtractor {
+public class FSExtractor extends Extractor {
 
     @Override
     protected Pattern getFormatMatcher() {
