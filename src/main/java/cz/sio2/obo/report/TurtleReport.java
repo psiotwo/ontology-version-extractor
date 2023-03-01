@@ -1,6 +1,6 @@
 package cz.sio2.obo.report;
 
-import cz.sio2.obo.Version;
+import cz.sio2.obo.OntologyHeader;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
@@ -16,18 +16,18 @@ import java.util.Map;
 
 public class TurtleReport {
 
-    public void write(Map<String, Version> map, final OutputStream os) {
+    public void write(Map<String, OntologyHeader> map, final OutputStream os) {
         final Model model = createModel(map);
         RDFDataMgr.write(os, model, Lang.TURTLE);
     }
 
-    private Model createModel(Map<String, Version> map) {
+    private Model createModel(Map<String, OntologyHeader> map) {
         final Model model = ModelFactory.createDefaultModel();
-        for (final Map.Entry<String, Version> entry : map.entrySet()) {
+        for (final Map.Entry<String, OntologyHeader> entry : map.entrySet()) {
             final Resource ontology = ResourceFactory.createResource(entry.getKey());
             model.add(ontology, RDF.type, OWL.Ontology);
 
-            final Version version = entry.getValue();
+            final OntologyHeader version = entry.getValue();
             if ( version != null ) {
                 final String versionIriString = version.getOwlVersionIri();
                 if (versionIriString != null && !versionIriString.isEmpty()) {

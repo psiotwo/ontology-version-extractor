@@ -1,6 +1,6 @@
 package cz.sio2.obo.report;
 
-import cz.sio2.obo.Version;
+import cz.sio2.obo.OntologyHeader;
 import cz.sio2.obo.VersionType;
 
 import java.io.IOException;
@@ -11,10 +11,10 @@ import java.util.Map;
 
 public class CSVReport {
 
-    public void write(Map<String, Version> map, final OutputStream os) throws IOException {
+    public void write(Map<String, OntologyHeader> map, final OutputStream os) throws IOException {
         try (final Writer writer = new OutputStreamWriter(os)) {
-            for (final Map.Entry<String, Version> entry : map.entrySet()) {
-                final Version v = entry.getValue();
+            for (final Map.Entry<String, OntologyHeader> entry : map.entrySet()) {
+                final OntologyHeader v = entry.getValue();
                 writer.append(v != null ? VersionType.get(v.getOwlOntologyIri()
                                 , v.getOwlVersionIri(), v.getOwlVersionInfo()).name() : VersionType.UNKNOWN.name())
                         .append(',')

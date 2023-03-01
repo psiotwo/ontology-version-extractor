@@ -1,7 +1,7 @@
 package cz.sio2.obo.report;
 
 import cz.sio2.obo.OntologyRecord;
-import cz.sio2.obo.Version;
+import cz.sio2.obo.OntologyHeader;
 import cz.sio2.obo.VersionType;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -31,7 +31,7 @@ public class HTMLReport {
         cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
     }
 
-    public void writeHTML(Map<String, Version> map, final OutputStream os) throws IOException {
+    public void writeHTML(Map<String, OntologyHeader> map, final OutputStream os) throws IOException {
         try {
             final Map<String, Object> dataModel = new HashMap<>();
             final Set<OntologyRecord> records = new HashSet<>();
@@ -41,9 +41,9 @@ public class HTMLReport {
             final String date = simpleDateFormat.format(new Date());
             dataModel.put("date", date);
 
-            final List<Map.Entry<String, Version>> list = new ArrayList<>(map.entrySet());
+            final List<Map.Entry<String, OntologyHeader>> list = new ArrayList<>(map.entrySet());
 
-            for (Map.Entry<String, Version> entry : list) {
+            for (Map.Entry<String, OntologyHeader> entry : list) {
                 boolean failed = entry.getValue() == null;
                 final OntologyRecord record = new OntologyRecord();
                 record

@@ -26,19 +26,19 @@ import java.util.*;
 @Slf4j
 public class OBOFoundryVersionExtractor {
 
-    private static void writeRDF(final String file, final Map<String, Version> map) throws IOException {
+    private static void writeRDF(final String file, final Map<String, OntologyHeader> map) throws IOException {
         try (final OutputStream os = new FileOutputStream(file)) {
             new TurtleReport().write(map, os);
         }
     }
 
-    private static void writeCSV(final String file, final Map<String, Version> map) throws IOException {
+    private static void writeCSV(final String file, final Map<String, OntologyHeader> map) throws IOException {
         try (final OutputStream os = new FileOutputStream(file)) {
             new CSVReport().write(map, os);
         }
     }
 
-    private static void writeHTML(final String file, final Map<String, Version> map) throws IOException {
+    private static void writeHTML(final String file, final Map<String, OntologyHeader> map) throws IOException {
         try (final OutputStream os = new FileOutputStream(file)) {
             new HTMLReport().writeHTML(map, os);
         }
@@ -58,12 +58,12 @@ public class OBOFoundryVersionExtractor {
         return list;
     }
 
-    private static Map<String, Version> fetchVersions(final List<String> ontologyUrls, final int headerLength) throws MalformedURLException {
+    private static Map<String, OntologyHeader> fetchVersions(final List<String> ontologyUrls, final int headerLength) throws MalformedURLException {
         final VersionFetcher f = new VersionFetcher();
-        final Map<String, Version> map = new HashMap<>();
+        final Map<String, OntologyHeader> map = new HashMap<>();
         for (final String url : ontologyUrls) {
             log.info(url);
-            final Version v = f.fetch(new URL(url), headerLength);
+            final OntologyHeader v = f.fetch(new URL(url), headerLength);
             map.put(url, v);
         }
         return map;
@@ -71,16 +71,16 @@ public class OBOFoundryVersionExtractor {
 
     public void extract(final String registryUrl, final String outputFile, final int headerLength) throws IOException {
         final List<String> ontologyUrls = getOntologyUrls(registryUrl);
-        final Map<String, Version> ontologyVersions = fetchVersions(ontologyUrls, headerLength);
+        final Map<String, OntologyHeader> ontologyVersions = fetchVersions(ontologyUrls, headerLength);
         writeRDF(outputFile, ontologyVersions);
     }
 
-    private Map<String, Version> loadVersions(final String inputFile) {
-        final Map<String, Version> map = new HashMap<>();
+    private Map<String, OntologyHeader> loadVersions(final String inputFile) {
+        final Map<String, OntologyHeader> map = new HashMap<>();
         final Model model = ModelFactory.createDefaultModel();
         model.read(inputFile, Lang.TURTLE.toString());
         model.listSubjectsWithProperty(RDF.type, OWL.Ontology).forEach(ontology -> {
-            final Version version = new Version();
+            final OntologyHeader version = new OntologyHeader();
             version.setOwlOntologyIri(ontology.getURI());
             final Statement versionIri = ontology.getProperty(OWL2.versionIRI);
             if ( versionIri != null ) {
