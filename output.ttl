@@ -322,9 +322,9 @@
 <http://purl.obolibrary.org/obo/t4fs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/t4fs/releases/2022-12-05/t4fs.owl> ;
+                <http://purl.obolibrary.org/obo/t4fs/releases/2023-03-02/t4fs.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-12-05" .
+                "2023-03-02" .
 
 <http://purl.obolibrary.org/obo/ogsf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
