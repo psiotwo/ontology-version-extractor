@@ -303,9 +303,9 @@
 <http://purl.obolibrary.org/obo/swo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://www.ebi.ac.uk/swo/swo/releases/2022-10-11/swo.owl> ;
+                <http://www.ebi.ac.uk/swo/swo/releases/2023-03-05/swo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-11" .
+                "2023-03-05" .
 
 <http://purl.obolibrary.org/obo/proco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
