@@ -1,6 +1,6 @@
 package cz.sio2.obo.commands;
 
-import cz.sio2.obo.OBOFoundryVersionExtractor;
+import cz.sio2.obo.OBOFoundryHeaderExtractor;
 import lombok.extern.slf4j.Slf4j;
 import picocli.CommandLine;
 
@@ -25,9 +25,9 @@ class Transform implements Callable<Integer> {
     public Integer call() {
         try {
             if (outputFile.endsWith("html")) {
-                new OBOFoundryVersionExtractor().transformToHtml(inputFile, outputFile);
+                new OBOFoundryHeaderExtractor().transformToHtml(inputFile, outputFile);
             } else {
-                new OBOFoundryVersionExtractor().transformToCsv(inputFile, outputFile);
+                new OBOFoundryHeaderExtractor().transformToCsv(inputFile, outputFile);
             }
         } catch (Exception e) {
             log.error("Error during extraction: ", e);
