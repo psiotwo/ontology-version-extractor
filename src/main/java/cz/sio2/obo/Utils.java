@@ -13,6 +13,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import static cz.sio2.obo.Constants.NS_OBO_HTTP;
+
 @Slf4j
 public class Utils {
 
@@ -52,5 +54,12 @@ public class Utils {
         }
 
         return httpClientBuilder;
+    }
+
+    public static String sanitize(final String input) {
+        if (input == null) {
+            return null;
+        }
+        return input.replace("&obo;", NS_OBO_HTTP);
     }
 }

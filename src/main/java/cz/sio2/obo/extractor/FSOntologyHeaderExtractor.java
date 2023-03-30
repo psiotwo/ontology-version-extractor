@@ -2,25 +2,31 @@ package cz.sio2.obo.extractor;
 
 import java.util.regex.Pattern;
 
-public class FSExtractor extends Extractor {
+public class FSOntologyHeaderExtractor implements OntologyHeaderExtractor {
 
     @Override
-    protected Pattern getFormatMatcher() {
+    public Pattern getFormatMatcher() {
         return Pattern.compile(".*Ontology\\(.*");
     }
 
     @Override
-    protected Pattern getIriMatcher() {
+    public Pattern getIriMatcher() {
         return Pattern.compile(".*Ontology\\(<(.+)> <.+?>.*");
     }
 
     @Override
-    protected Pattern getVersionIriMatcher() {
+    public Pattern getVersionIriMatcher() {
         return Pattern.compile(".*Ontology\\(<.+> <(.+?)>.*");
     }
 
     @Override
-    protected Pattern getVersionInfoMatcher() {
+    public Pattern getVersionInfoMatcher() {
         return Pattern.compile(".*versionInfo(.+)xxx");
+    }
+
+    @Override
+    public Pattern getImportsMatcher() {
+        // TODO - implement
+        return Pattern.compile("NOT_IMPLEMENTED");
     }
 }

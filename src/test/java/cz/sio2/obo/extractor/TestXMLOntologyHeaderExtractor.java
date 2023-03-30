@@ -1,5 +1,6 @@
 package cz.sio2.obo.extractor;
 
+import cz.sio2.obo.Extractor;
 import cz.sio2.obo.OntologyHeader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -9,9 +10,12 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.Objects;
 
-public class TestXMLExtractor {
+public class TestXMLOntologyHeaderExtractor {
 
     @ParameterizedTest
     @CsvFileSource(resources = "/xml-testcases.csv", numLinesToSkip = 1, delimiter = ',')
@@ -19,12 +23,14 @@ public class TestXMLExtractor {
             String file,
             String ontologyIri,
             String versionIri,
-            String versionInfo) throws URISyntaxException, IOException {
+            String versionInfo,
+            String importsList) throws URISyntaxException, IOException {
+        final List<String> imports = importsList != null ? Arrays.asList(importsList.split("\\|")) : Collections.emptyList();
         final String s = Files.readString(Paths.get(Objects.requireNonNull(getClass().getResource("/xml-testcases/" + file)).toURI()));
-        final OntologyHeader header = new OntologyHeader();
-        new XMLExtractor().extract(s, header);
+        final OntologyHeader header = new Extractor().extract(s, new XMLOntologyHeaderExtractor());
         Assertions.assertEquals(ontologyIri, header.getOwlOntologyIri());
         Assertions.assertEquals(versionIri, header.getOwlVersionIri());
         Assertions.assertEquals(versionInfo, header.getOwlVersionInfo());
+        Assertions.assertEquals(imports, header.getOwlImports());
     }
 }

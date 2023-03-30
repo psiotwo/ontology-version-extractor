@@ -7,9 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.*;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.OWL2;
@@ -24,7 +22,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 @Slf4j
-public class OBOFoundryVersionExtractor {
+public class OBOFoundryHeaderExtractor {
 
     private static void writeRDF(final String file, final Map<String, OntologyHeader> map) throws IOException {
         try (final OutputStream os = new FileOutputStream(file)) {
@@ -47,7 +45,7 @@ public class OBOFoundryVersionExtractor {
     private static List<String> getOntologyUrls(final String registry) {
         final Model model = ModelFactory.createDefaultModel();
         model.read(registry, Lang.TURTLE.toString());
-        final String queryString = new Scanner(Objects.requireNonNull(OBOFoundryVersionExtractor.class.getResourceAsStream("/get-ontology-purls.rq")), StandardCharsets.UTF_8).useDelimiter("\\A").next();
+        final String queryString = new Scanner(Objects.requireNonNull(OBOFoundryHeaderExtractor.class.getResourceAsStream("/get-ontology-purls.rq")), StandardCharsets.UTF_8).useDelimiter("\\A").next();
         final QueryExecution qe = QueryExecutionFactory
                 .create(queryString, model);
         final ResultSet rs = qe.execSelect();
@@ -58,48 +56,58 @@ public class OBOFoundryVersionExtractor {
         return list;
     }
 
-    private static Map<String, OntologyHeader> fetchVersions(final List<String> ontologyUrls, final int headerLength) throws MalformedURLException {
-        final VersionFetcher f = new VersionFetcher();
+    private static Map<String, OntologyHeader> fetchHeaders(final List<String> ontologyUrls, final int headerLength) throws MalformedURLException {
+        final HeaderFetcher f = new HeaderFetcher();
         final Map<String, OntologyHeader> map = new HashMap<>();
         for (final String url : ontologyUrls) {
             log.info(url);
-            final OntologyHeader v = f.fetch(new URL(url), headerLength);
-            map.put(url, v);
+            OntologyHeader v = f.fetch(new URL(url), headerLength);
+            if ( v != null ) {
+                if ( v.getOwlOntologyIri() != null ) {
+                    map.put(url, v);
+                }
+            }
         }
         return map;
     }
 
     public void extract(final String registryUrl, final String outputFile, final int headerLength) throws IOException {
         final List<String> ontologyUrls = getOntologyUrls(registryUrl);
-        final Map<String, OntologyHeader> ontologyVersions = fetchVersions(ontologyUrls, headerLength);
-        writeRDF(outputFile, ontologyVersions);
+        final Map<String, OntologyHeader> ontologyHeaders = fetchHeaders(ontologyUrls, headerLength);
+        writeRDF(outputFile, ontologyHeaders);
     }
 
-    private Map<String, OntologyHeader> loadVersions(final String inputFile) {
+    private Map<String, OntologyHeader> loadHeaders(final String inputFile) {
         final Map<String, OntologyHeader> map = new HashMap<>();
         final Model model = ModelFactory.createDefaultModel();
         model.read(inputFile, Lang.TURTLE.toString());
         model.listSubjectsWithProperty(RDF.type, OWL.Ontology).forEach(ontology -> {
-            final OntologyHeader version = new OntologyHeader();
-            version.setOwlOntologyIri(ontology.getURI());
+            final OntologyHeader header = new OntologyHeader();
+            header.setOwlOntologyIri(ontology.getURI());
             final Statement versionIri = ontology.getProperty(OWL2.versionIRI);
             if ( versionIri != null ) {
-                version.setOwlVersionIri(versionIri.getObject().asResource().getURI());
+                header.setOwlVersionIri(versionIri.getObject().asResource().getURI());
             }
             final Statement versionInfo = ontology.getProperty(OWL2.versionInfo);
             if ( versionInfo != null ) {
-                version.setOwlVersionInfo(versionInfo.getString());
+                header.setOwlVersionInfo(versionInfo.getString());
             }
-            map.put(ontology.getURI(), version);
+            final StmtIterator imports = ontology.listProperties(OWL2.imports);
+            header.setOwlImports(imports.mapWith(s -> s.getResource().getURI()).toList());
+
+            final StmtIterator nonResolvableImports = ontology.listProperties(ResourceFactory.createProperty("https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import"));
+            header.setNonResolvableImports(nonResolvableImports.mapWith(s -> s.getResource().getURI()).toList());
+
+            map.put(ontology.getURI(), header);
         });
         return map;
     }
 
     public void transformToCsv(final String inputFile, final String outputFile) throws IOException {
-        writeCSV(outputFile, loadVersions(inputFile));
+        writeCSV(outputFile, loadHeaders(inputFile));
     }
 
     public void transformToHtml(final String inputFile, final String outputFile) throws IOException {
-        writeHTML(outputFile, loadVersions(inputFile));
+        writeHTML(outputFile, loadHeaders(inputFile));
     }
 }

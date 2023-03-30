@@ -5,9 +5,10 @@ function myFunction() {
   table = document.getElementById("myTable");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[1];
+    td = tr[i].getElementsByTagName("td");
     if (td) {
-      txtValue = td.textContent || td.innerText;
+      txtValue = ( td[0] ? td[0].textContent : '' ) + ' ' + ( td[1] ? td[1].textContent : '' );
+      console.log(txtValue)
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
         tr[i].style.display = "";
       } else {
@@ -40,14 +41,17 @@ function sortTable(n) {
       y = rows[i + 1].getElementsByTagName("TD")[n];
       /* Check if the two rows should switch place,
       based on the direction, asc or desc: */
+      xText = x.attributes.searchkey.textContent.toLowerCase();
+      yText = y.attributes.searchkey.textContent.toLowerCase();
+
       if (dir == "asc") {
-        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+        if (xText > yText) {
           // If so, mark as a switch and break the loop:
           shouldSwitch = true;
           break;
         }
       } else if (dir == "desc") {
-        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+        if (xText < yText) {
           // If so, mark as a switch and break the loop:
           shouldSwitch = true;
           break;

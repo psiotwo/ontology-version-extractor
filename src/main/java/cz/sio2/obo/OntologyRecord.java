@@ -4,6 +4,9 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
+import java.util.List;
+import java.util.Map;
+
 @Getter
 @Setter
 @Accessors(chain = true)
@@ -18,4 +21,8 @@ public class OntologyRecord {
     public String versionInfo;
 
     public String version;
+
+    public List<String> imports;
+
+    public List<String> nonResolvableImports;
 }

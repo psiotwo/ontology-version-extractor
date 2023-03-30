@@ -1,9 +1,6 @@
 package cz.sio2.obo;
 
-import cz.sio2.obo.extractor.FSExtractor;
-import cz.sio2.obo.extractor.RDFXMLExtractor;
-import cz.sio2.obo.extractor.Extractor;
-import cz.sio2.obo.extractor.XMLExtractor;
+import cz.sio2.obo.extractor.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -26,43 +23,55 @@ import java.util.List;
 import static cz.sio2.obo.Utils.createBuilder;
 
 @Slf4j
-public class VersionFetcher {
+public class HeaderFetcher {
 
-    final static List<Extractor> extractors = new ArrayList<>();
+    final static List<OntologyHeaderExtractor> ONTOLOGY_HEADER_EXTRACTORS = new ArrayList<>();
 
     static {
-        extractors.add(new RDFXMLExtractor());
-        extractors.add(new FSExtractor());
-        extractors.add(new XMLExtractor());
+        ONTOLOGY_HEADER_EXTRACTORS.add(new RDFXMLOntologyHeaderExtractor());
+        ONTOLOGY_HEADER_EXTRACTORS.add(new FSOntologyHeaderExtractor());
+        ONTOLOGY_HEADER_EXTRACTORS.add(new XMLOntologyHeaderExtractor());
+        ONTOLOGY_HEADER_EXTRACTORS.add(new TurtleHeaderExtractor());
     }
 
     /**
-     * Fetches relevant parts of an ontology file which contain version information. Currently, it takes
+     * Fetches relevant parts of an ontology file which contain header information. Currently, it takes
      * - first maxBytes of the document
      * - last maxBytes of the document
      *
      * @param url      URL to fetch the document from
      * @param maxBytes maximal number of bytes to fetch from each side of the document
-     * @return Version information from the ontology
+     * @return header information from the ontology
      */
     public OntologyHeader fetch(final URL url, final int maxBytes) {
-        final RequestConfig cfg = RequestConfig.custom().setConnectTimeout(Timeout.ofMinutes(1)).build();
-        final HttpClientBuilder httpClientBuilder = createBuilder().setDefaultRequestConfig(cfg);
+        final RequestConfig cfg = RequestConfig.custom()
+                .setRedirectsEnabled(true)
+                .setConnectTimeout(Timeout.ofMinutes(1)).build();
+        final HttpClientBuilder httpClientBuilder = createBuilder()
+                .setDefaultRequestConfig(cfg);
         try (final CloseableHttpClient httpClient = httpClientBuilder.build()) {
             final boolean supportsRangeRequests = supportsRangeRequests(httpClient, url);
             if (supportsRangeRequests) {
                 log.info("- range request (first part)");
                 final String s1 = getRange(httpClient, url, maxBytes, true);
+                if (s1 == null) {
+                    log.debug(" - failed, skipping next part");
+                    return null;
+                }
                 log.info("- range request (second part)");
-                final String s2 = getRange(httpClient, url, maxBytes, false);
+                String s2 = getRange(httpClient, url, maxBytes, false);
+                if (s2 == null) {
+                    log.debug("- failed, not considering tail");
+                    s2 = "";
+                }
                 log.info("- done, extracting");
-                return extractVersion(s1 + s2);
+                return extract(s1 + s2);
             } else {
                 log.info("- not supporting range request, fetching the whole ontology.");
                 HttpGet request1 = new HttpGet(url.toString());
                 final String s1 = extractContentFromResponse(httpClient.execute(request1), maxBytes);
                 log.info("- done, extracting");
-                return extractVersion(s1);
+                return extract(s1);
             }
         } catch (Exception e) {
             log.info("An error occurred during fetching ontology from URL " + url, e);
@@ -77,7 +86,7 @@ public class VersionFetcher {
             req.addHeader(HttpHeaders.ACCEPT_ENCODING, "none");
             return extractContentFromResponse(httpClient.execute(req), maxBytes);
         } catch(Exception e) {
-            return "";
+            return null;
         }
     }
 
@@ -90,11 +99,12 @@ public class VersionFetcher {
         }
     }
 
-    private OntologyHeader extractVersion(final String content) {
-        final OntologyHeader version = new OntologyHeader();
-        for (final Extractor e : extractors) {
-            if (e.extract(content, version)) {
-                return version;
+    private OntologyHeader extract(final String content) {
+        final Extractor e = new Extractor();
+        for (final OntologyHeaderExtractor ohe : ONTOLOGY_HEADER_EXTRACTORS) {
+            final OntologyHeader header = e.extract(content, ohe);
+            if (header != null) {
+                return header;
             }
         }
         return null;

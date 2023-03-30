@@ -1,6 +1,6 @@
 package cz.sio2.obo.commands;
 
-import cz.sio2.obo.OBOFoundryVersionExtractor;
+import cz.sio2.obo.OBOFoundryHeaderExtractor;
 import lombok.extern.slf4j.Slf4j;
 import picocli.CommandLine;
 
@@ -27,7 +27,7 @@ class Extract implements Callable<Integer> {
     @Override
     public Integer call() {
         try {
-            new OBOFoundryVersionExtractor().extract(iri, outputFile, headerSize);
+            new OBOFoundryHeaderExtractor().extract(iri, outputFile, headerSize);
         } catch (Exception e) {
             log.error("Error during extraction: ", e);
             return -1;

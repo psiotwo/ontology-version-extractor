@@ -8,6 +8,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class CSVReport {
 
@@ -25,6 +26,10 @@ public class CSVReport {
                         .append((v != null ? v.getOwlVersionInfo() : "ERROR"))
                         .append(',')
                         .append((v != null ? v.getVersion() : "ERROR"))
+                        .append(',')
+                        .append((v != null && v.getOwlImports() != null ? v.getOwlImports().stream().collect(Collectors.joining("|")) : "ERROR"))
+                        .append(',')
+                        .append((v != null && v.getNonResolvableImports() != null ? v.getNonResolvableImports().stream().collect(Collectors.joining("|")) : "ERROR"))
                         .append(System.lineSeparator());
             }
         }
