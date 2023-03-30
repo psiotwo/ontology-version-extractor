@@ -11,7 +11,7 @@ public class RDFXMLOntologyHeaderExtractor implements OntologyHeaderExtractor {
 
     @Override
     public Pattern getIriMatcher() {
-        return Pattern.compile(".*<[a-zA-Z0-9]*:?Ontology [a-zA-Z0-9]*:?about=\"([^\"]+?)\">.*");
+        return Pattern.compile(".*<[a-zA-Z0-9]*:?Ontology [a-zA-Z0-9]*:?about=\"([^\"]+?)\"(/)?>.*");
     }
 
     @Override
@@ -22,5 +22,10 @@ public class RDFXMLOntologyHeaderExtractor implements OntologyHeaderExtractor {
     @Override
     public Pattern getVersionInfoMatcher() {
         return Pattern.compile(".*<[a-zA-Z0-9]*:?versionInfo[^>]*>(.+?)</[a-zA-Z0-9]*:?versionInfo>.*");
+    }
+
+    @Override
+    public Pattern getImportsMatcher() {
+        return Pattern.compile("<[a-zA-Z0-9]*:?imports [a-zA-Z0-9]*:?resource=\"([^\"]+?)\"/>");
     }
 }

@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Objects;
+import java.util.*;
 
 public class TestOWLOntologyHeaderExtractor {
 
@@ -20,11 +20,14 @@ public class TestOWLOntologyHeaderExtractor {
             String file,
             String ontologyIri,
             String versionIri,
-            String versionInfo) throws URISyntaxException, IOException {
+            String versionInfo,
+            String importsList) throws URISyntaxException, IOException {
+        final List<String> imports = importsList != null ? Arrays.asList(importsList.split("\\|")) : Collections.emptyList();
         final String s = Files.readString(Paths.get(Objects.requireNonNull(getClass().getResource("/owl-testcases/" + file)).toURI()));
         final OntologyHeader header = new Extractor().extract(s, new FSOntologyHeaderExtractor());
         Assertions.assertEquals(ontologyIri, header.getOwlOntologyIri());
         Assertions.assertEquals(versionIri, header.getOwlVersionIri());
         Assertions.assertEquals(versionInfo, header.getOwlVersionInfo());
+        Assertions.assertEquals(imports, header.getOwlImports());
     }
 }

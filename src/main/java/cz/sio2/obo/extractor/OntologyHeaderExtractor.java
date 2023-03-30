@@ -12,4 +12,5 @@ public interface OntologyHeaderExtractor {
 
     Pattern getVersionInfoMatcher();
 
+    Pattern getImportsMatcher();
 }

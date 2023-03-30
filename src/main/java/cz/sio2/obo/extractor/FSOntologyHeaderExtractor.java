@@ -23,4 +23,10 @@ public class FSOntologyHeaderExtractor implements OntologyHeaderExtractor {
     public Pattern getVersionInfoMatcher() {
         return Pattern.compile(".*versionInfo(.+)xxx");
     }
+
+    @Override
+    public Pattern getImportsMatcher() {
+        // TODO - implement
+        return Pattern.compile("NOT_IMPLEMENTED");
+    }
 }

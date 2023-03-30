@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cido.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cido.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:nbo="http://purl.obolibrary.org/obo/nbo.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:www="http://www.referent-tracking.com/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:rdfs1="rdfs:"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:NDF-RT="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:rdf-schema="http://www.w3.org/20000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Du_drug_Ontorat.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Du_viral_Ontorat.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Ghida_PPIs_Ontorat_out.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/Specific_host_SARS2_PPIs.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pro_sars2.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/ENVO_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/GO_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OAE_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBCS_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OGG_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/OPMI_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/PR_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/RO_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/UBERON_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido/imports/VO_imports.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/imports/CIDO_epitopes.owl"/>
+        <obo:IAO_0000117>Ghida Arnous</obo:IAO_0000117>
+        <dc:contributor>Barry Smith</dc:contributor>
+        <dc:contributor>Brian Athey</dc:contributor>
+        <dc:contributor>Gil Omenn</dc:contributor>
+        <dc:contributor>Hongfang Liu</dc:contributor>
+        <dc:creator xml:lang="en">Anthony Huffman</dc:creator>
+        <dc:creator>Ashley Yan</dc:creator>
+        <dc:creator>Asiyah Yu Lin</dc:creator>
+        <dc:creator>Bill Duncan</dc:creator>
+        <dc:creator>Easheta Shah</dc:creator>
+        <dc:creator xml:lang="en">Edison Ong</dc:creator>
+        <dc:creator xml:lang="en">Ghida Arnous</dc:creator>
+        <dc:creator>Guirui Huang (Ray)</dc:creator>
+        <dc:creator xml:lang="en">Hong Yu</dc:creator>
+        <dc:creator xml:lang="en">Hsin-Hui Huang</dc:creator>
+        <dc:creator>John Beverley</dc:creator>
+        <dc:creator>Liwei Wang</dc:creator>
+        <dc:creator>Roshan Desai</dc:creator>
+        <dc:creator>Sivaram Arabandi</dc:creator>
+        <dc:creator>Suyuan Peng</dc:creator>
+        <dc:creator>Yang Wang</dc:creator>
+        <dc:creator xml:lang="en">Yang Wang</dc:creator>
+        <dc:creator xml:lang="en">Yingtong Liu</dc:creator>
+        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YOH)</dc:creator>
+        <dc:creator>Yujia Tian</dc:creator>
+        <dc:creator>Zalan Shah</dc:creator>
+        <dc:creator>Zhigang Wang</dc:creator>
+        <dc:date xml:lang="en">1-28-2023</dc:date>
+        <dc:description xml:lang="en">The Ontology of Coronavirus Infectious Disease (CIDO) is a community-driven open-source biomedical ontology in the area of coronavirus infectious disease. The CIDO is developed to provide standardized human- and computer-interpretable annotation and representation of various coronavirus infectious diseases, including their etiology, transmission, pathogenesis, diagnosis, prevention, and treatment.</dc:description>
+        <dc:format xml:lang="en">OWL-DL</dc:format>
+        <dc:subject xml:lang="en">CIDO: A biomedical ontology in the area of coronavirus infectious disease.</dc:subject>
+        <dc:title xml:lang="en">CIDO: Ontology of Coronavirus Infectious Disease</dc:title>
+        <terms:creator xml:lang="en">Muhui Ye</terms:creator>
+        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
+        <owl:versionInfo xml:lang="en">1.0.366</owl:versionInfo>
+    </owl:Ontology>
+
+

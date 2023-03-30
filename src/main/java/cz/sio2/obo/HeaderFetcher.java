@@ -1,9 +1,6 @@
 package cz.sio2.obo;
 
-import cz.sio2.obo.extractor.FSOntologyHeaderExtractor;
-import cz.sio2.obo.extractor.RDFXMLOntologyHeaderExtractor;
-import cz.sio2.obo.extractor.OntologyHeaderExtractor;
-import cz.sio2.obo.extractor.XMLOntologyHeaderExtractor;
+import cz.sio2.obo.extractor.*;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -26,7 +23,7 @@ import java.util.List;
 import static cz.sio2.obo.Utils.createBuilder;
 
 @Slf4j
-public class VersionFetcher {
+public class HeaderFetcher {
 
     final static List<OntologyHeaderExtractor> ONTOLOGY_HEADER_EXTRACTORS = new ArrayList<>();
 
@@ -34,6 +31,7 @@ public class VersionFetcher {
         ONTOLOGY_HEADER_EXTRACTORS.add(new RDFXMLOntologyHeaderExtractor());
         ONTOLOGY_HEADER_EXTRACTORS.add(new FSOntologyHeaderExtractor());
         ONTOLOGY_HEADER_EXTRACTORS.add(new XMLOntologyHeaderExtractor());
+        ONTOLOGY_HEADER_EXTRACTORS.add(new TurtleHeaderExtractor());
     }
 
     /**
@@ -46,15 +44,26 @@ public class VersionFetcher {
      * @return header information from the ontology
      */
     public OntologyHeader fetch(final URL url, final int maxBytes) {
-        final RequestConfig cfg = RequestConfig.custom().setConnectTimeout(Timeout.ofMinutes(1)).build();
-        final HttpClientBuilder httpClientBuilder = createBuilder().setDefaultRequestConfig(cfg);
+        final RequestConfig cfg = RequestConfig.custom()
+                .setRedirectsEnabled(true)
+                .setConnectTimeout(Timeout.ofMinutes(1)).build();
+        final HttpClientBuilder httpClientBuilder = createBuilder()
+                .setDefaultRequestConfig(cfg);
         try (final CloseableHttpClient httpClient = httpClientBuilder.build()) {
             final boolean supportsRangeRequests = supportsRangeRequests(httpClient, url);
             if (supportsRangeRequests) {
                 log.info("- range request (first part)");
                 final String s1 = getRange(httpClient, url, maxBytes, true);
+                if (s1 == null) {
+                    log.debug(" - failed, skipping next part");
+                    return null;
+                }
                 log.info("- range request (second part)");
-                final String s2 = getRange(httpClient, url, maxBytes, false);
+                String s2 = getRange(httpClient, url, maxBytes, false);
+                if (s2 == null) {
+                    log.debug("- failed, not considering tail");
+                    s2 = "";
+                }
                 log.info("- done, extracting");
                 return extract(s1 + s2);
             } else {
@@ -77,7 +86,7 @@ public class VersionFetcher {
             req.addHeader(HttpHeaders.ACCEPT_ENCODING, "none");
             return extractContentFromResponse(httpClient.execute(req), maxBytes);
         } catch(Exception e) {
-            return "";
+            return null;
         }
     }
 

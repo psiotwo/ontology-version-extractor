@@ -53,14 +53,15 @@ public class HTMLReport {
                     record.setVersionIri("");
                     record.setVersionInfo("");
                     record.setVersion("");
+                    record.setImports(Collections.emptyList());
+                    record.setNonResolvableImports(Collections.emptyList());
                 } else {
                     record.setType(VersionType.get(entry.getValue().getOwlOntologyIri(), entry.getValue().getOwlVersionIri(), entry.getValue().getOwlVersionInfo()));
-                    String versionIri = entry.getValue().getOwlVersionIri();
-                    record.setVersionIri(versionIri != null ? versionIri : "");
-                    String version = entry.getValue().getVersion();
-                    record.setVersion(version != null ? version : "");
-                    String versionInfo = entry.getValue().getOwlVersionInfo();
-                    record.setVersionInfo(versionInfo != null ? versionInfo : "");
+                    record.setVersionIri(coalesce(entry.getValue().getOwlVersionIri()));
+                    record.setVersion(coalesce(entry.getValue().getVersion()));
+                    record.setVersionInfo(coalesce(entry.getValue().getOwlVersionInfo()));
+                    record.setImports(entry.getValue().getOwlImports());
+                    record.setNonResolvableImports(entry.getValue().getNonResolvableImports());
                 }
 
                 records.add(record);
@@ -75,5 +76,9 @@ public class HTMLReport {
         } catch (TemplateException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private String coalesce(String s) {
+        return s != null ? s : "";
     }
 }

@@ -4,6 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -32,6 +34,16 @@ public class OntologyHeader {
      * owl:versionInfo value
      */
     private String owlVersionInfo;
+
+    /**
+     * owl:imports
+     */
+    private List<String> owlImports = new ArrayList<>();
+
+    /**
+     * nonresolvable owl:imports
+     */
+    private List<String> nonResolvableImports = new ArrayList<>();
 
     /**
      * Generates an OBO-compliant version IRI. Returns
@@ -73,7 +85,7 @@ public class OntologyHeader {
         final String versionIriVersion = extractVersionFromVersionIri();
         if (versionIriVersion != null) {
             if (versionInfoVersion != null && !versionIriVersion.equals(versionInfoVersion)) {
-                log.info("Versions differ: " + versionIriVersion + " : " + versionInfoVersion + ", using version from versionIri");
+                log.info("Versions differ: {} : {}, using version from versionIri", versionIriVersion, versionInfoVersion);
             }
             return versionIriVersion;
         } else {
@@ -110,11 +122,14 @@ public class OntologyHeader {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         OntologyHeader version = (OntologyHeader) o;
-        return Objects.equals(owlOntologyIri, version.owlOntologyIri) && Objects.equals(owlVersionIri, version.owlVersionIri) && Objects.equals(owlVersionInfo, version.owlVersionInfo);
+        return Objects.equals(owlOntologyIri, version.owlOntologyIri)
+                && Objects.equals(owlVersionIri, version.owlVersionIri)
+                && Objects.equals(owlVersionInfo, version.owlVersionInfo)
+                && Objects.equals(owlImports, version.owlImports);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(owlOntologyIri, owlVersionIri, owlVersionInfo);
+        return Objects.hash(owlOntologyIri, owlVersionIri, owlVersionInfo, owlImports);
     }
 }

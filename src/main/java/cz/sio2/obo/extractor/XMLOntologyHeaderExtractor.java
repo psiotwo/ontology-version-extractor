@@ -23,4 +23,10 @@ public class XMLOntologyHeaderExtractor implements OntologyHeaderExtractor {
     public Pattern getVersionInfoMatcher() {
         return Pattern.compile(".*<Annotation>\\s+<AnnotationProperty\\s+abbreviatedIRI=\"owl:versionInfo\"/>\\s+<Literal[^>]*>([^<]+?)</Literal>.*");
     }
+
+    @Override
+    public Pattern getImportsMatcher() {
+        // TODO - implement
+        return Pattern.compile("NOT_IMPLEMENTED");
+    }
 }

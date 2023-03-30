@@ -12,6 +12,7 @@ import org.apache.jena.vocabulary.OWL2;
 import org.apache.jena.vocabulary.RDF;
 
 import java.io.OutputStream;
+import java.util.List;
 import java.util.Map;
 
 public class TurtleReport {
@@ -37,6 +38,16 @@ public class TurtleReport {
                 final String versionInfo = version.getOwlVersionInfo();
                 if (versionInfo != null && !versionInfo.isEmpty()) {
                     model.add(ontology, OWL2.versionInfo, versionInfo);
+                }
+
+                final List<String> imports = version.getOwlImports();
+                if (imports != null && !imports.isEmpty()) {
+                    imports.forEach( i -> model.add(ontology, OWL2.imports, ResourceFactory.createResource(i)));
+                }
+
+                final List<String> nonresolvableImports = version.getNonResolvableImports();
+                if (nonresolvableImports != null && !nonresolvableImports.isEmpty()) {
+                    nonresolvableImports.forEach( i -> model.add(ontology, ResourceFactory.createProperty("https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import"), ResourceFactory.createResource(i)));
                 }
             }
         }

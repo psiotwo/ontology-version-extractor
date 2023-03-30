@@ -23,30 +23,36 @@
 <table class="w3-table w3-border w3-bordered" id="myTable">
     <tr>
         <th onclick="sortTable(0)">
-            Version Type
-        </th>
-        <th onclick="sortTable(1)">
             Ontology
         </th>
+        <th onclick="sortTable(1)">
+            Version
+        </th>
         <th onclick="sortTable(2)">
-            Extracted Version
+            Imports
         </th>
     </tr>
     <#list ontologies as ontology>
     <tr class="w3-text-${ontology.type.color}">
-        <td>
-            <span class="w3-tooltip w3-tag w3-round-large w3-large w3-${ontology.type.color}">${ontology.type.shortName}<span style="position:absolute;left:0;bottom:18px"
-                                                                                                                              class="w3-text w3-tag">${ontology.type.description}</span></span>
-        </td>
-        <td>
+        <td searchKey="${ontology.ontologyIri}" searchText="${ontology.ontologyIri} ${ontology.versionIri} ${ontology.versionInfo} ${ontology.type.shortName}">
             <h4><a href="${ontology.ontologyIri}">${ontology.ontologyIri}</a></h4>
+            <span class="w3-tooltip w3-tag w3-round-small w3-small w3-${ontology.type.color}">${ontology.type.shortName}</span>
             <ul>
                 <li><span class="w3-small w3-text-gray">owl:versionIri:</span><span class="w3-padding">${ontology.versionIri}</span></li>
                 <li><span class="w3-small w3-text-gray">owl:versionInfo:</span><span class="w3-padding">${ontology.versionInfo}</span></li>
             </ul>
         </td>
-        <td>
+        <td searchKey="${ontology.version}">
             <span>${ontology.version}</span>
+        </td>
+        <td searchKey="">
+            <ul>
+            <#list ontology.imports as import>
+                <li class="${ontology.nonResolvableImports?seq_contains(import)?then('w3-text-red','w3-text-green')}">
+                    <a href="${import}">${import}</a>
+                </li>
+            </#list>
+            </ul>
         </td>
     </tr>
     </#list>

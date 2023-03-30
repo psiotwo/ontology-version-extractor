@@ -15,10 +15,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
-public class TestXMLOntologyHeaderExtractor {
+public class TestTurtleOntologyHeaderExtractor {
 
     @ParameterizedTest
-    @CsvFileSource(resources = "/xml-testcases.csv", numLinesToSkip = 1, delimiter = ',')
+    @CsvFileSource(resources = "/ttl-testcases.csv", numLinesToSkip = 1, delimiter = ',')
     public void testExtractVersionIriFromXMLExtractsVersionInfoCorrectlyIfPresent(
             String file,
             String ontologyIri,
@@ -26,8 +26,8 @@ public class TestXMLOntologyHeaderExtractor {
             String versionInfo,
             String importsList) throws URISyntaxException, IOException {
         final List<String> imports = importsList != null ? Arrays.asList(importsList.split("\\|")) : Collections.emptyList();
-        final String s = Files.readString(Paths.get(Objects.requireNonNull(getClass().getResource("/xml-testcases/" + file)).toURI()));
-        final OntologyHeader header = new Extractor().extract(s, new XMLOntologyHeaderExtractor());
+        final String s = Files.readString(Paths.get(Objects.requireNonNull(getClass().getResource("/ttl-testcases/" + file)).toURI()));
+        final OntologyHeader header = new Extractor().extract(s, new TurtleHeaderExtractor());
         Assertions.assertEquals(ontologyIri, header.getOwlOntologyIri());
         Assertions.assertEquals(versionIri, header.getOwlVersionIri());
         Assertions.assertEquals(versionInfo, header.getOwlVersionInfo());

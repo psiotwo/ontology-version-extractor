@@ -7,9 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.ResultSet;
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.rdf.model.Statement;
+import org.apache.jena.rdf.model.*;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.vocabulary.OWL;
 import org.apache.jena.vocabulary.OWL2;
@@ -59,12 +57,16 @@ public class OBOFoundryHeaderExtractor {
     }
 
     private static Map<String, OntologyHeader> fetchHeaders(final List<String> ontologyUrls, final int headerLength) throws MalformedURLException {
-        final VersionFetcher f = new VersionFetcher();
+        final HeaderFetcher f = new HeaderFetcher();
         final Map<String, OntologyHeader> map = new HashMap<>();
         for (final String url : ontologyUrls) {
             log.info(url);
-            final OntologyHeader v = f.fetch(new URL(url), headerLength);
-            map.put(url, v);
+            OntologyHeader v = f.fetch(new URL(url), headerLength);
+            if ( v != null ) {
+                if ( v.getOwlOntologyIri() != null ) {
+                    map.put(url, v);
+                }
+            }
         }
         return map;
     }
@@ -90,6 +92,12 @@ public class OBOFoundryHeaderExtractor {
             if ( versionInfo != null ) {
                 header.setOwlVersionInfo(versionInfo.getString());
             }
+            final StmtIterator imports = ontology.listProperties(OWL2.imports);
+            header.setOwlImports(imports.mapWith(s -> s.getResource().getURI()).toList());
+
+            final StmtIterator nonResolvableImports = ontology.listProperties(ResourceFactory.createProperty("https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import"));
+            header.setNonResolvableImports(nonResolvableImports.mapWith(s -> s.getResource().getURI()).toList());
+
             map.put(ontology.getURI(), header);
         });
         return map;
