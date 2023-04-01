@@ -37,9 +37,9 @@
 <http://purl.obolibrary.org/obo/ohd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ohd/releases/2022-10-10/ohd.owl> ;
+                <http://purl.obolibrary.org/obo/ohd/releases/2023-03-31/ohd.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-10-10" .
+                "2023-03-31" .
 
 <http://purl.obolibrary.org/obo/plana.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -591,7 +591,9 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/doid/obo/ext.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/doid/releases/2023-02-27/doid.owl> .
+                <http://purl.obolibrary.org/obo/doid/releases/2023-03-31/doid.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2023-03-31" .
 
 <http://purl.obolibrary.org/obo/omp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
