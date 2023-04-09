@@ -572,9 +572,9 @@
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/colao/releases/2023-03-30/colao.owl> ;
+                <http://purl.obolibrary.org/obo/colao/releases/2023-04-08/colao.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-30" .
+                "2023-04-08" .
 
 <http://purl.obolibrary.org/obo/zfs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
