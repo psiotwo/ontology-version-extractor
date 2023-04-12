@@ -238,11 +238,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "22.07d" .
 
-<http://purl.obolibrary.org/obo/chebi.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chebi/219/chebi.owl> .
-
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -752,9 +747,9 @@
 <http://purl.obolibrary.org/obo/wbls.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbls/releases/2023-01-03/wbls.owl> ;
+                <http://purl.obolibrary.org/obo/wbls/releases/2023-04-11/wbls.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-01-03" .
+                "2023-04-11" .
 
 <http://purl.obolibrary.org/obo/micro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1102,9 +1097,9 @@
 <http://purl.obolibrary.org/obo/wbphenotype.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbphenotype/releases/2023-03-02/wbphenotype.owl> ;
+                <http://purl.obolibrary.org/obo/wbphenotype/releases/2023-04-11/wbphenotype.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-02" .
+                "2023-04-11" .
 
 <http://purl.obolibrary.org/obo/ogg.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
