@@ -317,9 +317,9 @@
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/maxo/releases/2023-03-09/maxo.owl> ;
+                <http://purl.obolibrary.org/obo/maxo/releases/2023-04-13/maxo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-09" .
+                "2023-04-13" .
 
 <http://purl.obolibrary.org/obo/bto.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
