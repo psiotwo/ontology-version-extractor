@@ -172,7 +172,7 @@ NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/swo.owl,http://www.ebi.ac.uk/
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/t4fs.owl,http://purl.obolibrary.org/obo/t4fs/releases/2023-03-02/t4fs.owl,2023-03-02,2023-03-02,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ado.owl,http://purl.obolibrary.org/obo/ado/releases/2022-06-11/ado.owl,2.0.0,2022-06-11,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ma.owl,http://purl.obolibrary.org/obo/ma/releases/2017-02-07/ma.owl,null,2017-02-07,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cl.owl,http://purl.obolibrary.org/obo/cl/releases/2023-03-21/cl.owl,2023-03-21,2023-03-21,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cl.owl,http://purl.obolibrary.org/obo/cl/releases/2023-04-20/cl.owl,2023-04-20,2023-04-20,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/olatdv.owl,http://purl.obolibrary.org/obo/olatdv/releases/2020-03-10/olatdv.owl,null,2020-03-10,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/disdriv.owl,null,null,null,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/clao.owl,http://purl.obolibrary.org/obo/clao/releases/2021-09-27/clao.owl,2021-09-27,2021-09-27,,
