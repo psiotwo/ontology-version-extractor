@@ -12,13 +12,6 @@
     versionInfoMatcher: ".*<Annotation>\\s+<AnnotationProperty\\s+abbreviatedIRI=\"owl:versionInfo\"/>\\s+<Literal[^>]*>([^<]+?)</Literal>.*"
     importsMatcher: "NOT_IMPLEMENTED"
 
-  - name: XMLOntologyHeaderExtractor
-    formatMatcher: ".*<Ontology.*"
-    iriMatcher: ".*<Ontology .* ontologyIRI=\"([^\"]+?)\".*"
-    versionIriMatcher: ".*<Ontology [^>]* versionIRI=\"([^\"]+?)\".*"
-    versionInfoMatcher: ".*<Annotation>\\s+<AnnotationProperty\\s+abbreviatedIRI=\"owl:versionInfo\"/>\\s+<Literal[^>]*>([^<]+?)</Literal>.*"
-    importsMatcher: "NOT_IMPLEMENTED"
-
   - name: TurtleHeaderExtractor
     formatMatcher: ".*((@prefix|@base).*)|.\\s*$"
     iriMatcher: "^.*<([^>]+)>\\s+(?:a|rdf:type)\\s+owl:Ontology.*$"
