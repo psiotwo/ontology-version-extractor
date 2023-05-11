@@ -1,7 +1,5 @@
 package cz.sio2.obo;
 
-import cz.sio2.obo.extractor.OntologyHeaderExtractor;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;

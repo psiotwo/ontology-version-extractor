@@ -1,6 +1,7 @@
 package cz.sio2.obo.extractor;
 
 import cz.sio2.obo.Extractor;
+import cz.sio2.obo.HeaderFetcher;
 import cz.sio2.obo.OntologyHeader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -27,7 +28,7 @@ public class TestTurtleOntologyHeaderExtractor {
             String importsList) throws URISyntaxException, IOException {
         final List<String> imports = importsList != null ? Arrays.asList(importsList.split("\\|")) : Collections.emptyList();
         final String s = Files.readString(Paths.get(Objects.requireNonNull(getClass().getResource("/ttl-testcases/" + file)).toURI()));
-        final OntologyHeader header = new Extractor().extract(s, new TurtleHeaderExtractor());
+        final OntologyHeader header = new Extractor().extract(s, HeaderFetcher.ONTOLOGY_HEADER_EXTRACTORS.get("TurtleHeaderExtractor"));
         Assertions.assertEquals(ontologyIri, header.getOwlOntologyIri());
         Assertions.assertEquals(versionIri, header.getOwlVersionIri());
         Assertions.assertEquals(versionInfo, header.getOwlVersionInfo());

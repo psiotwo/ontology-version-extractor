@@ -5,6 +5,7 @@ picocli = "4.6.3"
 slf4j = "2.0.3"
 jena = "4.6.1"
 freemarker = "2.3.31"
+jackson = "2.13.0"
 
 [libraries]
 slf4j = { module="org.slf4j:slf4j-api", version.ref="slf4j" }
@@ -13,6 +14,7 @@ picocli = { module="info.picocli:picocli", version.ref="picocli" }
 httpclient5 = { module="org.apache.httpcomponents.client5:httpclient5", version.ref="httpclient5" }
 jena = { module="org.apache.jena:jena-arq", version.ref="jena" }
 freemarker = { module="org.freemarker:freemarker", version.ref="freemarker" }
+jacksonyaml = { module="com.fasterxml.jackson.dataformat:jackson-dataformat-yaml", version.ref="jackson" }
 
 junit-jupiter-params = { module="org.junit.jupiter:junit-jupiter-params", version.ref="jupiter" }
 junit-jupiter = { module="org.junit.jupiter:junit-jupiter-api", version.ref="jupiter" }

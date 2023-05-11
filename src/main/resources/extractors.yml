@@ -1,0 +1,34 @@
+  - name: FSOntologyHeaderExtractor
+    formatMatcher: ".*Ontology\\(.*"
+    iriMatcher: ".*Ontology\\(<(.+)> <.+?>.*"
+    versionIriMatcher: ".*Ontology\\(<.+> <(.+?)>.*"
+    versionInfoMatcher: ".*versionInfo(.+)xxx"
+    importsMatcher: "NOT_IMPLEMENTED"
+
+  - name: XMLOntologyHeaderExtractor
+    formatMatcher: ".*<Ontology.*"
+    iriMatcher: ".*<Ontology .* ontologyIRI=\"([^\"]+?)\".*"
+    versionIriMatcher: ".*<Ontology [^>]* versionIRI=\"([^\"]+?)\".*"
+    versionInfoMatcher: ".*<Annotation>\\s+<AnnotationProperty\\s+abbreviatedIRI=\"owl:versionInfo\"/>\\s+<Literal[^>]*>([^<]+?)</Literal>.*"
+    importsMatcher: "NOT_IMPLEMENTED"
+
+  - name: XMLOntologyHeaderExtractor
+    formatMatcher: ".*<Ontology.*"
+    iriMatcher: ".*<Ontology .* ontologyIRI=\"([^\"]+?)\".*"
+    versionIriMatcher: ".*<Ontology [^>]* versionIRI=\"([^\"]+?)\".*"
+    versionInfoMatcher: ".*<Annotation>\\s+<AnnotationProperty\\s+abbreviatedIRI=\"owl:versionInfo\"/>\\s+<Literal[^>]*>([^<]+?)</Literal>.*"
+    importsMatcher: "NOT_IMPLEMENTED"
+
+  - name: TurtleHeaderExtractor
+    formatMatcher: ".*((@prefix|@base).*)|.\\s*$"
+    iriMatcher: "^.*<([^>]+)>\\s+(?:a|rdf:type)\\s+owl:Ontology.*$"
+    versionIriMatcher: ".*[a-zA-Z0-9]*:?versionIRI\\s+<([^>]+)>.*"
+    versionInfoMatcher: ".*[a-zA-Z0-9]*:?versionInfo\\s+\"([^\"]+?)\".*"
+    importsMatcher: ".*[a-zA-Z0-9]*:?imports\\s+\"([^\"]+?)\".*"
+
+  - name: RDFXMLOntologyHeaderExtractor
+    formatMatcher: ".*<rdf:RDF.*"
+    iriMatcher: ".*<[a-zA-Z0-9]*:?Ontology [a-zA-Z0-9]*:?about=\"([^\"]+?)\"(/)?>.*"
+    versionIriMatcher: ".*<[a-zA-Z0-9]*:?versionIRI [a-zA-Z0-9]*:?resource=\"([^\"]+?)\"/>.*"
+    versionInfoMatcher: ".*<[a-zA-Z0-9]*:?versionInfo[^>]*>(.+?)</[a-zA-Z0-9]*:?versionInfo>.*"
+    importsMatcher: "<[a-zA-Z0-9]*:?imports [a-zA-Z0-9]*:?resource=\"([^\"]+?)\"/>"

@@ -29,6 +29,7 @@ dependencies {
     implementation(libs.httpclient5)
     implementation(libs.jena)
     implementation(libs.freemarker)
+    implementation(libs.jacksonyaml)
 
     testImplementation(libs.bundles.testDependencies)
     testRuntimeOnly(libs.bundles.testRuntimeOnly)

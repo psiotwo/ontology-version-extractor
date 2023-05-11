@@ -1,6 +1,8 @@
 package cz.sio2.obo;
 
-import cz.sio2.obo.extractor.*;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -17,21 +19,25 @@ import org.apache.hc.core5.util.Timeout;
 import java.io.IOException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import static cz.sio2.obo.Utils.createBuilder;
 
 @Slf4j
 public class HeaderFetcher {
 
-    final static List<OntologyHeaderExtractor> ONTOLOGY_HEADER_EXTRACTORS = new ArrayList<>();
+    public final static Map<String,OntologyHeaderExtractor> ONTOLOGY_HEADER_EXTRACTORS = new HashMap<>();
 
     static {
-        ONTOLOGY_HEADER_EXTRACTORS.add(new RDFXMLOntologyHeaderExtractor());
-        ONTOLOGY_HEADER_EXTRACTORS.add(new FSOntologyHeaderExtractor());
-        ONTOLOGY_HEADER_EXTRACTORS.add(new XMLOntologyHeaderExtractor());
-        ONTOLOGY_HEADER_EXTRACTORS.add(new TurtleHeaderExtractor());
+        final ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
+        try {
+            mapper.readValue(HeaderFetcher.class.getResourceAsStream("/extractors.yml"), new TypeReference<List<OntologyHeaderExtractor>>() {
+            } ).forEach(a -> ONTOLOGY_HEADER_EXTRACTORS.put(a.getName(), a));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     /**
@@ -101,7 +107,7 @@ public class HeaderFetcher {
 
     private OntologyHeader extract(final String content) {
         final Extractor e = new Extractor();
-        for (final OntologyHeaderExtractor ohe : ONTOLOGY_HEADER_EXTRACTORS) {
+        for (final OntologyHeaderExtractor ohe : ONTOLOGY_HEADER_EXTRACTORS.values()) {
             final OntologyHeader header = e.extract(content, ohe);
             if (header != null) {
                 return header;
