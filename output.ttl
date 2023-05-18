@@ -317,9 +317,9 @@
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/maxo/releases/2023-05-02/maxo.owl> ;
+                <http://purl.obolibrary.org/obo/maxo/releases/2023-05-17/maxo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-05-02" .
+                "2023-05-17" .
 
 <http://purl.obolibrary.org/obo/bto.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -752,9 +752,9 @@
 <http://purl.obolibrary.org/obo/wbls.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbls/releases/2023-04-11/wbls.owl> ;
+                <http://purl.obolibrary.org/obo/wbls/releases/2023-05-17/wbls.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-04-11" .
+                "2023-05-17" .
 
 <http://purl.obolibrary.org/obo/micro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -882,9 +882,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2023-03-08/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2023-05-17/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-08" .
+                "2023-05-17" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1071,7 +1071,11 @@
                 "2023-03-02" .
 
 <http://purl.obolibrary.org/obo/ons.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> .
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#imports>
+                <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/src/ontology/imports/ONS_import_01192022_noDeprec.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "Release version 1.2.3" .
 
 <http://purl.obolibrary.org/obo/pco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
