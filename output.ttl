@@ -223,9 +223,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2023-03-15" .
 
-<http://purl.obolibrary.org/obo/uo.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> .
-
 <http://purl.obolibrary.org/obo/ornaseq.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -839,7 +836,7 @@
 <http://purl.obolibrary.org/obo/uberon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/uberon/releases/2023-04-19/uberon.owl> .
+                <http://purl.obolibrary.org/obo/uberon/releases/2023-05-23/uberon.owl> .
 
 <http://purl.obolibrary.org/obo/hancestro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
