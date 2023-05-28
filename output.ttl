@@ -119,9 +119,9 @@
 <http://purl.obolibrary.org/obo/bspo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/bspo/releases/2022-11-16/bspo.owl> ;
+                <http://purl.obolibrary.org/obo/bspo/releases/2023-05-27/bspo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-11-16" .
+                "2023-05-27" .
 
 <http://purl.obolibrary.org/obo/rxno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
