@@ -17,6 +17,11 @@
         <https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import>
                 <http://purl.obolibrary.org/obo/cido/imports/ICDO_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/OBCS_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/CHEBI_imports.owl> , <http://purl.obolibrary.org/obo/Du_viral_Ontorat.owl> , <http://purl.obolibrary.org/obo/cido/imports/UBERON_imports.owl> , <http://purl.obolibrary.org/obo/Ghida_PPIs_Ontorat_out.owl> , <http://purl.obolibrary.org/obo/Du_drug_Ontorat.owl> , <http://purl.obolibrary.org/obo/cido/imports/RO_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/HP_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/DOID_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/APOLLO_SV_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/NCBITaxon_imports.owl> , <http://purl.obolibrary.org/obo/FDA_EUA_v3.17.owl> , <http://purl.obolibrary.org/obo/cido/imports/DrON_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/OAE_imports.owl> , <http://purl.obolibrary.org/obo/DrugsNoChEBI_interactions_with_targets.owl> , <http://purl.obolibrary.org/obo/cido/imports/PR_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/OBI_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/OGG_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/OPMI_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/ENVO_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/NDF-RT_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/GO_imports.owl> , <http://purl.obolibrary.org/obo/cido/imports/IDO_imports.owl> , <http://purl.obolibrary.org/obo/Specific_host_SARS2_PPIs.owl> , <http://purl.obolibrary.org/obo/pro_sars2.owl> .
 
+<http://purl.obolibrary.org/obo/fideo.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/fideo/releases/2023-02-01/fideo.owl> .
+
 <http://purl.obolibrary.org/obo/nbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -100,9 +105,9 @@
 <http://purl.obolibrary.org/obo/hao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/hao/2021-03-05/hao.owl> ;
+                <http://purl.obolibrary.org/obo/hao/2023-06-01/hao.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2021-03-05" .
+                "2023-06-01" .
 
 <http://purl.obolibrary.org/obo/zfa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -240,7 +245,7 @@
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chebi/221/chebi.owl> .
+                <http://purl.obolibrary.org/obo/chebi/222/chebi.owl> .
 
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -416,9 +421,9 @@
 <http://purl.obolibrary.org/obo/vbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vbo/releases/2023-03-09/vbo.owl> ;
+                <http://purl.obolibrary.org/obo/vbo/releases/2023-06-02/vbo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-09" .
+                "2023-06-02" .
 
 <http://purl.obolibrary.org/obo/fbdv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -566,7 +571,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2023-05-01/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2023-06-01/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -966,9 +971,9 @@
 <http://purl.obolibrary.org/obo/eupath.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/eupath/2023-03-20/eupath.owl> ;
+                <http://purl.obolibrary.org/obo/eupath/2023-05-30/eupath.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-20" .
+                "2023-05-30" .
 
 <http://purl.obolibrary.org/obo/cdno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
