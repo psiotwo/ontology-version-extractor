@@ -257,7 +257,7 @@
 <http://purl.obolibrary.org/obo/hp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/hp/releases/2023-04-05/hp.owl> .
+                <http://purl.obolibrary.org/obo/hp/releases/2023-06-06/hp.owl> .
 
 <http://purl.obolibrary.org/obo/duo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -612,9 +612,9 @@
 <http://purl.obolibrary.org/obo/oba.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/oba/releases/2023-05-11/oba.owl> ;
+                <http://purl.obolibrary.org/obo/oba/releases/2023-06-07/oba.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-05-11" .
+                "2023-06-07" .
 
 <http://purl.obolibrary.org/obo/agro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -759,13 +759,6 @@
                 <http://purl.obolibrary.org/obo/wbls/releases/2023-05-17/wbls.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2023-05-17" .
-
-<http://purl.obolibrary.org/obo/micro.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#imports>
-                <https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/BSPO_imports.owl> , <https://raw.githubusercontent.com/carrineblank/MicrO/master/MicrOandImportModules/BFO_imports.owl> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "MicrO (An Ontology of Prokaryotic Phenotypic and Metabolic Characters).  Version 1.5.1 released 6/14/2018.  Includes terms and term synonyms extracted from &gt; 3000 prokaryotic taxonomic descriptions, collected from a large number of taxonomic descriptions from Archaea, Cyanobacteria, Bacteroidetes, Firmicutes and Mollicutes.  The ontology and the synonym lists were developed to facilitate the automated extraction of phenotypic data and character states from prokaryotic taxonomic descriptions using a natural language processing algorithm (MicroPIE).  MicroPIE was developed by Hong Cui, Elvis Hsin-Hui Wu, and Jin Mao (University of Arizona) in collaboration with Carrine E. Blank (University of Montana) and Lisa R. Moore (University of Southern Maine).  Descriptions and links to MicroPIE can be found at http://avatol.org/ngp/nlp/overview-2/. https://github.com/biosemantics/micropie2  The most current version of MicrO can be downloaded from https://github.com/carrineblank/MicrO." .
 
 <http://purl.obolibrary.org/obo/clao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
