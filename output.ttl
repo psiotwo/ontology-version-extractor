@@ -368,13 +368,6 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/symp/releases/2022-11-30/symp.owl> .
 
-<http://purl.obolibrary.org/obo/sepio.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/sepio/releases/2023-02-21/sepio.owl> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-02-21" .
-
 <http://purl.obolibrary.org/obo/ico.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
@@ -1065,9 +1058,9 @@
 <http://purl.obolibrary.org/obo/rbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/rbo/releases/2023-03-02/rbo.owl> ;
+                <http://purl.obolibrary.org/obo/rbo/releases/2023-06-13/rbo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-02" .
+                "2023-06-13" .
 
 <http://purl.obolibrary.org/obo/ons.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
