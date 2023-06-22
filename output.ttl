@@ -316,7 +316,7 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/stato.owl> , <http://purl.obolibrary.org/obo/pato.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ms/4.1.124/ms.owl> .
+                <http://purl.obolibrary.org/obo/ms/4.1.126/ms.owl> .
 
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -691,7 +691,7 @@
 <http://purl.obolibrary.org/obo/ncbitaxon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ncbitaxon/2023-06-16/ncbitaxon.owl> .
+                <http://purl.obolibrary.org/obo/ncbitaxon/2023-06-20/ncbitaxon.owl> .
 
 <http://purl.obolibrary.org/obo/fbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -874,9 +874,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2023-06-19/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2023-06-21/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-06-19" .
+                "2023-06-21" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1046,9 +1046,9 @@
 <http://purl.obolibrary.org/obo/genepio.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#imports>
-                <http://purl.obolibrary.org/obo/genepio/imports/temporary_mint_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/ro_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/specification_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/deprecation_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/specification_mint_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/obi_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/model_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/foodon_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/general_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/specification_enum_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/doid_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/ncbitaxon_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/envo_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/gaz_insdc_mapping.owl> , <http://purl.obolibrary.org/obo/genepio/imports/specification_field_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/chebi_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/ontology-metadata.owl> , <http://purl.obolibrary.org/obo/genepio/imports/gazetteer_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/hardcoded.owl> , <http://purl.obolibrary.org/obo/genepio/imports/uberon_import.owl> , <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> ;
+                <http://purl.obolibrary.org/obo/genepio/imports/ro_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/specification_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/deprecation_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/specification_mint_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/obi_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/model_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/foodon_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/general_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/specification_enum_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/doid_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/ncbitaxon_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/envo_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/gaz_insdc_mapping.owl> , <http://purl.obolibrary.org/obo/genepio/imports/specification_field_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/chebi_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/ontology-metadata.owl> , <http://purl.obolibrary.org/obo/genepio/imports/gazetteer_import.owl> , <http://purl.obolibrary.org/obo/genepio/imports/hardcoded.owl> , <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/genepio/releases/2023-01-26/genepio.owl> .
+                <http://purl.obolibrary.org/obo/genepio/releases/2023-06-21/genepio.owl> .
 
 <http://purl.obolibrary.org/obo/emapa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
