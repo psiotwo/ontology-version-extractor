@@ -784,6 +784,15 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2.0" .
 
+<http://purl.obolibrary.org/obo/mcro.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#imports>
+                <https://raw.githubusercontent.com/UTHealth-Ontology/mcro/main/import/swo_import_final.owl> , <http://www.w3.org/ns/prov-o-20130430> , <http://www.w3.org/2004/02/skos/core> , <http://purl.obolibrary.org/obo/iao.owl> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/2023-03-07/mcro.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2023-03-07" .
+
 <http://purl.obolibrary.org/obo/sbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
