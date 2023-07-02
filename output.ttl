@@ -245,7 +245,7 @@
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chebi/222/chebi.owl> .
+                <http://purl.obolibrary.org/obo/chebi/223/chebi.owl> .
 
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -786,10 +786,8 @@
 
 <http://purl.obolibrary.org/obo/cheminf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#imports>
-                <http://purl.obolibrary.org/obo/iao.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2.0" .
+                "2.1.0" .
 
 <http://purl.obolibrary.org/obo/mcro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
