@@ -571,7 +571,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2023-06-01/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2023-07-03/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -775,9 +775,9 @@
 <http://purl.obolibrary.org/obo/ro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ro/releases/2023-02-22/ro.owl> ;
+                <http://purl.obolibrary.org/obo/ro/releases/2023-06-28/ro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-02-22" .
+                "2023-06-28" .
 
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -888,9 +888,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2023-06-29/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2023-07-03/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-06-29" .
+                "2023-07-03" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
