@@ -559,7 +559,7 @@
 <http://purl.obolibrary.org/obo/cmo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cmo/2.184/cmo.owl> .
+                <http://purl.obolibrary.org/obo/cmo/2.185/cmo.owl> .
 
 <http://purl.obolibrary.org/obo/apollo_sv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -756,9 +756,9 @@
 <http://purl.obolibrary.org/obo/wbls.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbls/releases/2023-05-17/wbls.owl> ;
+                <http://purl.obolibrary.org/obo/wbls/releases/2023-07-10/wbls.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-05-17" .
+                "2023-07-10" .
 
 <http://purl.obolibrary.org/obo/clao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -888,9 +888,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2023-07-03/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2023-07-10/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-07-03" .
+                "2023-07-10" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1112,9 +1112,9 @@
 <http://purl.obolibrary.org/obo/wbphenotype.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbphenotype/releases/2023-05-18/wbphenotype.owl> ;
+                <http://purl.obolibrary.org/obo/wbphenotype/releases/2023-07-10/wbphenotype.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-05-18" .
+                "2023-07-10" .
 
 <http://purl.obolibrary.org/obo/ogg.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
