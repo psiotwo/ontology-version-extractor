@@ -888,9 +888,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2023-07-10/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2023-07-12/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-07-10" .
+                "2023-07-12" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
