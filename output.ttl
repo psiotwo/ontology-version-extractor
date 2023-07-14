@@ -171,7 +171,7 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/po/imports/ro_import.owl> , <http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/po/releases/2021-08-13/po.owl> .
+                <http://purl.obolibrary.org/obo/po/releases/2023-07-13/po.owl> .
 
 <http://purl.obolibrary.org/obo/ecao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
