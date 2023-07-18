@@ -183,7 +183,7 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/to/imports/go_import.owl> , <http://purl.obolibrary.org/obo/to/imports/chebi_import.owl> , <http://purl.obolibrary.org/obo/to/imports/envo_import.owl> , <http://purl.obolibrary.org/obo/to/imports/peco_import.owl> , <http://purl.obolibrary.org/obo/to/patterns/merge_patterns.owl> , <http://purl.obolibrary.org/obo/to/imports/ncbitaxon_import.owl> , <http://purl.obolibrary.org/obo/to/imports/pato_import.owl> , <http://purl.obolibrary.org/obo/po.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/to/releases/2022-04-13/to.owl> .
+                <http://purl.obolibrary.org/obo/to/releases/2023-07-17/to.owl> .
 
 <http://purl.obolibrary.org/obo/mi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -1100,7 +1100,7 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_role_pattern.owl> , <http://purl.obolibrary.org/obo/peco/patterns/exposure-ncbitaxon_pattern.owl> , <http://purl.obolibrary.org/obo/peco/imports/ncbitaxon_import.owl> , <http://purl.obolibrary.org/obo/peco/imports/envo_import.owl> , <http://purl.obolibrary.org/obo/peco/imports/ro_import.owl> , <http://purl.obolibrary.org/obo/peco/imports/chebi_import.owl> , <http://purl.obolibrary.org/obo/peco/patterns/exposure-envo_pattern.owl> , <http://purl.obolibrary.org/obo/peco/patterns/exposure-chebi_pattern.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/peco/releases/2020-08-21/peco.owl> .
+                <http://purl.obolibrary.org/obo/peco/releases/2023-07-17/peco.owl> .
 
 <http://purl.obolibrary.org/obo/pcl.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
