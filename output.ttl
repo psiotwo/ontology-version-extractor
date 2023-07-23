@@ -37,9 +37,9 @@
 <http://purl.obolibrary.org/obo/ohd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ohd/releases/2023-04-14/ohd.owl> ;
+                <http://purl.obolibrary.org/obo/ohd/releases/2023-07-22/ohd.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-04-14" .
+                "2023-07-22" .
 
 <http://purl.obolibrary.org/obo/plana.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
