@@ -41,7 +41,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/zfs.owl,http://purl.ob
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/cheminf.owl,null,2.1.0,2.1.0,,
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/xco.owl,http://purl.obolibrary.org/obo/xco/4.46/xco.owl,null,4.46,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/geno.owl,http://purl.obolibrary.org/obo/geno/releases/2023-02-21/geno.owl,2023-02-21,2023-02-21,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/dron.owl,http://purl.obolibrary.org/obo/dron/releases/2023-06-11/dron.owl,2023-06-11,2023-06-11,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/dron.owl,http://purl.obolibrary.org/obo/dron/releases/2023-08-17/dron.owl,2023-08-17,2023-08-17,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/tto.owl,null,null,null,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/emapa.owl,http://purl.obolibrary.org/obo/emapa/releases/2023-05-05/emapa.owl,null,2023-05-05,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/omrse.owl,http://purl.obolibrary.org/obo/omrse/releases/2023-05-19/omrse.owl,2023-05-19,2023-05-19,,
