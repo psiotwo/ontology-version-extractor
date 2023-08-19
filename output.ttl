@@ -30,9 +30,7 @@
                 "2023-07-04" .
 
 <http://purl.obolibrary.org/obo/mmusdv.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mmusdv/releases/2020-03-10/mmusdv.owl> .
+        a       <http://www.w3.org/2002/07/owl#Ontology> .
 
 <http://purl.obolibrary.org/obo/ohd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -641,11 +639,6 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/xlmod/release/2019-10-28/xlmod.owl> .
 
-<http://purl.obolibrary.org/obo/olatdv.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/olatdv/releases/2020-03-10/olatdv.owl> .
-
 <http://purl.obolibrary.org/obo/ohpi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -736,11 +729,6 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/fao/releases/2020-05-07/fao.owl> .
 
-<http://purl.obolibrary.org/obo/pdumdv.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pdumdv/releases/2020-03-10/pdumdv.owl> .
-
 <http://purl.obolibrary.org/obo/pso.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -775,9 +763,9 @@
 <http://purl.obolibrary.org/obo/ro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ro/releases/2023-06-28/ro.owl> ;
+                <http://purl.obolibrary.org/obo/ro/releases/2023-08-18/ro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-06-28" .
+                "2023-08-18" .
 
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -921,9 +909,7 @@
                 "2017-11-03" .
 
 <http://purl.obolibrary.org/obo/hsapdv.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/hsapdv/releases/2020-03-10/hsapdv.owl> .
+        a       <http://www.w3.org/2002/07/owl#Ontology> .
 
 <http://purl.obolibrary.org/obo/iao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
