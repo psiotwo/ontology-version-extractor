@@ -386,9 +386,9 @@
 <http://purl.obolibrary.org/obo/omo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/omo/releases/2023-07-28/omo.owl> ;
+                <http://purl.obolibrary.org/obo/omo/releases/2023-08-23/omo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-07-28" .
+                "2023-08-23" .
 
 <http://purl.obolibrary.org/obo/ngbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
