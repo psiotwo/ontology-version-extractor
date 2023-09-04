@@ -457,7 +457,7 @@
 <http://purl.obolibrary.org/obo/eco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/eco/releases/2023-04-07/eco.owl> .
+                <http://purl.obolibrary.org/obo/eco/releases/2023-09-03/eco.owl> .
 
 <http://purl.obolibrary.org/obo/ino.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
