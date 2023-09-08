@@ -536,9 +536,9 @@
 <http://purl.obolibrary.org/obo/phipo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/phipo/releases/2023-08-03/phipo.owl> ;
+                <http://purl.obolibrary.org/obo/phipo/releases/2023-09-07/phipo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-08-03" .
+                "2023-09-07" .
 
 <http://purl.obolibrary.org/obo/ontoavida.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
