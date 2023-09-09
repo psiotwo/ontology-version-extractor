@@ -701,11 +701,6 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/mod/1.031.6/mod.owl> .
 
-<http://purl.obolibrary.org/obo/oae.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "1.2.47" .
-
 <http://purl.obolibrary.org/obo/flopo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#imports>
@@ -883,7 +878,9 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/2022-02-23/psdo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "1.0.1" .
+                "1.0.1" ;
+        <https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import>
+                <http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl> .
 
 <http://purl.obolibrary.org/obo/fobi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
