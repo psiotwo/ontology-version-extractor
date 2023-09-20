@@ -687,7 +687,7 @@
 <http://purl.obolibrary.org/obo/ncbitaxon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ncbitaxon/2023-09-14/ncbitaxon.owl> .
+                <http://purl.obolibrary.org/obo/ncbitaxon/2023-09-19/ncbitaxon.owl> .
 
 <http://purl.obolibrary.org/obo/fbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
