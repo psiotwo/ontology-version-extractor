@@ -82,9 +82,9 @@
 <http://purl.obolibrary.org/obo/omrse.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/omrse/releases/2023-09-20/omrse.owl> ;
+                <http://purl.obolibrary.org/obo/omrse/releases/2023-10-08/omrse.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-09-20" .
+                "2023-10-08" .
 
 <http://purl.obolibrary.org/obo/ppo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -925,9 +925,9 @@
 <http://purl.obolibrary.org/obo/geno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/geno/releases/2023-02-21/geno.owl> ;
+                <http://purl.obolibrary.org/obo/geno/releases/2023-10-08/geno.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-02-21" .
+                "2023-10-08" .
 
 <http://purl.obolibrary.org/obo/oostt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
