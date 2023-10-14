@@ -832,9 +832,9 @@
 <http://purl.obolibrary.org/obo/hancestro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/hancestro/releases/2023-07-31/hancestro.owl> ;
+                <http://purl.obolibrary.org/obo/hancestro/releases/2023-10-13/hancestro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "3.0" .
+                "2023-10-13" .
 
 <http://purl.obolibrary.org/obo/fbbi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
