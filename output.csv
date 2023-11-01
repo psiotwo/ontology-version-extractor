@@ -118,7 +118,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/pcl.owl,http://purl.ob
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/envo.owl,http://purl.obolibrary.org/obo/envo/releases/2023-02-13/envo.owl,2023-02-13,2023-02-13,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fao.owl,http://purl.obolibrary.org/obo/fao/releases/2020-05-07/fao.owl,null,2020-05-07,http://purl.obolibrary.org/obo/fao/imports/ncbitaxon_import.owl,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/aro.owl,null,null,null,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/pso.owl,http://purl.obolibrary.org/obo/pso/releases/2020-05-19/pso.owl,null,2020-05-19,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/pso.owl,http://purl.obolibrary.org/obo/pso/releases/2023-10-19/pso.owl,2023-10-19,2023-10-19,,
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/vo.owl,null,1.1.245,1.1.245,,
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/oarcs.owl,http://purl.obolibrary.org/obo/hao/2019-04-18/hao.owl,2019-04-18,2019-04-18,,
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ido.owl,http://purl.obolibrary.org/obo/ido/2017-11-03/ido.owl,2017-11-03,2017-11-03,,

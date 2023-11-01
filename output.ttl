@@ -714,7 +714,9 @@
 <http://purl.obolibrary.org/obo/pso.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pso/releases/2020-05-19/pso.owl> .
+                <http://purl.obolibrary.org/obo/pso/releases/2023-10-19/pso.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2023-10-19" .
 
 <http://purl.obolibrary.org/obo/obcs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
