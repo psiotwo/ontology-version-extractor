@@ -710,9 +710,9 @@
 <http://purl.obolibrary.org/obo/pso.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pso/releases/2023-10-19/pso.owl> ;
+                <http://purl.obolibrary.org/obo/pso/releases/2023-11-14/pso.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-10-19" .
+                "2023-11-14" .
 
 <http://purl.obolibrary.org/obo/obcs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -792,11 +792,7 @@
                 <http://purl.obolibrary.org/obo/hso/2021-12-13/hso.owl> .
 
 <http://purl.obolibrary.org/obo/vo.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#imports>
-                <http://purl.obolibrary.org/obo/vo/external/RO_import.owl> , <http://purl.obolibrary.org/obo/vo/external/PR_import.owl> , <http://purl.obolibrary.org/obo/ontorat_0000001.owl> , <http://purl.obolibrary.org/obo/vo/external/IAO_import.owl> , <http://purl.obolibrary.org/obo/vo/external/OBI_import.owl> , <http://purl.obolibrary.org/obo/vo/external/GO_import.owl> , <http://purl.obolibrary.org/obo/opl/2023-08-28/opl.owl> , <http://purl.obolibrary.org/obo/vo/external/OGG_import.owl> , <http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl> , <http://purl.obolibrary.org/obo/bfo.owl> , <http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl> , <http://purl.obolibrary.org/obo/vo/external/DOID_import.owl> , <http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl> , <http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl> , <http://purl.obolibrary.org/obo/vo/dev/cancer_vaccine.owl> , <http://purl.obolibrary.org/obo/vo/external/IDO_import.owl> , <http://purl.obolibrary.org/obo/vo/external/externalByHand.owl> , <http://purl.obolibrary.org/obo/omo.owl> , <http://purl.obolibrary.org/obo/vo/external/FMA_import.owl> , <http://purl.obolibrary.org/obo/vo/external/OAE_import.owl> , <http://purl.obolibrary.org/obo/ro/core.owl> , <http://purl.obolibrary.org/obo/vo/external/PATO_import.owl> , <http://purl.obolibrary.org/obo/vo/external/CL_import.owl> ;
-        <https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import>
-                <http://purl.obolibrary.org/obo/vo/external/RO_import.owl> , <http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl> , <http://purl.obolibrary.org/obo/vo/external/OBI_import.owl> , <http://purl.obolibrary.org/obo/vo/external/PATO_import.owl> , <http://purl.obolibrary.org/obo/vo/external/OGMS_import.owl> , <http://purl.obolibrary.org/obo/vo/external/OGG_import.owl> , <http://purl.obolibrary.org/obo/ontorat_0000001.owl> , <http://purl.obolibrary.org/obo/vo/external/IDO_import.owl> , <http://purl.obolibrary.org/obo/vo/external/DOID_import.owl> , <http://purl.obolibrary.org/obo/vo/external/OAE_import.owl> , <http://purl.obolibrary.org/obo/vo/external/FMA_import.owl> , <http://purl.obolibrary.org/obo/vo/external/externalByHand.owl> , <http://purl.obolibrary.org/obo/vo/external/CL_import.owl> , <http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl> , <http://purl.obolibrary.org/obo/vo/external/PR_import.owl> , <http://purl.obolibrary.org/obo/vo/dev/cancer_vaccine.owl> , <http://purl.obolibrary.org/obo/vo/external/CHEBI_import.owl> , <http://purl.obolibrary.org/obo/vo/external/IAO_import.owl> , <http://purl.obolibrary.org/obo/vo/external/GO_import.owl> .
+        a       <http://www.w3.org/2002/07/owl#Ontology> .
 
 <http://purl.obolibrary.org/obo/dideo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1032,7 +1028,7 @@
 <http://purl.obolibrary.org/obo/emapa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/emapa/releases/2023-05-05/emapa.owl> .
+                <http://purl.obolibrary.org/obo/emapa/releases/2023-11-14/emapa.owl> .
 
 <http://purl.obolibrary.org/obo/rbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
