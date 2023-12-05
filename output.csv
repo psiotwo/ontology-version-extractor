@@ -39,7 +39,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/to.owl,http://purl.obo
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/plana.owl,http://purl.obolibrary.org/obo/plana/releases/2023-03-13,2023-03-13,2023-03-13,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/zfs.owl,http://purl.obolibrary.org/obo/zfs/releases/2020-03-10/zfs.owl,null,2020-03-10,,
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/cheminf.owl,null,2.1.0,2.1.0,,
-NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/xco.owl,http://purl.obolibrary.org/obo/xco/4.146/xco.owl,null,4.146,,
+NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/xco.owl,http://purl.obolibrary.org/obo/xco/4.147/xco.owl,null,4.147,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/geno.owl,http://purl.obolibrary.org/obo/geno/releases/2023-10-08/geno.owl,2023-10-08,2023-10-08,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/dron.owl,http://purl.obolibrary.org/obo/dron/releases/2023-08-17/dron.owl,2023-08-17,2023-08-17,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/tto.owl,null,null,null,,
