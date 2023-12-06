@@ -168,7 +168,7 @@ NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/swo.owl,http://www.ebi.ac.uk/
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/t4fs.owl,http://purl.obolibrary.org/obo/t4fs/releases/2023-03-02/t4fs.owl,2023-03-02,2023-03-02,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ado.owl,http://purl.obolibrary.org/obo/ado/releases/2023-09-20/ado.owl,2.0.1,2023-09-20,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ma.owl,http://purl.obolibrary.org/obo/ma/releases/2017-02-07/ma.owl,null,2017-02-07,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cl.owl,http://purl.obolibrary.org/obo/cl/releases/2023-10-19/cl.owl,2023-10-19,2023-10-19,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cl.owl,http://purl.obolibrary.org/obo/cl/releases/2023-12-05/cl.owl,2023-12-05,2023-12-05,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/disdriv.owl,null,null,null,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/clao.owl,http://purl.obolibrary.org/obo/clao/releases/2021-09-27/clao.owl,2021-09-27,2021-09-27,,
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mfomd.owl,http://purl.obolibrary.org/obo/MFOMD/2020-04-26/MFOMD.owl,2020-04-26,2020-04-26,http://purl.obolibrary.org/obo/MF.owl|http://purl.obolibrary.org/obo/ogms.owl|http://purl.obolibrary.org/obo/MF/internal/MD-core.owl|http://purl.obolibrary.org/obo/MF/internal/MF-core.owl,
