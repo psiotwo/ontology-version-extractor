@@ -178,4 +178,4 @@ STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ohmi.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/rbo.owl,http://purl.obolibrary.org/obo/rbo/releases/2023-09-05/rbo.owl,2023-09-05,2023-09-05,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cio.owl,http://purl.obolibrary.org/obo/cio/releases/2015-03-10/cio.owl,null,2015-03-10,,
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/clo.owl,null,2.1.178,2.1.178,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/apo.owl,http://purl.obolibrary.org/obo/apo/releases/2023-10-03/apo.owl,2023-10-03,2023-10-03,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/apo.owl,http://purl.obolibrary.org/obo/apo/releases/2023-12-07/apo.owl,2023-12-07,2023-12-07,,
