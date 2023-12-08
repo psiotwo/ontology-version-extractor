@@ -413,9 +413,9 @@
 <http://purl.obolibrary.org/obo/fbdv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fbdv/releases/2023-10-18/fbdv.owl> ;
+                <http://purl.obolibrary.org/obo/fbdv/releases/2023-12-07/fbdv.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-10-18" .
+                "2023-12-07" .
 
 <http://purl.obolibrary.org/obo/mro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -674,9 +674,9 @@
 <http://purl.obolibrary.org/obo/fbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fbbt/releases/2023-10-18/fbbt.owl> ;
+                <http://purl.obolibrary.org/obo/fbbt/releases/2023-12-07/fbbt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-10-18" .
+                "2023-12-07" .
 
 <http://purl.obolibrary.org/obo/mod.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -930,13 +930,6 @@
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/mmo/2.121/mmo.owl> .
-
-<http://purl.obolibrary.org/obo/eupath.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/eupath/2023-05-30/eupath.owl> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-05-30" .
 
 <http://purl.obolibrary.org/obo/cdno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
