@@ -549,7 +549,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2023-09-12/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2023-12-12/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -669,7 +669,9 @@
 <http://purl.obolibrary.org/obo/ncbitaxon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ncbitaxon/2023-09-19/ncbitaxon.owl> .
+                <http://purl.obolibrary.org/obo/ncbitaxon/2023-12-12/ncbitaxon.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2023-12-12" .
 
 <http://purl.obolibrary.org/obo/fbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
