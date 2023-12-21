@@ -571,9 +571,9 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/doid/obo/ext.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/doid/releases/2023-11-30/doid.owl> ;
+                <http://purl.obolibrary.org/obo/doid/releases/2023-12-20/doid.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-11-30" .
+                "2023-12-20" .
 
 <http://purl.obolibrary.org/obo/omp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
