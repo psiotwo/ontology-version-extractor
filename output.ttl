@@ -826,7 +826,7 @@
 <http://purl.obolibrary.org/obo/uberon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/uberon/releases/2023-12-08/uberon.owl> .
+                <http://purl.obolibrary.org/obo/uberon/releases/2024-01-18/uberon.owl> .
 
 <http://purl.obolibrary.org/obo/hancestro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -866,9 +866,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2023-12-29/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2024-01-19/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-12-29" .
+                "2024-01-19" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
