@@ -654,7 +654,11 @@
                 "2024-01-08" .
 
 <http://purl.obolibrary.org/obo/vt.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> .
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/vt/releases/2024-01-17/vt.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2024-01-17" .
 
 <http://purl.obolibrary.org/obo/ovae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -831,9 +835,9 @@
 <http://purl.obolibrary.org/obo/hancestro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/hancestro/releases/2023-10-13/hancestro.owl> ;
+                <http://purl.obolibrary.org/obo/hancestro/releases/2024-01-24/hancestro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-10-13" .
+                "2024-01-24" .
 
 <http://purl.obolibrary.org/obo/dpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -962,9 +966,9 @@
 <http://purl.obolibrary.org/obo/cob.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cob/releases/2023-05-12/cob.owl> ;
+                <http://purl.obolibrary.org/obo/cob/releases/2023-11-16/cob.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-05-12" .
+                "2023-11-16" .
 
 <http://purl.obolibrary.org/obo/fbcv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
