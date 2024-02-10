@@ -353,7 +353,9 @@
 <http://purl.obolibrary.org/obo/symp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/symp/releases/2022-11-30/symp.owl> .
+                <http://purl.obolibrary.org/obo/symp/releases/2024-02-09/symp.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2024-02-09" .
 
 <http://purl.obolibrary.org/obo/sepio.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
