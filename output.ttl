@@ -400,9 +400,9 @@
 <http://purl.obolibrary.org/obo/dron.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/dron/releases/2024-02-20/dron.owl> ;
+                <http://purl.obolibrary.org/obo/dron/releases/2024-03-03/dron.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-02-20" .
+                "2024-03-03" .
 
 <http://purl.obolibrary.org/obo/xao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
