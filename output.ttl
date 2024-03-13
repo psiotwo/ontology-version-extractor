@@ -653,9 +653,9 @@
 <http://purl.obolibrary.org/obo/apo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/apo/releases/2024-02-10/apo.owl> ;
+                <http://purl.obolibrary.org/obo/apo/releases/2024-03-12/apo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-02-10" .
+                "2024-03-12" .
 
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
