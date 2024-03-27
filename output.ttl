@@ -667,9 +667,9 @@
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vt/releases/2024-03-08/vt.owl> ;
+                <http://purl.obolibrary.org/obo/vt/releases/2024-03-22/vt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-03-08" .
+                "2024-03-22" .
 
 <http://purl.obolibrary.org/obo/ovae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -686,9 +686,9 @@
 <http://purl.obolibrary.org/obo/ncbitaxon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ncbitaxon/2024-02-28/ncbitaxon.owl> ;
+                <http://purl.obolibrary.org/obo/ncbitaxon/2024-03-26/ncbitaxon.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-02-28" .
+                "2024-03-26" .
 
 <http://purl.obolibrary.org/obo/fbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -776,7 +776,7 @@
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <https://github.com/FoodOntology/foodon/releases/download/v2024-02-21/foodon.owl> .
+                <https://github.com/FoodOntology/foodon/releases/download/v2024-03-25/foodon.owl> .
 
 <http://purl.obolibrary.org/obo/cheminf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -881,9 +881,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2024-03-20/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2024-03-26/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-03-20" .
+                "2024-03-26" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
