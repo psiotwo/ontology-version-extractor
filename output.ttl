@@ -472,9 +472,9 @@
 <http://purl.obolibrary.org/obo/gallont.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/gallont/releases/2024-03-25/gallont.owl> ;
+                <http://purl.obolibrary.org/obo/gallont/releases/2024-03-27/gallont.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-03-25" .
+                "2024-03-27" .
 
 <http://purl.obolibrary.org/obo/stato.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -601,9 +601,9 @@
 <http://purl.obolibrary.org/obo/oba.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/oba/releases/2024-01-12/oba.owl> ;
+                <http://purl.obolibrary.org/obo/oba/releases/2024-03-27/oba.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-01-12" .
+                "2024-03-27" .
 
 <http://purl.obolibrary.org/obo/agro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -776,7 +776,7 @@
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <https://github.com/FoodOntology/foodon/releases/download/v2024-03-25/foodon.owl> .
+                <https://github.com/FoodOntology/foodon/releases/download/v2024-03-26/foodon.owl> .
 
 <http://purl.obolibrary.org/obo/cheminf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
