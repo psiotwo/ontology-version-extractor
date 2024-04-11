@@ -21,7 +21,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/eco.owl,http://purl.ob
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/vt.owl,http://purl.obolibrary.org/obo/vt/releases/2024-04-01/vt.owl,2024-04-01,2024-04-01,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fbdv.owl,http://purl.obolibrary.org/obo/fbdv/releases/2024-02-21/fbdv.owl,2024-02-21,2024-02-21,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/taxrank.owl,http://purl.obolibrary.org/obo/taxrank/releases/2016-04-15/taxrank.owl,null,2016-04-15,,
-STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/so.owl,http://purl.obolibrary.org/obo/so/2021-11-22/so.owl,null,2021-11-22,,
+STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/so.owl,http://purl.obolibrary.org/obo/so/2024-04-10/so.owl,null,2024-04-10,,
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mod.owl,http://purl.obolibrary.org/obo/mod/1.031.6/mod.owl,null,1.031.6,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/cto.owl,null,null,null,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/scdo.owl,http://purl.obolibrary.org/obo/scdo/releases/2021-04-15/scdo.owl,null,2021-04-15,,

@@ -843,7 +843,7 @@
 <http://purl.obolibrary.org/obo/so.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/so/2021-11-22/so.owl> .
+                <http://purl.obolibrary.org/obo/so/2024-04-10/so.owl> .
 
 <http://purl.obolibrary.org/obo/uberon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
