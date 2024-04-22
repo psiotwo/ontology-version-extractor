@@ -491,9 +491,9 @@
 <http://purl.obolibrary.org/obo/xpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/xpo/releases/2022-09-15/xpo.owl> ;
+                <http://purl.obolibrary.org/obo/xpo/releases/2024-04-18/xpo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-09-15" .
+                "2024-04-18" .
 
 <http://purl.obolibrary.org/obo/cio.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
