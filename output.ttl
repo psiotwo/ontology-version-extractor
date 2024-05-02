@@ -241,7 +241,7 @@
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chebi/232/chebi.owl> .
+                <http://purl.obolibrary.org/obo/chebi/233/chebi.owl> .
 
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -776,9 +776,9 @@
 <http://purl.obolibrary.org/obo/ro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ro/releases/2024-02-13/ro.owl> ;
+                <http://purl.obolibrary.org/obo/ro/releases/2024-04-24/ro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-02-13" .
+                "2024-04-24" .
 
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
