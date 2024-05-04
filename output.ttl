@@ -226,6 +226,13 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2023-05-25" .
 
+<http://purl.obolibrary.org/obo/afpo.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/afpo/releases/2024-03-21/afpo.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2024-03-21" .
+
 <http://purl.obolibrary.org/obo/ornaseq.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -809,15 +816,15 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl> .
 
-<http://purl.obolibrary.org/obo/clyh.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/clyh/releases/2020-05-29/clyh.owl> .
-
 <http://purl.obolibrary.org/obo/one.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/obi/2020-12-16/obi.owl> , <http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl> .
+
+<http://purl.obolibrary.org/obo/clyh.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/clyh/releases/2020-05-29/clyh.owl> .
 
 <http://purl.obolibrary.org/obo/hso.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1074,7 +1081,9 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/src/ontology/imports/ONS_import_01192022_noDeprec.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "Release version 1.2.3" .
+                "Release version 1.2.3" ;
+        <https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import>
+                <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/src/ontology/imports/ONS_import_01192022_noDeprec.owl> .
 
 <http://purl.obolibrary.org/obo/pco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
