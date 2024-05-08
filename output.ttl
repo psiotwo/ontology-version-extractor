@@ -241,9 +241,9 @@
 <http://purl.obolibrary.org/obo/ncit.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ncit/releases/2023-10-19/ncit.owl> ;
+                <http://purl.obolibrary.org/obo/ncit/releases/2024-05-07/ncit.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "23.09d" .
+                "24.04e" .
 
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
