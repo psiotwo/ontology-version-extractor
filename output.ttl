@@ -319,14 +319,14 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/stato.owl> , <http://purl.obolibrary.org/obo/pato.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ms/4.1.152/ms.owl> .
+                <http://purl.obolibrary.org/obo/ms/4.1.153/ms.owl> .
 
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/maxo/releases/2024-02-05/maxo.owl> ;
+                <http://purl.obolibrary.org/obo/maxo/releases/2024-05-07/maxo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-02-05" .
+                "2024-05-07" .
 
 <http://purl.obolibrary.org/obo/bto.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
