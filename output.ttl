@@ -531,9 +531,9 @@
 <http://purl.obolibrary.org/obo/gno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/gno/2024-05-16/gno.owl> ;
+                <http://purl.obolibrary.org/obo/gno/2024-05-21/gno.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "V2.1.0" .
+                "V2.2.0" .
 
 <http://purl.obolibrary.org/obo/phipo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
