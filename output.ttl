@@ -834,9 +834,9 @@
 <http://purl.obolibrary.org/obo/vo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vo/releases/2024-04-09/vo.owl> ;
+                <http://purl.obolibrary.org/obo/vo/releases/2024-05-29/vo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-04-09" .
+                "2024-05-29" .
 
 <http://purl.obolibrary.org/obo/dideo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
