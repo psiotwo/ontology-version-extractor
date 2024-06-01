@@ -674,9 +674,9 @@
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vt/releases/2024-05-15/vt.owl> ;
+                <http://purl.obolibrary.org/obo/vt/releases/2024-05-31/vt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-05-15" .
+                "2024-05-31" .
 
 <http://purl.obolibrary.org/obo/ovae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1078,12 +1078,10 @@
 
 <http://purl.obolibrary.org/obo/ons.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#imports>
-                <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/src/ontology/imports/ONS_import_01192022_noDeprec.owl> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/releases/download/v2024-05-31/ons.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "Release version 1.2.3" ;
-        <https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import>
-                <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/src/ontology/imports/ONS_import_01192022_noDeprec.owl> .
+                "Release version 2.0.0" .
 
 <http://purl.obolibrary.org/obo/pco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
