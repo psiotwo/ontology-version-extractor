@@ -133,7 +133,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/oba.owl,http://purl.ob
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ornaseq.owl,http://purl.obolibrary.org/obo/ornaseq/2019-07-08/ornaseq.owl,null,2019-07-08,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/upheno.owl,null,null,null,http://purl.obolibrary.org/obo/upheno/metazoa.owl,
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/opmi.owl,null,2017-06-08,2017-06-08,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mondo.owl,http://purl.obolibrary.org/obo/mondo/releases/2024-05-08/mondo.owl,null,2024-05-08,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mondo.owl,http://purl.obolibrary.org/obo/mondo/releases/2024-06-04/mondo.owl,null,2024-06-04,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/exo.owl,http://purl.obolibrary.org/obo/exo/releases/2022-06-29/exo.owl,2022-06-29,2022-06-29,,
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mpio.owl,http://purl.obolibrary.org/obo/mpio/release/2023-10-17/mpio.owl,2023-10-17,2023-10-17,http://purl.obolibrary.org/obo/iao/2015-02-23/ontology-metadata.owl,
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/epio.owl,https://bio.scai.fraunhofer.de/ontology/epilepsy/2021-05-28/EPIO.owl,Version Release: 1.0.0,1.0.0,,
