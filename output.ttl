@@ -850,7 +850,7 @@
 <http://purl.obolibrary.org/obo/so.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/so/2024-04-10/so.owl> .
+                <http://purl.obolibrary.org/obo/so/2024-06-05/so.owl> .
 
 <http://purl.obolibrary.org/obo/uberon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1112,9 +1112,9 @@
 <http://purl.obolibrary.org/obo/wbphenotype.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/wbphenotype/releases/2024-04-09/wbphenotype.owl> ;
+                <http://purl.obolibrary.org/obo/wbphenotype/releases/2024-06-05/wbphenotype.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-04-09" .
+                "2024-06-05" .
 
 <http://purl.obolibrary.org/obo/ogg.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
