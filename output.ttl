@@ -35,9 +35,9 @@
 <http://purl.obolibrary.org/obo/ohd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ohd/releases/2024-03-01/ohd.owl> ;
+                <http://purl.obolibrary.org/obo/ohd/releases/2024-06-21/ohd.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-03-01" .
+                "2024-06-21" .
 
 <http://purl.obolibrary.org/obo/plana.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -147,9 +147,9 @@
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/aism/releases/2024-05-11/aism.owl> ;
+                <http://purl.obolibrary.org/obo/aism/releases/2024-06-20/aism.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-05-11" .
+                "2024-06-20" .
 
 <http://purl.obolibrary.org/obo/bco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -670,9 +670,9 @@
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vt/releases/2024-06-12/vt.owl> ;
+                <http://purl.obolibrary.org/obo/vt/releases/2024-06-18/vt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-06-12" .
+                "2024-06-18" .
 
 <http://purl.obolibrary.org/obo/ovae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
