@@ -51,7 +51,7 @@ STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/gno.owl,http://purl.ob
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/bspo.owl,http://purl.obolibrary.org/obo/bspo/releases/2023-05-27/bspo.owl,2023-05-27,2023-05-27,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/ddanat.owl,null,null,null,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/gecko.owl,http://purl.obolibrary.org/obo/gecko/releases/2021-01-18/gecko.owl,null,2021-01-18,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/uberon.owl,http://purl.obolibrary.org/obo/uberon/releases/2024-05-13/uberon.owl,null,2024-05-13,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/uberon.owl,http://purl.obolibrary.org/obo/uberon/releases/2024-07-02/uberon.owl,null,2024-07-02,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/occo.owl,http://purl.obolibrary.org/obo/occo/releases/2024-04-28/occo.owl,2024-04-28,2024-04-28,,
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/foodon.owl,https://github.com/FoodOntology/foodon/releases/download/v2024-06-17/foodon.owl,null,null,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/uo.owl,http://purl.obolibrary.org/obo/uo/releases/2023-05-25/uo.owl,2023-05-25,2023-05-25,,
