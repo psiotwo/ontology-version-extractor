@@ -1073,9 +1073,9 @@
 <http://purl.obolibrary.org/obo/ons.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/releases/download/v2024-06-07/ons.owl> ;
+                <https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/releases/download/v2024-07-03/ons.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "Release version 2024-06-07" .
+                "2024-07-03" .
 
 <http://purl.obolibrary.org/obo/pco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
