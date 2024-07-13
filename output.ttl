@@ -315,7 +315,7 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/stato.owl> , <http://purl.obolibrary.org/obo/pato.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ms/4.1.156/ms.owl> .
+                <http://purl.obolibrary.org/obo/ms/4.1.158/ms.owl> .
 
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -786,7 +786,9 @@
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <https://github.com/FoodOntology/foodon/releases/download/v2024-06-17/foodon.owl> .
+                <https://github.com/FoodOntology/foodon/releases/download/v2024-07-12/foodon.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2024-07-12" .
 
 <http://purl.obolibrary.org/obo/cheminf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
