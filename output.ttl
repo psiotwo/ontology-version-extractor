@@ -480,7 +480,9 @@
 <http://purl.obolibrary.org/obo/stato.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/stato.owl/1.5> .
+                <http://purl.obolibrary.org/stato.owl/1.5> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2024-07-07" .
 
 <http://purl.obolibrary.org/obo/zp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
