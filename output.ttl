@@ -142,7 +142,7 @@
 <http://purl.obolibrary.org/obo/pr.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pr/69.0/pr.owl> .
+                <http://purl.obolibrary.org/obo/pr/70.0/pr.owl> .
 
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
