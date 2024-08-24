@@ -405,7 +405,7 @@
 <http://purl.obolibrary.org/obo/xao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/xao/releases/2022-08-29/xao.owl> .
+                <http://purl.obolibrary.org/obo/xao/releases/2024-08-23/xao.owl> .
 
 <http://purl.obolibrary.org/obo/vbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
