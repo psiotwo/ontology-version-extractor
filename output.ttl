@@ -135,9 +135,9 @@
 <http://purl.obolibrary.org/obo/pato.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pato/releases/2024-03-28/pato.owl> ;
+                <http://purl.obolibrary.org/obo/pato/releases/2024-09-04/pato.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-03-28" .
+                "2024-09-04" .
 
 <http://purl.obolibrary.org/obo/pr.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -384,7 +384,7 @@
 <http://purl.obolibrary.org/obo/ngbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ngbo/2022-10-05/ngbo.owl> ;
+                <http://purl.obolibrary.org/obo/ngbo/2024-08-27/ngbo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2024-08-27" .
 
@@ -398,9 +398,9 @@
 <http://purl.obolibrary.org/obo/dron.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/dron/releases/2024-08-07/dron.owl> ;
+                <http://purl.obolibrary.org/obo/dron/releases/2024-09-04/dron.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-08-07" .
+                "2024-09-04" .
 
 <http://purl.obolibrary.org/obo/xao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -562,7 +562,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2024-08-06/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2024-09-03/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -848,7 +848,7 @@
 <http://purl.obolibrary.org/obo/uberon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/uberon/releases/2024-08-07/uberon.owl> .
+                <http://purl.obolibrary.org/obo/uberon/releases/2024-09-03/uberon.owl> .
 
 <http://purl.obolibrary.org/obo/hancestro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
