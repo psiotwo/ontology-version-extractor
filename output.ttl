@@ -891,9 +891,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2024-10-07/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2024-10-14/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-10-07" .
+                "2024-10-14" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -977,7 +977,7 @@
 <http://purl.obolibrary.org/obo/xco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/xco/4.184/xco.owl> .
+                <http://purl.obolibrary.org/obo/xco/4.185/xco.owl> .
 
 <http://purl.obolibrary.org/obo/opmi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
