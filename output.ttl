@@ -877,7 +877,7 @@
 <http://purl.obolibrary.org/obo/obi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/obi/2024-06-10/obi.owl> .
+                <http://purl.obolibrary.org/obo/obi/2024-10-03/obi.owl> .
 
 <http://purl.obolibrary.org/obo/mfomd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
