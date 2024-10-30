@@ -765,9 +765,9 @@
 <http://purl.obolibrary.org/obo/slso.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/slso/releases/2024-05-17/slso.owl> ;
+                <http://purl.obolibrary.org/obo/slso/releases/2024-10-29/slso.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-05-17" .
+                "2024-10-29" .
 
 <http://purl.obolibrary.org/obo/occo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
