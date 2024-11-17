@@ -674,7 +674,7 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/vt/releases/2024-11-05/vt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-11-05" .
+                "2024-11-15" .
 
 <http://purl.obolibrary.org/obo/ovae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
