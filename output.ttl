@@ -417,9 +417,9 @@
 <http://purl.obolibrary.org/obo/fbdv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fbdv/releases/2024-10-17/fbdv.owl> ;
+                <http://purl.obolibrary.org/obo/fbdv/releases/2024-12-04/fbdv.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-10-17" .
+                "2024-12-04" .
 
 <http://purl.obolibrary.org/obo/mro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
