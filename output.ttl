@@ -82,6 +82,13 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2024-11-25" .
 
+<http://purl.obolibrary.org/obo/ppo.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/ppo/releases/2024-07-09/ppo.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2024-07-09" .
+
 <http://purl.obolibrary.org/obo/go.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
