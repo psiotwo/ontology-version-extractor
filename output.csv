@@ -138,7 +138,7 @@ NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/mpio.owl,http://purl
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/epio.owl,https://bio.scai.fraunhofer.de/ontology/epilepsy/2021-05-28/EPIO.owl,Version Release: 1.0.0,1.0.0,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/mmusdv.owl,null,null,null,,
 NO_VERSION_INFORMATION,http://purl.obolibrary.org/obo/htn.owl,null,null,null,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/apollo_sv.owl,http://purl.obolibrary.org/obo/apollo_sv/releases/2024-08-15/apollo_sv.owl,2024-08-15,2024-08-15,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/apollo_sv.owl,http://purl.obolibrary.org/obo/apollo_sv/releases/2024-12-24/apollo_sv.owl,2024-12-24,2024-12-24,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/aism.owl,http://purl.obolibrary.org/obo/aism/releases/2024-06-20/aism.owl,2024-06-20,2024-06-20,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/omo.owl,http://purl.obolibrary.org/obo/omo/releases/2024-11-13/omo.owl,2024-11-13,2024-11-13,,
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ngbo.owl,http://purl.obolibrary.org/obo/ngbo/2024-08-27/ngbo.owl,2024-08-27,2024-08-27,,

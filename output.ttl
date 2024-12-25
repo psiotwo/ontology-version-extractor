@@ -555,9 +555,9 @@
 <http://purl.obolibrary.org/obo/apollo_sv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/apollo_sv/releases/2024-08-15/apollo_sv.owl> ;
+                <http://purl.obolibrary.org/obo/apollo_sv/releases/2024-12-24/apollo_sv.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-08-15" .
+                "2024-12-24" .
 
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
