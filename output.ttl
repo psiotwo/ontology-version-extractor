@@ -562,7 +562,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2024-12-03/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2025-01-07/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
