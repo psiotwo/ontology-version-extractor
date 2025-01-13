@@ -305,9 +305,9 @@
 <http://purl.obolibrary.org/obo/upheno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/upheno/releases/2024-11-02/upheno.owl> ;
+                <http://purl.obolibrary.org/obo/upheno/releases/2025-01-11/upheno.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-11-02" .
+                "2025-01-11" .
 
 <http://purl.obolibrary.org/obo/cdao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
