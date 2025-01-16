@@ -603,9 +603,9 @@
 <http://purl.obolibrary.org/obo/oba.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/oba/releases/2024-11-26/oba.owl> ;
+                <http://purl.obolibrary.org/obo/oba/releases/2025-01-14/oba.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-11-26" .
+                "2025-01-14" .
 
 <http://purl.obolibrary.org/obo/agro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -850,7 +850,7 @@
 <http://purl.obolibrary.org/obo/uberon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/uberon/releases/2024-11-25/uberon.owl> .
+                <http://purl.obolibrary.org/obo/uberon/releases/2025-01-15/uberon.owl> .
 
 <http://purl.obolibrary.org/obo/hancestro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
