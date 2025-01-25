@@ -958,9 +958,9 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/oostt/release/2024-09-30/oostt.owl> ;
+                <http://purl.obolibrary.org/obo/oostt/release/2025-01-24/oostt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "release version - 2024-09-30" .
+                "release version - 2025-01-24" .
 
 <http://purl.obolibrary.org/obo/pdro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;

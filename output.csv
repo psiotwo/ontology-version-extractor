@@ -158,7 +158,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/fbbt.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/zeco.owl,http://purl.obolibrary.org/obo/zeco/releases/2022-02-14/zeco.owl,2022-02-14,2022-02-14,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/po.owl,http://purl.obolibrary.org/obo/po/releases/2024-04-17/po.owl,null,2024-04-17,http://purl.obolibrary.org/obo/po/imports/ncbitaxon_import.owl|http://purl.obolibrary.org/obo/po/imports/ro_import.owl,
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/bfo.owl,http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl,null,2019-08-26,,
-NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/oostt.owl,http://purl.obolibrary.org/obo/oostt/release/2024-09-30/oostt.owl,release version - 2024-09-30,2024-09-30,http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl,
+NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/oostt.owl,http://purl.obolibrary.org/obo/oostt/release/2025-01-24/oostt.owl,release version - 2025-01-24,2025-01-24,http://purl.obolibrary.org/obo/iao/d-acts/dev/d-acts.owl,
 NON_STANDARD_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/gsso.owl,http://purl.obolibrary.org/obo/gsso/releases/2.0.5/gsso.owl,null,2.0.5,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/caro.owl,http://purl.obolibrary.org/obo/caro/releases/2023-03-15/caro.owl,2023-03-15,2023-03-15,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/gallont.owl,http://purl.obolibrary.org/obo/gallont/releases/2024-04-19/gallont.owl,2024-04-19,2024-04-19,,
