@@ -794,9 +794,9 @@
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/foodon/releases/2025-01-16/foodon.owl> ;
+                <http://purl.obolibrary.org/obo/foodon/releases/2025-01-29/foodon.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-01-16" .
+                "2025-01-29" .
 
 <http://purl.obolibrary.org/obo/cheminf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
