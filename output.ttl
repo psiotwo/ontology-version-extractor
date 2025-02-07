@@ -1049,9 +1049,9 @@
 <http://purl.obolibrary.org/obo/envo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/envo/releases/2024-07-01/envo.owl> ;
+                <http://purl.obolibrary.org/obo/envo/releases/2025-02-05/envo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-07-01" .
+                "2025-02-05" .
 
 <http://purl.obolibrary.org/obo/obib.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
