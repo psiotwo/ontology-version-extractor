@@ -678,9 +678,9 @@
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vt/releases/2025-02-11/vt.owl> ;
+                <http://purl.obolibrary.org/obo/vt/releases/2025-03-04/vt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-02-11" .
+                "2025-03-04" .
 
 <http://purl.obolibrary.org/obo/ovae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -787,9 +787,9 @@
 <http://purl.obolibrary.org/obo/ro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ro/releases/2024-04-24/ro.owl> ;
+                <http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-04-24" .
+                "2025-03-05" .
 
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
