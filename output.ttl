@@ -377,8 +377,10 @@
 
 <http://purl.obolibrary.org/obo/ico.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/ico/releases/2025-03-15/ico.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "1.0.187" .
+                "2025-03-15" .
 
 <http://purl.obolibrary.org/obo/chmo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
