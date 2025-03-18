@@ -1,7 +1,7 @@
 <http://purl.obolibrary.org/obo/pw.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pw/7.87/pw.owl> .
+                <http://purl.obolibrary.org/obo/pw/7.88/pw.owl> .
 
 <http://purl.obolibrary.org/obo/clo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -561,7 +561,7 @@
 <http://purl.obolibrary.org/obo/cmo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cmo/2.240/cmo.owl> .
+                <http://purl.obolibrary.org/obo/cmo/2.241/cmo.owl> .
 
 <http://purl.obolibrary.org/obo/apollo_sv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -697,9 +697,9 @@
 <http://purl.obolibrary.org/obo/ncbitaxon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ncbitaxon/2024-11-25/ncbitaxon.owl> ;
+                <http://purl.obolibrary.org/obo/ncbitaxon/2025-03-13/ncbitaxon.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-11-25" .
+                "2025-03-13" .
 
 <http://purl.obolibrary.org/obo/fbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
