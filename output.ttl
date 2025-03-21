@@ -885,7 +885,7 @@
 <http://purl.obolibrary.org/obo/obi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/obi/2025-01-09/obi.owl> .
+                <http://purl.obolibrary.org/obo/obi/2025-03-06/obi.owl> .
 
 <http://purl.obolibrary.org/obo/mfomd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1032,7 +1032,9 @@
 <http://purl.obolibrary.org/obo/disdriv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/disdriv/releases/2023-12-15/disdriv.owl> .
+                <http://purl.obolibrary.org/obo/disdriv/releases/2025-03-20/disdriv.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2025-03-20" .
 
 <http://purl.obolibrary.org/obo/ddpheno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
