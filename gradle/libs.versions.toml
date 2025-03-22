@@ -1,25 +1,27 @@
 [versions]
-jupiter = "5.12.1"
+freemarker = "2.3.34"
 httpclient5 = "5.3.1"
+jackson = "2.18.3"
+jena = "5.3.0"
+junit-jupiter = "5.12.1"
+junit-platform = "1.12.1"
 picocli = "4.7.6"
 slf4j = "2.0.17"
-jena = "5.3.0"
-freemarker = "2.3.34"
-jackson = "2.18.3"
 
 [libraries]
-slf4j = { module="org.slf4j:slf4j-api", version.ref="slf4j" }
-slf4jsimple = { module="org.slf4j:slf4j-simple", version.ref="slf4j" }
-picocli = { module="info.picocli:picocli", version.ref="picocli" }
-httpclient5 = { module="org.apache.httpcomponents.client5:httpclient5", version.ref="httpclient5" }
-jena = { module="org.apache.jena:jena-arq", version.ref="jena" }
-freemarker = { module="org.freemarker:freemarker", version.ref="freemarker" }
-jacksonyaml = { module="com.fasterxml.jackson.dataformat:jackson-dataformat-yaml", version.ref="jackson" }
-
-junit-jupiter-params = { module="org.junit.jupiter:junit-jupiter-params", version.ref="jupiter" }
-junit-jupiter = { module="org.junit.jupiter:junit-jupiter-api", version.ref="jupiter" }
-junit-engine = { module="org.junit.jupiter:junit-jupiter-engine" }
+freemarker = { module = "org.freemarker:freemarker", version.ref = "freemarker" }
+httpclient5 = { module = "org.apache.httpcomponents.client5:httpclient5", version.ref = "httpclient5" }
+jacksonyaml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml", version.ref = "jackson" }
+jena = { module = "org.apache.jena:jena-arq", version.ref = "jena" }
+junit-jupiter-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit-jupiter" }
+junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter" }
+junit-jupiter-params = { module = "org.junit.jupiter:junit-jupiter-params", version.ref = "junit-jupiter" }
+junit-platform-engine = { module = "org.junit.platform:junit-platform-engine", version.ref = "junit-platform" }
+junit-platform-launcher = { module = "org.junit.platform:junit-platform-launcher", version.ref = "junit-platform" }
+picocli = { module = "info.picocli:picocli", version.ref = "picocli" }
+slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+slf4jsimple = { module = "org.slf4j:slf4j-simple", version.ref = "slf4j" }
 
 [bundles]
-testDependencies = ["junit-jupiter", "junit-jupiter-params"]
-testRuntimeOnly = ["junit-engine"]
+testDependencies = ["junit-jupiter-api", "junit-jupiter-params", "junit-platform-launcher"]
+testRuntimeOnly = ["junit-jupiter-engine", "junit-platform-engine"]
