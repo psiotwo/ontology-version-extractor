@@ -1,4 +1,4 @@
-package cz.sio2.obo;
+package cz.sio2.ontology.version.obo;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;

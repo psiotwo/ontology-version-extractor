@@ -1,8 +1,8 @@
-package cz.sio2.obo.extractor;
+package cz.sio2.ontology.version.obo.extractor;
 
-import cz.sio2.obo.Extractor;
-import cz.sio2.obo.HeaderFetcher;
-import cz.sio2.obo.OntologyHeader;
+import cz.sio2.ontology.version.obo.Extractor;
+import cz.sio2.ontology.version.obo.HeaderFetcher;
+import cz.sio2.ontology.version.obo.OntologyHeader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;

@@ -1,6 +1,6 @@
-package cz.sio2.obo.report;
+package cz.sio2.ontology.version.obo.report;
 
-import cz.sio2.obo.OntologyHeader;
+import cz.sio2.ontology.version.obo.OntologyHeader;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;

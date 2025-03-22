@@ -9,7 +9,7 @@ group = "com.github.psiotwo"
 version = "0.0.2-SNAPSHOT"
 
 application {
-    mainClass.set("cz.sio2.obo.commands.CLI")
+    mainClass.set("cz.sio2.ontology.version.obo.commands.CLI")
 }
 
 java {

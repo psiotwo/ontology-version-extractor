@@ -1,4 +1,4 @@
-package cz.sio2.obo;
+package cz.sio2.ontology.version.obo;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -23,7 +23,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static cz.sio2.obo.Utils.createBuilder;
+import static cz.sio2.ontology.version.obo.Utils.createBuilder;
 
 @Slf4j
 public class HeaderFetcher {

@@ -1,8 +1,8 @@
-package cz.sio2.obo.report;
+package cz.sio2.ontology.version.obo.report;
 
-import cz.sio2.obo.OntologyRecord;
-import cz.sio2.obo.OntologyHeader;
-import cz.sio2.obo.VersionType;
+import cz.sio2.ontology.version.obo.OntologyRecord;
+import cz.sio2.ontology.version.obo.OntologyHeader;
+import cz.sio2.ontology.version.obo.VersionType;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;

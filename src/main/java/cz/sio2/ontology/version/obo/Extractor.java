@@ -1,4 +1,4 @@
-package cz.sio2.obo;
+package cz.sio2.ontology.version.obo;
 
 import java.net.MalformedURLException;
 import java.net.URL;

@@ -1,7 +1,7 @@
-package cz.sio2.obo.report;
+package cz.sio2.ontology.version.obo.report;
 
-import cz.sio2.obo.OntologyHeader;
-import cz.sio2.obo.VersionType;
+import cz.sio2.ontology.version.obo.OntologyHeader;
+import cz.sio2.ontology.version.obo.VersionType;
 
 import java.io.IOException;
 import java.io.OutputStream;

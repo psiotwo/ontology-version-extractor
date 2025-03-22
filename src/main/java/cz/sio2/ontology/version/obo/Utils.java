@@ -1,4 +1,4 @@
-package cz.sio2.obo;
+package cz.sio2.ontology.version.obo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.config.RequestConfig;
@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static cz.sio2.obo.Constants.NS_OBO_HTTP;
+import static cz.sio2.ontology.version.obo.Constants.NS_OBO_HTTP;
 
 @Slf4j
 public class Utils {

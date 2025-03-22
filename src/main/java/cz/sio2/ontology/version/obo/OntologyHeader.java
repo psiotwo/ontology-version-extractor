@@ -1,4 +1,4 @@
-package cz.sio2.obo;
+package cz.sio2.ontology.version.obo;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +10,7 @@ import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static cz.sio2.obo.Constants.*;
+import static cz.sio2.ontology.version.obo.Constants.*;
 
 /**
  * Object that represents the ontology header extracted from the ontology.

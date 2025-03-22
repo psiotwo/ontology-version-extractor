@@ -1,11 +1,10 @@
-package cz.sio2.obo;
+package cz.sio2.ontology.version.obo;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
 import java.util.List;
-import java.util.Map;
 
 @Getter
 @Setter
