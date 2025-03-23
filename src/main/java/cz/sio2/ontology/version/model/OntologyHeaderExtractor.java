@@ -1,4 +1,4 @@
-package cz.sio2.ontology.version.obo;
+package cz.sio2.ontology.version.model;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,25 +6,20 @@ import lombok.Setter;
 import java.util.regex.Pattern;
 
 
+@Getter
 public class OntologyHeaderExtractor {
 
-    @Getter
     @Setter
     String name;
 
-    @Getter
     Pattern formatMatcher;
 
-    @Getter
     Pattern iriMatcher;
 
-    @Getter
     Pattern versionIriMatcher;
 
-    @Getter
     Pattern versionInfoMatcher;
 
-    @Getter
     Pattern importsMatcher;
 
     public void setFormatMatcher(String formatMatcher) {

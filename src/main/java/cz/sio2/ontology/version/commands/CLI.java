@@ -1,4 +1,4 @@
-package cz.sio2.ontology.version.obo.commands;
+package cz.sio2.ontology.version.commands;
 
 import picocli.CommandLine;
 

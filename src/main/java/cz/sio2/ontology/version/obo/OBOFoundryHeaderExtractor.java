@@ -1,8 +1,9 @@
 package cz.sio2.ontology.version.obo;
 
-import cz.sio2.ontology.version.obo.report.CSVReport;
-import cz.sio2.ontology.version.obo.report.HTMLReport;
-import cz.sio2.ontology.version.obo.report.TurtleReport;
+import cz.sio2.ontology.version.model.OntologyHeader;
+import cz.sio2.ontology.version.report.CSVReport;
+import cz.sio2.ontology.version.report.HTMLReport;
+import cz.sio2.ontology.version.report.TurtleReport;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;

@@ -1,4 +1,7 @@
-package cz.sio2.ontology.version.obo;
+package cz.sio2.ontology.version.model;
+
+import cz.sio2.ontology.version.obo.HeaderFetcher;
+import cz.sio2.ontology.version.obo.Utils;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -8,6 +11,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+/**
+ * Extracts ontology header from the given ontology.
+ */
 public class Extractor {
 
     private String get(final Pattern pattern, final String singleLine) {
@@ -28,9 +34,16 @@ public class Extractor {
         return matches;
     }
 
-    public OntologyHeader extract(final String s, final OntologyHeaderExtractor extractor) {
+    /**
+     * Extracts ontology header from the given ontology content.
+     *
+     * @param ontologyContentSnippet ontology content to recognize versioning information in.
+     * @param extractor the actual extractor to use.
+     * @return ontology version header as extracted by the given extractor.
+     */
+    public OntologyHeader extract(final String ontologyContentSnippet, final OntologyHeaderExtractor extractor) {
         final OntologyHeader ontologyHeader = new OntologyHeader();
-        final String singleLine = s.replace('\n', ' ');
+        final String singleLine = ontologyContentSnippet.replace('\n', ' ');
         if (!extractor.getFormatMatcher().matcher(singleLine).matches()) {
             return null;
         }
@@ -40,9 +53,9 @@ public class Extractor {
 
         final List<String> imports = getMultiple(extractor.getImportsMatcher(), singleLine).stream().map(Utils::sanitize).collect(Collectors.toList());
         ontologyHeader.setOwlImports(imports);
-        final List<String> nonresolvable = new ArrayList<>();
-        imports.stream().filter(i ->  fetchHeader(i) == null) .forEach(nonresolvable::add);
-        ontologyHeader.setNonResolvableImports(nonresolvable);
+        final List<String> unresolvable = new ArrayList<>();
+        imports.stream().filter(i ->  fetchHeader(i) == null) .forEach(unresolvable::add);
+        ontologyHeader.setNonResolvableImports(unresolvable);
         return ontologyHeader;
     }
 

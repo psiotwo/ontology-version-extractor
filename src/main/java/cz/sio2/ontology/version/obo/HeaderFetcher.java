@@ -3,6 +3,9 @@ package cz.sio2.ontology.version.obo;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import cz.sio2.ontology.version.model.Extractor;
+import cz.sio2.ontology.version.model.OntologyHeader;
+import cz.sio2.ontology.version.model.OntologyHeaderExtractor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -28,7 +31,7 @@ import static cz.sio2.ontology.version.obo.Utils.createBuilder;
 @Slf4j
 public class HeaderFetcher {
 
-    public final static Map<String,OntologyHeaderExtractor> ONTOLOGY_HEADER_EXTRACTORS = new HashMap<>();
+    public final static Map<String, OntologyHeaderExtractor> ONTOLOGY_HEADER_EXTRACTORS = new HashMap<>();
 
     static {
         final ObjectMapper mapper = new ObjectMapper(new YAMLFactory());

@@ -1,6 +1,6 @@
-package cz.sio2.ontology.version.obo.report;
+package cz.sio2.ontology.version.report;
 
-import cz.sio2.ontology.version.obo.OntologyHeader;
+import cz.sio2.ontology.version.model.OntologyHeader;
 import cz.sio2.ontology.version.obo.VersionType;
 
 import java.io.IOException;
@@ -8,7 +8,6 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class CSVReport {
 
@@ -27,9 +26,9 @@ public class CSVReport {
                         .append(',')
                         .append((v != null ? v.getVersion() : "ERROR"))
                         .append(',')
-                        .append((v != null && v.getOwlImports() != null ? v.getOwlImports().stream().collect(Collectors.joining("|")) : "ERROR"))
+                        .append((v != null && v.getOwlImports() != null ? String.join("|", v.getOwlImports()) : "ERROR"))
                         .append(',')
-                        .append((v != null && v.getNonResolvableImports() != null ? v.getNonResolvableImports().stream().collect(Collectors.joining("|")) : "ERROR"))
+                        .append((v != null && v.getNonResolvableImports() != null ? String.join("|", v.getNonResolvableImports()) : "ERROR"))
                         .append(System.lineSeparator());
             }
         }

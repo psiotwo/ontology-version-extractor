@@ -1,5 +1,6 @@
 package cz.sio2.ontology.version.obo;
 
+import cz.sio2.ontology.version.model.OntologyHeader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;

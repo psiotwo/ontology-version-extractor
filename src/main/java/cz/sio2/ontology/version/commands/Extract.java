@@ -1,4 +1,4 @@
-package cz.sio2.ontology.version.obo.commands;
+package cz.sio2.ontology.version.commands;
 
 import cz.sio2.ontology.version.obo.OBOFoundryHeaderExtractor;
 import lombok.extern.slf4j.Slf4j;

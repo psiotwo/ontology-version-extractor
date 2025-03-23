@@ -1,6 +1,6 @@
-package cz.sio2.ontology.version.obo.report;
+package cz.sio2.ontology.version.report;
 
-import cz.sio2.ontology.version.obo.OntologyHeader;
+import cz.sio2.ontology.version.model.OntologyHeader;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
@@ -45,9 +45,9 @@ public class TurtleReport {
                     imports.forEach( i -> model.add(ontology, OWL2.imports, ResourceFactory.createResource(i)));
                 }
 
-                final List<String> nonresolvableImports = version.getNonResolvableImports();
-                if (nonresolvableImports != null && !nonresolvableImports.isEmpty()) {
-                    nonresolvableImports.forEach( i -> model.add(ontology, ResourceFactory.createProperty("https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import"), ResourceFactory.createResource(i)));
+                final List<String> unresolvableImports = version.getNonResolvableImports();
+                if (unresolvableImports != null && !unresolvableImports.isEmpty()) {
+                    unresolvableImports.forEach( i -> model.add(ontology, ResourceFactory.createProperty("https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import"), ResourceFactory.createResource(i)));
                 }
             }
         }
