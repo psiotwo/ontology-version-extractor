@@ -13,7 +13,7 @@
         See the <a href="https://obofoundry.org/id-policy.html">OBO Foundry Identifier Policy</a> for details on correct
         version identification in OBO Foundry. The following version types are recognized:
         <#list types as type>
-        <dt><span class="w3-tag w3-round-large w3-large w3-${type.color}">${type.shortName}</span></dt>
+        <dt><span class="w3-tag w3-round-large w3-large w3-${type.color}">${type.name}</span></dt>
         <dd>${type.description}</dd>
         </#list>
     </dl>
@@ -34,9 +34,9 @@
     </tr>
     <#list ontologies as ontology>
     <tr class="w3-text-${ontology.type.color}">
-        <td searchKey="${ontology.ontologyIri}" searchText="${ontology.ontologyIri} ${ontology.versionIri} ${ontology.versionInfo} ${ontology.type.shortName}">
+        <td searchKey="${ontology.ontologyIri}" searchText="${ontology.ontologyIri} ${ontology.versionIri} ${ontology.versionInfo} ${ontology.type.name}">
             <h4><a href="${ontology.ontologyIri}">${ontology.ontologyIri}</a></h4>
-            <span class="w3-tooltip w3-tag w3-round-small w3-small w3-${ontology.type.color}">${ontology.type.shortName}</span>
+            <span class="w3-tooltip w3-tag w3-round-small w3-small w3-${ontology.type.color}">${ontology.type.name}</span>
             <ul>
                 <li><span class="w3-small w3-text-gray">owl:versionIri:</span><span class="w3-padding">${ontology.versionIri}</span></li>
                 <li><span class="w3-small w3-text-gray">owl:versionInfo:</span><span class="w3-padding">${ontology.versionInfo}</span></li>

@@ -1,9 +1,11 @@
 package cz.sio2.ontology.version.commands;
 
-import cz.sio2.ontology.version.obo.OBOFoundryHeaderExtractor;
+import cz.sio2.ontology.version.model.HeaderExtractor;
+import cz.sio2.ontology.version.model.Utils;
 import lombok.extern.slf4j.Slf4j;
 import picocli.CommandLine;
 
+import java.net.URL;
 import java.util.concurrent.Callable;
 
 @CommandLine.Command(
@@ -15,11 +17,8 @@ import java.util.concurrent.Callable;
 @Slf4j
 class Extract implements Callable<Integer> {
 
-    @CommandLine.Parameters(index = "0", defaultValue = "https://obofoundry.org/registry/ontologies.ttl", description = "The IRI to check out")
-    private String iri;
-
-    @CommandLine.Option(names = {"-h"}, defaultValue = "4096", description = "Header size to be fetched.")
-    private int headerSize;
+    @CommandLine.Parameters(index = "0", description = "The configuration file URL.")
+    private URL configurationUrl;
 
     @CommandLine.Option(names = {"-o"}, description = "Output file.")
     private String outputFile;
@@ -27,7 +26,7 @@ class Extract implements Callable<Integer> {
     @Override
     public Integer call() {
         try {
-            new OBOFoundryHeaderExtractor().extract(iri, outputFile, headerSize);
+            new HeaderExtractor().extract(Utils.loadConfiguration(configurationUrl), outputFile);
         } catch (Exception e) {
             log.error("Error during extraction: ", e);
             return -1;

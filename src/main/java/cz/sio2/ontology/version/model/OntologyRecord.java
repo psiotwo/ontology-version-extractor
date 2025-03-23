@@ -1,6 +1,5 @@
 package cz.sio2.ontology.version.model;
 
-import cz.sio2.ontology.version.obo.VersionType;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;

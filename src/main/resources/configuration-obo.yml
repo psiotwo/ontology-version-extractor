@@ -1,0 +1,29 @@
+name: OBO
+# The IRI of the ontology catalogue
+ontologyCatalogueIri: https://obofoundry.org/registry/ontologies.ttl
+# The query to fetch ontology IRIs from the ontology catalogue - the query must return a single variable named 'ontologyIri'
+ontologyIriQuery: "PREFIX dcat: <http://www.w3.org/ns/dcat#> PREFIX ofo: <http://obofoundry.github.io/vocabulary/> SELECT DISTINCT ?ontologyIri { ?x  ofo:activity_status  \"active\" ; dcat:accessURL ?ontologyIri . }"
+# Header size to be fetched for each ontology
+headerSize: 4096
+# The regex to fetch the version IRI of the ontology
+versionFromVersionIriRegex:  "https?://purl[.]obolibrary[.]org/obo/(.+/)?([^/]+)/([^/]+)[.]owl"
+# The regex to fetch the version of the ontology
+versionFromVersionInfoRegex:  "[^0-9]*[v]?([0-9]+[.]?[0-9]*[.]?[0-9]*[.]?[0-9]*)[^0-9]*"
+# version types:
+versionTypes:
+  - name: "OBO (Type 1)"
+    description: "owl:versionIri compliant with the OBO Foundry Identifier Policy."
+    color: "green"
+    versionIriPattern: "http://purl.obolibrary.org/obo/(.+)/releases/[0-2][0-9]{3}-[01][0-9]-[0-3][0-9]/\\1.owl"
+  - name: "OBO (Type 2)"
+    description: "owl:versionIri compliant with the OBO Foundry Identifier Policy."
+    color: "light-green"
+    versionIriPattern: "http://purl.obolibrary.org/obo/(.+)/[0-2][0-9]{3}-[01][0-9]-[0-3][0-9]/\\1.owl"
+  - name: "OBO (Non-standard)"
+    description: "owl:versionIri present, with partial compliance with the OBO Foundry Identifier Policy"
+    color: "lime"
+    versionIriPattern: "http://purl.obolibrary.org/obo/(.+)/.+/\\1.owl"
+  - name: "Non-OBO"
+    description: "owl:versionIri present, but not OBO compliant."
+    color: "amber"
+    versionIriPattern: ".*"

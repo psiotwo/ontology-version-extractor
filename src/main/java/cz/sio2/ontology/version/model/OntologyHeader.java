@@ -1,6 +1,5 @@
 package cz.sio2.ontology.version.model;
 
-import cz.sio2.ontology.version.obo.Constants;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
@@ -60,7 +59,7 @@ public class OntologyHeader {
             return null;
         }
 
-        final Matcher m = Pattern.compile(Constants.NS_REGEX).matcher(owlOntologyIri);
+        final Matcher m = Pattern.compile("(.*/([^/.]+))([.]owl)?/?").matcher(owlOntologyIri);
         if (!m.matches()) {
             return null;
         }
@@ -79,9 +78,9 @@ public class OntologyHeader {
      *
      * @return version of the ontology.
      */
-    public String getVersion() {
-        final String versionInfoVersion = extractVersionFromVersionInfo();
-        final String versionIriVersion = extractVersionFromVersionIri();
+    public String getVersion(final Configuration configuration) {
+        final String versionInfoVersion = extractVersionFromVersionInfo(configuration);
+        final String versionIriVersion = extractVersionFromVersionIri(configuration);
         if (versionIriVersion != null) {
             if (versionInfoVersion != null && !versionIriVersion.equals(versionInfoVersion)) {
                 log.info("Versions differ: {} : {}, using version from versionIri", versionIriVersion, versionInfoVersion);
@@ -92,10 +91,10 @@ public class OntologyHeader {
         }
     }
 
-    String extractVersionFromVersionInfo() {
+    String extractVersionFromVersionInfo(Configuration configuration) {
         String versionInfoVersion = null;
         if (owlVersionInfo != null) {
-            final Matcher m = Pattern.compile(Constants.VERSION_FROM_VERSION_INFO_REGEX).matcher(owlVersionInfo);
+            final Matcher m = Pattern.compile(configuration.getVersionFromVersionInfoRegex()).matcher(owlVersionInfo);
             if (m.matches()) {
                 versionInfoVersion = m.group(1);
             } else {
@@ -105,10 +104,10 @@ public class OntologyHeader {
         return versionInfoVersion;
     }
 
-    String extractVersionFromVersionIri() {
+    String extractVersionFromVersionIri(Configuration configuration) {
         String versionIriVersion = null;
         if (owlVersionIri != null) {
-            final Matcher m = Pattern.compile(Constants.VERSION_FROM_VERSION_IRI_REGEX).matcher(owlVersionIri);
+            final Matcher m = Pattern.compile(configuration.getVersionFromVersionIriRegex()).matcher(owlVersionIri);
             if (m.matches()) {
                 versionIriVersion = m.group(2);
             }

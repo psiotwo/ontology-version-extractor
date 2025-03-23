@@ -11,6 +11,6 @@ See the [HTML report](https://psiotwo.github.io/ontology-version-extractor/outpu
 
 Currently configured for OBO ontologies:
 
-- `gradle run --args="extract -o extracted.ttl"` will generate `output.ttl` - a Turtle representation of OBO ontology headers and their current versions.
-- `gradle run --args="transform -i extracted.ttl -o output.csv"` will generate `output.csv` - a CSV report with the list of OBO ontologies and their current versions.
-- `gradle run --args="transform -i extracted.ttl -o output.html"` will generate `output.html` - an HTML report with the list of OBO ontologies and their current versions.
+- `gradle run --args="extract file:src/main/resources/configuration-obo.yml -o extracted.ttl"` will generate `output.ttl` - a Turtle representation of OBO ontology headers and their current versions.
+- `gradle run --args="transform file:src/main/resources/configuration-obo.yml -i extracted.ttl -o output.csv"` will generate `output.csv` - a CSV report with the list of OBO ontologies and their current versions.
+- `gradle run --args="transform file:src/main/resources/configuration-obo.yml -i extracted.ttl -o output.html"` will generate `output.html` - an HTML report with the list of OBO ontologies and their current versions.

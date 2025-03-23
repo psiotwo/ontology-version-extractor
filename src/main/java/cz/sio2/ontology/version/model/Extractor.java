@@ -1,7 +1,6 @@
 package cz.sio2.ontology.version.model;
 
-import cz.sio2.ontology.version.obo.HeaderFetcher;
-import cz.sio2.ontology.version.obo.Utils;
+import cz.sio2.ontology.version.Utils;
 
 import java.net.MalformedURLException;
 import java.net.URL;

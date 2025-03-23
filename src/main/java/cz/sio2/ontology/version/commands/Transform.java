@@ -1,9 +1,12 @@
 package cz.sio2.ontology.version.commands;
 
-import cz.sio2.ontology.version.obo.OBOFoundryHeaderExtractor;
+import cz.sio2.ontology.version.model.Configuration;
+import cz.sio2.ontology.version.model.Transformer;
+import cz.sio2.ontology.version.model.Utils;
 import lombok.extern.slf4j.Slf4j;
 import picocli.CommandLine;
 
+import java.net.URL;
 import java.util.concurrent.Callable;
 
 @CommandLine.Command(
@@ -15,6 +18,9 @@ import java.util.concurrent.Callable;
 @Slf4j
 class Transform implements Callable<Integer> {
 
+    @CommandLine.Parameters(index = "0", description = "The configuration file URL.")
+    private URL configurationUrl;
+
     @CommandLine.Option(names = {"-i"}, description = "Input file with the extracted versions. If the filename ends with 'HTML' a HTML report is generated, if not then a CSV report is generated.")
     private String inputFile;
 
@@ -24,10 +30,11 @@ class Transform implements Callable<Integer> {
     @Override
     public Integer call() {
         try {
+            final Configuration  configuration  = Utils.loadConfiguration(configurationUrl);
             if (outputFile.endsWith("html")) {
-                new OBOFoundryHeaderExtractor().transformToHtml(inputFile, outputFile);
+                new Transformer().transformToHtml(inputFile, outputFile, configuration);
             } else {
-                new OBOFoundryHeaderExtractor().transformToCsv(inputFile, outputFile);
+                new Transformer().transformToCsv(inputFile, outputFile, configuration);
             }
         } catch (Exception e) {
             log.error("Error during extraction: ", e);

@@ -1,11 +1,8 @@
-package cz.sio2.ontology.version.obo;
+package cz.sio2.ontology.version.model;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import cz.sio2.ontology.version.model.Extractor;
-import cz.sio2.ontology.version.model.OntologyHeader;
-import cz.sio2.ontology.version.model.OntologyHeaderExtractor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.hc.client5.http.classic.HttpClient;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -14,19 +11,20 @@ import org.apache.hc.client5.http.config.RequestConfig;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
 import org.apache.hc.client5.http.impl.classic.HttpClientBuilder;
+import org.apache.hc.client5.http.impl.classic.HttpClients;
+import org.apache.hc.client5.http.impl.routing.DefaultProxyRoutePlanner;
 import org.apache.hc.core5.http.HttpHeaders;
+import org.apache.hc.core5.http.HttpHost;
 import org.apache.hc.core5.http.HttpResponse;
 import org.apache.hc.core5.http.ProtocolException;
+import org.apache.hc.core5.http.protocol.HttpContext;
 import org.apache.hc.core5.util.Timeout;
 
 import java.io.IOException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-import static cz.sio2.ontology.version.obo.Utils.createBuilder;
+import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 @Slf4j
 public class HeaderFetcher {
@@ -126,5 +124,42 @@ public class HeaderFetcher {
         final HttpHead request = new HttpHead(url.toString());
         final HttpResponse response = httpClient.execute(request);
         return response.getCode() >= 200 && response.getCode() < 300 && response.getHeader(HttpHeaders.ACCEPT_RANGES) != null;
+    }
+
+    private static HttpClientBuilder createBuilder() {
+        int timeout = 10;
+        final RequestConfig config = RequestConfig.custom()
+                .setConnectTimeout(timeout, TimeUnit.SECONDS)
+                .setConnectionRequestTimeout(timeout, TimeUnit.SECONDS)
+                .setResponseTimeout(timeout, TimeUnit.SECONDS)
+                .setRedirectsEnabled(true)
+                .build();
+
+        final HttpClientBuilder httpClientBuilder = HttpClients
+                .custom()
+                .setDefaultRequestConfig(config);
+
+        final String nonProxyHostsString = System.getProperty("http.nonProxyHosts");
+        final List<String> nonProxyHosts = nonProxyHostsString != null ? Arrays.asList(nonProxyHostsString.split(",")) : Collections.emptyList();
+        final String proxyHost = System.getProperty("http.proxyHost");
+        if (proxyHost != null && !proxyHost.isEmpty()) {
+            final String proxyPort = System.getProperty("http.proxyPort");
+            final HttpHost proxy = new HttpHost(proxyHost, Integer.parseInt(proxyPort));
+            final DefaultProxyRoutePlanner routePlanner = new DefaultProxyRoutePlanner(proxy) {
+
+                public HttpHost determineProxy(
+                        final HttpHost host,
+                        final HttpContext context) {
+                    final String hostname = host.getHostName();
+                    if (nonProxyHosts.contains(hostname)) {
+                        return null;
+                    }
+                    return proxy;
+                }
+            };
+
+            httpClientBuilder.setRoutePlanner(routePlanner);
+        }
+        return httpClientBuilder;
     }
 }

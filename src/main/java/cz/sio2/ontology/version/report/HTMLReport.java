@@ -2,7 +2,7 @@ package cz.sio2.ontology.version.report;
 
 import cz.sio2.ontology.version.model.OntologyRecord;
 import cz.sio2.ontology.version.model.OntologyHeader;
-import cz.sio2.ontology.version.obo.VersionType;
+import cz.sio2.ontology.version.model.VersionType;
 import freemarker.template.*;
 
 import java.io.IOException;
@@ -17,18 +17,13 @@ public class HTMLReport {
 
   static Configuration cfg = new Configuration(Configuration.DEFAULT_INCOMPATIBLE_IMPROVEMENTS);
 
-  static Comparator<OntologyRecord> comp =
-          Comparator.comparing(OntologyRecord::getType, Comparator.nullsLast(Comparator.naturalOrder()))
-                  .thenComparing(OntologyRecord::getOntologyIri)
-                  .thenComparing(OntologyRecord::getVersionIri);
-
   static {
     cfg.setClassForTemplateLoading(HTMLReport.class, "/");
     cfg.setDefaultEncoding("UTF-8");
     cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
   }
 
-  public void writeHTML(Map<String, OntologyHeader> map, final OutputStream os) throws IOException {
+  public void writeHTML(Map<String, OntologyHeader> map, final OutputStream os, cz.sio2.ontology.version.model.Configuration configuration) throws IOException {
     try {
       final Map<String, Object> dataModel = new HashMap<>();
       final Set<OntologyRecord> records = new HashSet<>();
@@ -55,9 +50,9 @@ public class HTMLReport {
                   .setNonResolvableImports(Collections.emptyList());
         } else {
           record
-                  .setType(VersionType.get(entry.getValue().getOwlOntologyIri(), entry.getValue().getOwlVersionIri(), entry.getValue().getOwlVersionInfo()))
+                  .setType(VersionType.get(entry.getValue().getOwlOntologyIri(), entry.getValue().getOwlVersionIri(), entry.getValue().getOwlVersionInfo(), configuration))
                   .setVersionIri(coalesce(entry.getValue().getOwlVersionIri()))
-                  .setVersion(coalesce(entry.getValue().getVersion()))
+                  .setVersion(coalesce(entry.getValue().getVersion(configuration)))
                   .setVersionInfo(coalesce(entry.getValue().getOwlVersionInfo()))
                   .setImports(entry.getValue().getOwlImports())
                   .setNonResolvableImports(entry.getValue().getNonResolvableImports());
@@ -66,8 +61,13 @@ public class HTMLReport {
         records.add(record);
       }
 
+      Comparator<OntologyRecord> comp = Comparator
+              .comparing((OntologyRecord r) -> VersionType.getAll(configuration).indexOf(r.getType()))
+              .thenComparing(OntologyRecord::getOntologyIri, Comparator.nullsLast(String::compareTo))
+              .thenComparing(OntologyRecord::getVersionIri, Comparator.nullsLast(String::compareTo));
+
       dataModel.put("ontologies", records.stream().sorted(comp).collect(Collectors.toList()));
-      dataModel.put("types", Arrays.asList(VersionType.values()));
+      dataModel.put("types", VersionType.getAll(configuration));
 
       Template temp = cfg.getTemplate("output-template.html");
       Writer out = new OutputStreamWriter(os);
