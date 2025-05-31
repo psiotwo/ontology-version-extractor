@@ -321,7 +321,7 @@
 <http://purl.obolibrary.org/obo/ms.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ms/4.1.192/ms.owl> .
+                <http://purl.obolibrary.org/obo/ms/4.1.193/ms.owl> .
 
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -597,9 +597,9 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/doid/obo/ext.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/doid/releases/2025-04-29/doid.owl> ;
+                <http://purl.obolibrary.org/obo/doid/releases/2025-05-30/doid.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-04-29" .
+                "2025-05-30" .
 
 <http://purl.obolibrary.org/obo/omp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -873,9 +873,9 @@
 <http://purl.obolibrary.org/obo/dpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/dpo/releases/2025-03-27/dpo.owl> ;
+                <http://purl.obolibrary.org/obo/dpo/releases/2025-05-30/dpo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-03-27" .
+                "2025-05-30" .
 
 <http://purl.obolibrary.org/obo/fovt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1008,9 +1008,9 @@
 <http://purl.obolibrary.org/obo/fbcv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fbcv/releases/2025-03-27/fbcv.owl> ;
+                <http://purl.obolibrary.org/obo/fbcv/releases/2025-05-30/fbcv.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-03-27" .
+                "2025-05-30" .
 
 <http://purl.obolibrary.org/obo/iceo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
