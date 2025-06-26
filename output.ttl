@@ -189,9 +189,9 @@
 <http://purl.obolibrary.org/obo/mf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/MF/2022-07-19/MF.owl> ;
+                <http://purl.obolibrary.org/obo/MF/2025-06-25/MF.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-07-19" .
+                "2025-06-25" .
 
 <http://purl.obolibrary.org/obo/wbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
