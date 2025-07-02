@@ -347,6 +347,11 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "PROCO release 20220414" .
 
+<http://purl.obolibrary.org/obo/mp.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/mp/releases/2025-06-18/mp.owl> .
+
 <http://purl.obolibrary.org/obo/t4fs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -568,7 +573,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2025-06-03/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2025-07-01/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -901,9 +906,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2025-05-09/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2025-07-01/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-05-09" .
+                "2025-07-01" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
