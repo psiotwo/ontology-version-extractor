@@ -1025,9 +1025,9 @@
 <http://purl.obolibrary.org/obo/ogms.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl> ;
+                <http://purl.obolibrary.org/obo/ogms/releases/2025-07-02/ogms.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2021-08-19" .
+                "2025-07-02" .
 
 <http://purl.obolibrary.org/obo/omit.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;

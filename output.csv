@@ -89,7 +89,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/wbphenotype.owl,http:/
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/labo.owl,http://purl.obolibrary.org/obo/labo/2021-06-08/labo.owl,2021-06-08,2021-06-08,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/trans.owl,http://purl.obolibrary.org/obo/trans/releases/2022-10-10/trans.owl,null,2022-10-10,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/mco.owl,http://purl.obolibrary.org/obo/mco/releases/2019-05-15/mco.owl,null,2019-05-15,,
-STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ogms.owl,http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl,2021-08-19,2021-08-19,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ogms.owl,http://purl.obolibrary.org/obo/ogms/releases/2025-07-02/ogms.owl,2025-07-02,2025-07-02,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/bto.owl,http://purl.obolibrary.org/obo/bto/releases/2021-10-26/bto.owl,null,2021-10-26,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/afpo.owl,http://purl.obolibrary.org/obo/afpo/releases/2024-03-21/afpo.owl,2024-03-21,2024-03-21,,
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/kisao.owl,null,2.34,2.34,,
