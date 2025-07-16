@@ -678,9 +678,9 @@
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vt/releases/2025-06-27/vt.owl> ;
+                <http://purl.obolibrary.org/obo/vt/releases/2025-07-15/vt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-06-27" .
+                "2025-07-15" .
 
 <http://purl.obolibrary.org/obo/ovae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -742,7 +742,7 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/fao/imports/ncbitaxon_import.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fao/releases/2020-05-07/fao.owl> .
+                <http://purl.obolibrary.org/obo/fao/releases/2025-07-15/fao.owl> .
 
 <http://purl.obolibrary.org/obo/pso.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1025,9 +1025,9 @@
 <http://purl.obolibrary.org/obo/ogms.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ogms/releases/2025-07-02/ogms.owl> ;
+                <http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-07-02" .
+                "2021-08-19" .
 
 <http://purl.obolibrary.org/obo/omit.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
