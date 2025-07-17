@@ -15,13 +15,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2024-02-07" .
 
-<http://purl.obolibrary.org/obo/fideo.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fideo/releases/2023-12-18/fideo.owl> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-12-18" .
-
 <http://purl.obolibrary.org/obo/nbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
