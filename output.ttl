@@ -411,9 +411,9 @@
 <http://purl.obolibrary.org/obo/dron.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/dron/releases/2025-04-18/dron.owl> ;
+                <http://purl.obolibrary.org/obo/dron/releases/2025-07-19/dron.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-04-18" .
+                "2025-07-19" .
 
 <http://purl.obolibrary.org/obo/xao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
