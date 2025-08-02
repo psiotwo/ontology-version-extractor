@@ -248,7 +248,7 @@
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chebi/243/chebi.owl> .
+                <http://purl.obolibrary.org/obo/chebi/244/chebi.owl> .
 
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -595,9 +595,9 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/doid/obo/ext.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/doid/releases/2025-06-27/doid.owl> ;
+                <http://purl.obolibrary.org/obo/doid/releases/2025-08-01/doid.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-06-27" .
+                "2025-08-01" .
 
 <http://purl.obolibrary.org/obo/omp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -671,9 +671,9 @@
 <http://purl.obolibrary.org/obo/apo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/apo/releases/2025-06-17/apo.owl> ;
+                <http://purl.obolibrary.org/obo/apo/releases/2025-08-01/apo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-06-17" .
+                "2025-08-01" .
 
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -801,9 +801,9 @@
 <http://purl.obolibrary.org/obo/foodon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/foodon/releases/2025-06-07/foodon.owl> ;
+                <http://purl.obolibrary.org/obo/foodon/releases/2025-08-01/foodon.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-06-07" .
+                "2025-08-01" .
 
 <http://purl.obolibrary.org/obo/cheminf.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
