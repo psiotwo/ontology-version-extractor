@@ -314,14 +314,12 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/iao/ontology-metadata.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cdao/2024-01-25/cdao.owl> ;
-        <https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import>
-                <http://purl.obolibrary.org/obo/iao/ontology-metadata.owl> .
+                <http://purl.obolibrary.org/obo/cdao/2024-01-25/cdao.owl> .
 
 <http://purl.obolibrary.org/obo/ms.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ms/4.1.195/ms.owl> .
+                <http://purl.obolibrary.org/obo/ms/4.1.198/ms.owl> .
 
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
