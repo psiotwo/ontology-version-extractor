@@ -143,11 +143,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2025-05-14" .
 
-<http://purl.obolibrary.org/obo/pr.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pr/71.0/pr.owl> .
-
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -899,9 +894,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2025-07-04/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2025-08-13/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-07-04" .
+                "2025-08-13" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
