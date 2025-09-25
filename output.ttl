@@ -1048,7 +1048,7 @@
 <http://purl.obolibrary.org/obo/taxrank.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/taxrank/releases/2025-09-22/taxrank.owl> .
+                <http://purl.obolibrary.org/obo/taxrank/releases/2025-09-24/taxrank.owl> .
 
 <http://purl.obolibrary.org/obo/envo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
