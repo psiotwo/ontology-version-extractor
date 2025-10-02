@@ -80,9 +80,9 @@
 <http://purl.obolibrary.org/obo/omrse.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/omrse/releases/2025-06-30/omrse.owl> ;
+                <http://purl.obolibrary.org/obo/omrse/releases/2025-08-13/omrse.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-06-30" .
+                "2025-08-13" .
 
 <http://purl.obolibrary.org/obo/ppo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -240,8 +240,8 @@
 
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chebi/244/chebi.owl> .
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "245" .
 
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
