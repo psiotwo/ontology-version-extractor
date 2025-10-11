@@ -340,6 +340,11 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "PROCO release 20220414" .
 
+<http://purl.obolibrary.org/obo/mp.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/mp/releases/2025-09-30/mp.owl> .
+
 <http://purl.obolibrary.org/obo/t4fs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -523,9 +528,9 @@
 <http://purl.obolibrary.org/obo/gno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/gno/2025-01-28/gno.owl> ;
+                <http://purl.obolibrary.org/obo/gno/2025-10-10/gno.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "V2.4.0" .
+                "V2.5.0" .
 
 <http://purl.obolibrary.org/obo/phipo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
