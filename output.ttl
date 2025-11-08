@@ -177,9 +177,9 @@
 <http://purl.obolibrary.org/obo/to.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#imports>
-                <http://purl.obolibrary.org/obo/to/imports/go_import.owl> , <http://purl.obolibrary.org/obo/to/imports/chebi_import.owl> , <http://purl.obolibrary.org/obo/to/imports/envo_import.owl> , <http://purl.obolibrary.org/obo/to/imports/peco_import.owl> , <http://purl.obolibrary.org/obo/to/patterns/merge_patterns.owl> , <http://purl.obolibrary.org/obo/to/imports/ncbitaxon_import.owl> , <http://purl.obolibrary.org/obo/to/imports/pato_import.owl> , <http://purl.obolibrary.org/obo/po.owl> ;
+                <http://purl.obolibrary.org/obo/to/patterns/merge_patterns.owl> , <http://purl.obolibrary.org/obo/to/imports/pato_import.owl> , <http://purl.obolibrary.org/obo/to/imports/ncbitaxon_import.owl> , <http://purl.obolibrary.org/obo/to/imports/go_import.owl> , <http://purl.obolibrary.org/obo/to/imports/chebi_import.owl> , <http://purl.obolibrary.org/obo/po.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/to/releases/2025-05-20/to.owl> .
+                <http://purl.obolibrary.org/obo/to/releases/2025-11-07/to.owl> .
 
 <http://purl.obolibrary.org/obo/mi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -312,7 +312,7 @@
 <http://purl.obolibrary.org/obo/ms.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ms/4.1.213/ms.owl> .
+                <http://purl.obolibrary.org/obo/ms/4.1.214/ms.owl> .
 
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -416,9 +416,9 @@
 <http://purl.obolibrary.org/obo/vbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vbo/releases/2025-08-12/vbo.owl> ;
+                <http://purl.obolibrary.org/obo/vbo/releases/2025-11-07/vbo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-08-12" .
+                "2025-11-07" .
 
 <http://purl.obolibrary.org/obo/fbdv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -632,7 +632,7 @@
 <http://purl.obolibrary.org/obo/xlmod.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/xlmod/release/2019-10-28/xlmod.owl> .
+                <http://purl.obolibrary.org/obo/xlmod/1.5.0/xlmod.owl> .
 
 <http://purl.obolibrary.org/obo/ohpi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -813,7 +813,7 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <https://raw.githubusercontent.com/UTHealth-Ontology/mcro/main/import/swo_import_final.owl> , <http://www.w3.org/ns/prov-o-20130430> , <http://www.w3.org/2004/02/skos/core> , <http://purl.obolibrary.org/obo/iao.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/2023-03-07/mcro.owl> ;
+                <http://purl.obolibrary.org/obo/mcro/releases/2023-03-07/mcro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2023-03-07" .
 
