@@ -312,7 +312,7 @@
 <http://purl.obolibrary.org/obo/ms.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ms/4.1.214/ms.owl> .
+                <http://purl.obolibrary.org/obo/ms/4.1.215/ms.owl> .
 
 <http://purl.obolibrary.org/obo/maxo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -441,11 +441,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "production version 2016-03-26" .
 
-<http://purl.obolibrary.org/obo/ma.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ma/releases/2017-02-07/ma.owl> .
-
 <http://purl.obolibrary.org/obo/ontoneo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -563,11 +558,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2024-12-24" .
 
-<http://purl.obolibrary.org/obo/mondo.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2025-11-04/mondo.owl> .
-
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -575,10 +565,10 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2024-06-21" .
 
-<http://purl.obolibrary.org/obo/zfs.owl>
+<http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/zfs/releases/2020-03-10/zfs.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2025-11-04/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/spd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -711,11 +701,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "1.2.47" .
 
-<http://purl.obolibrary.org/obo/gaz.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#imports>
-                <http://purl.obolibrary.org/obo/envo.owl> .
-
 <http://purl.obolibrary.org/obo/flopo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#imports>
@@ -827,15 +812,15 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl> .
 
-<http://purl.obolibrary.org/obo/one.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#imports>
-                <http://purl.obolibrary.org/obo/obi/2020-12-16/obi.owl> , <http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl> .
-
 <http://purl.obolibrary.org/obo/clyh.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/clyh/releases/2020-05-29/clyh.owl> .
+
+<http://purl.obolibrary.org/obo/one.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#imports>
+                <http://purl.obolibrary.org/obo/obi/2020-12-16/obi.owl> , <http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl> .
 
 <http://purl.obolibrary.org/obo/hso.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -952,11 +937,6 @@
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/trans/releases/2022-10-10/trans.owl> .
-
-<http://purl.obolibrary.org/obo/hom.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/hom/releases/2015-01-07/hom.owl> .
 
 <http://purl.obolibrary.org/obo/geno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
