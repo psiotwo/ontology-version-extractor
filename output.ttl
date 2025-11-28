@@ -73,9 +73,9 @@
 <http://purl.obolibrary.org/obo/cl.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cl/releases/2025-11-03/cl.owl> ;
+                <http://purl.obolibrary.org/obo/cl/releases/2025-11-25/cl.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-11-03" .
+                "2025-11-25" .
 
 <http://purl.obolibrary.org/obo/omrse.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -800,7 +800,9 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/mcro/releases/2023-03-07/mcro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-07" .
+                "2023-03-07" ;
+        <https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import>
+                <http://www.w3.org/2004/02/skos/core> .
 
 <http://purl.obolibrary.org/obo/sbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
