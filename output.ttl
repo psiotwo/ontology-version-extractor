@@ -800,9 +800,7 @@
         <http://www.w3.org/2002/07/owl#versionIRI>
                 <http://purl.obolibrary.org/obo/mcro/releases/2023-03-07/mcro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-03-07" ;
-        <https://github.com/psiotwo/ontology-version-extractor/has-nonresolvable-import>
-                <http://www.w3.org/2004/02/skos/core> .
+                "2023-03-07" .
 
 <http://purl.obolibrary.org/obo/sbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
