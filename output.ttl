@@ -73,9 +73,9 @@
 <http://purl.obolibrary.org/obo/cl.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cl/releases/2025-11-25/cl.owl> ;
+                <http://purl.obolibrary.org/obo/cl/releases/2025-12-17/cl.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-11-25" .
+                "2025-12-17" .
 
 <http://purl.obolibrary.org/obo/omrse.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
