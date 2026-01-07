@@ -241,7 +241,7 @@
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "247" .
+                "248" .
 
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -568,7 +568,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2025-12-02/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2026-01-06/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/spd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -880,7 +880,7 @@
 <http://purl.obolibrary.org/obo/obi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/obi/2025-10-14/obi.owl> .
+                <http://purl.obolibrary.org/obo/obi/2025-12-18/obi.owl> .
 
 <http://purl.obolibrary.org/obo/mfomd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
