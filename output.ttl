@@ -240,6 +240,8 @@
 
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/chebi/249/chebi.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "249" .
 
@@ -265,9 +267,9 @@
 <http://purl.obolibrary.org/obo/ecto.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ecto/releases/2023-02-14/ecto.owl> ;
+                <http://purl.obolibrary.org/obo/ecto/releases/2026-02-17/ecto.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-02-14" .
+                "2026-02-17" .
 
 <http://purl.obolibrary.org/obo/mco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
