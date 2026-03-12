@@ -241,9 +241,9 @@
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chebi/249/chebi.owl> ;
+                <http://purl.obolibrary.org/obo/chebi/250/chebi.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "249" .
+                "250" .
 
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
