@@ -179,7 +179,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/clao.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/mfomd.owl,http://purl.obolibrary.org/obo/MFOMD/2020-04-26/MFOMD.owl,2020-04-26,2020-04-26,http://purl.obolibrary.org/obo/MF.owl|http://purl.obolibrary.org/obo/ogms.owl|http://purl.obolibrary.org/obo/MF/internal/MD-core.owl|http://purl.obolibrary.org/obo/MF/internal/MF-core.owl,
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/ovae.owl,null,Vision Release: 1.0.34,1.0.34,,
 NON_OBO_VERSION_IRI,http://purl.obolibrary.org/obo/ohpi.owl,http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30,null,null,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ohmi.owl,http://purl.obolibrary.org/obo/ohmi/releases/2026-03-15/ohmi.owl,2025-12-17,2026-03-15,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ohmi.owl,http://purl.obolibrary.org/obo/ohmi/releases/2026-03-21/ohmi.owl,2025-12-17,2026-03-21,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/rbo.owl,http://purl.obolibrary.org/obo/rbo/releases/2026-03-05/rbo.owl,2026-03-05,2026-03-05,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cio.owl,http://purl.obolibrary.org/obo/cio/releases/2015-03-10/cio.owl,null,2015-03-10,,
 NO_VERSION_IRI_BUT_VERSIONINFO,http://purl.obolibrary.org/obo/clo.owl,null,2.1.188,2.1.188,,
