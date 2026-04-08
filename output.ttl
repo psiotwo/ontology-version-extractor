@@ -145,6 +145,11 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2025-05-14" .
 
+<http://purl.obolibrary.org/obo/pr.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/pr/72.0/pr.owl> .
+
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -567,7 +572,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2026-03-03/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2026-04-07/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -712,7 +717,7 @@
 <http://purl.obolibrary.org/obo/oae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "1.2.47" .
+                "1.2.54" .
 
 <http://purl.obolibrary.org/obo/gaz.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -885,6 +890,13 @@
                 <http://purl.obolibrary.org/obo/hancestro/releases/2025-10-14/hancestro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2025-10-14" .
+
+<http://purl.obolibrary.org/obo/fbbi.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/fbbi/releases/2026-03-30/fbbi.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2026-03-30" .
 
 <http://purl.obolibrary.org/obo/dpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
