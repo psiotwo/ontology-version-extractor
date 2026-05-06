@@ -89,9 +89,9 @@
 <http://purl.obolibrary.org/obo/ppo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ppo/releases/2025-06-16/ppo.owl> ;
+                <http://purl.obolibrary.org/obo/ppo/releases/2026-05-05/ppo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-06-16" .
+                "2026-05-05" .
 
 <http://purl.obolibrary.org/obo/go.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -572,7 +572,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2026-04-07/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2026-05-05/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -698,9 +698,9 @@
 <http://purl.obolibrary.org/obo/ncbitaxon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ncbitaxon/2025-12-03/ncbitaxon.owl> ;
+                <http://purl.obolibrary.org/obo/ncbitaxon/2026-05-05/ncbitaxon.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-12-03" .
+                "2026-05-05" .
 
 <http://purl.obolibrary.org/obo/fbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1109,7 +1109,7 @@
 <http://purl.obolibrary.org/obo/emapa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/emapa/releases/2026-05-04/emapa.owl> .
+                <http://purl.obolibrary.org/obo/emapa/releases/2026-05-05/emapa.owl> .
 
 <http://purl.obolibrary.org/obo/rbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
