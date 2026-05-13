@@ -1109,7 +1109,7 @@
 <http://purl.obolibrary.org/obo/emapa.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/emapa/releases/2026-05-05/emapa.owl> .
+                <http://purl.obolibrary.org/obo/emapa/releases/2026-05-12/emapa.owl> .
 
 <http://purl.obolibrary.org/obo/rbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1157,11 +1157,6 @@
                 <http://purl.obolibrary.org/obo/wbphenotype/releases/2026-04-15/wbphenotype.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2026-04-15" .
-
-<http://purl.obolibrary.org/obo/ogg.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "Vision Release: 1.0.59" .
 
 <http://purl.obolibrary.org/obo/gecko.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
