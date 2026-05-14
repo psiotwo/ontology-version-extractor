@@ -698,9 +698,9 @@
 <http://purl.obolibrary.org/obo/ncbitaxon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ncbitaxon/2026-05-05/ncbitaxon.owl> ;
+                <http://purl.obolibrary.org/obo/ncbitaxon/2026-05-13/ncbitaxon.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-05-05" .
+                "2026-05-13" .
 
 <http://purl.obolibrary.org/obo/fbbt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
