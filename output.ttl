@@ -672,9 +672,9 @@
 <http://purl.obolibrary.org/obo/apo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/apo/releases/2026-04-20/apo.owl> ;
+                <http://purl.obolibrary.org/obo/apo/releases/2026-05-21/apo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-04-20" .
+                "2026-05-21" .
 
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -929,9 +929,9 @@
 <http://purl.obolibrary.org/obo/fypo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fypo/releases/2026-04-02/fypo.owl> ;
+                <http://purl.obolibrary.org/obo/fypo/releases/2026-05-21/fypo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-04-02" .
+                "2026-05-21" .
 
 <http://purl.obolibrary.org/obo/psdo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
