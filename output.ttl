@@ -712,7 +712,7 @@
 <http://purl.obolibrary.org/obo/mod.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mod/1.034.0/mod.owl> .
+                <http://purl.obolibrary.org/obo/mod/1.035.0/mod.owl> .
 
 <http://purl.obolibrary.org/obo/oae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
