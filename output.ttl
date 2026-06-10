@@ -66,6 +66,13 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2024-05-17" .
 
+<http://purl.obolibrary.org/obo/prefer.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/prefer/releases/2026-05-19/prefer.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2026-05-19" .
+
 <http://purl.obolibrary.org/obo/aro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
 
@@ -999,9 +1006,9 @@
 <http://purl.obolibrary.org/obo/pdro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pdro/2021-06-08/pdro.owl> ;
+                <http://purl.obolibrary.org/obo/pdro/2026-06-09/pdro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2021-06-08" .
+                "2026-06-09" .
 
 <http://purl.obolibrary.org/obo/mmo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
