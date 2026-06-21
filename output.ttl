@@ -5,8 +5,10 @@
 
 <http://purl.obolibrary.org/obo/clo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/clo/releases/2026-06-19/clo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2.1.188" .
+                "2026-06-19" .
 
 <http://purl.obolibrary.org/obo/cido.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1027,6 +1029,8 @@
 
 <http://purl.obolibrary.org/obo/opmi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/opmi/releases/2026-06-20/opmi.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2017-06-08" .
 
