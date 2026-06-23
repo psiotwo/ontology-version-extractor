@@ -356,7 +356,7 @@
 <http://purl.obolibrary.org/obo/mp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mp/releases/2026-05-19/mp.owl> .
+                <http://purl.obolibrary.org/obo/mp/releases/2026-06-17/mp.owl> .
 
 <http://purl.obolibrary.org/obo/t4fs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -956,7 +956,7 @@
 <http://purl.obolibrary.org/obo/rs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/rs/releases/2026-06-13/rs.owl> .
+                <http://purl.obolibrary.org/obo/rs/releases/2026-06-20/rs.owl> .
 
 <http://purl.obolibrary.org/obo/ido.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1015,7 +1015,7 @@
 <http://purl.obolibrary.org/obo/mmo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mmo/releases/2026-05-30/mmo.owl> .
+                <http://purl.obolibrary.org/obo/mmo/releases/2026-06-20/mmo.owl> .
 
 <http://purl.obolibrary.org/obo/cdno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
