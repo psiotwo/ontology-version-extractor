@@ -688,9 +688,9 @@
 <http://purl.obolibrary.org/obo/vt.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vt/releases/2026-06-12/vt.owl> ;
+                <http://purl.obolibrary.org/obo/vt/releases/2026-06-24/vt.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-06-12" .
+                "2026-06-24" .
 
 <http://purl.obolibrary.org/obo/ovae.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
