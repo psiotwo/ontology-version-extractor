@@ -878,10 +878,8 @@
 
 <http://purl.obolibrary.org/obo/pbpko.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#imports>
-                <http://purl.obolibrary.org/obo/ro/releases/2025-06-24/ro.owl> , <http://purl.obolibrary.org/obo/obi/2025-07-28/obi.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pbpko/releases/2026-07-09/pbpko.owl> .
+                <http://purl.obolibrary.org/obo/pbpko/releases/2026-07-13/pbpko.owl> .
 
 <http://purl.obolibrary.org/obo/hancestro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -951,7 +949,7 @@
 <http://purl.obolibrary.org/obo/rs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/rs/releases/2026-07-04/rs.owl> .
+                <http://purl.obolibrary.org/obo/rs/releases/2026-07-11/rs.owl> .
 
 <http://purl.obolibrary.org/obo/ido.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1020,7 +1018,7 @@
 <http://purl.obolibrary.org/obo/xco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/xco/releases/2026-06-27/xco.owl> .
+                <http://purl.obolibrary.org/obo/xco/releases/2026-07-11/xco.owl> .
 
 <http://purl.obolibrary.org/obo/opmi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
