@@ -10,13 +10,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2026-06-19" .
 
-<http://purl.obolibrary.org/obo/cido.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cido/releases/2024-02-16/cido.owl> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-02-07" .
-
 <http://purl.obolibrary.org/obo/fideo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -71,9 +64,9 @@
 <http://purl.obolibrary.org/obo/prefer.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/prefer/releases/2026-05-19/prefer.owl> ;
+                <http://purl.obolibrary.org/obo/prefer/releases/2026-07-14/prefer.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-05-19" .
+                "2026-07-14" .
 
 <http://purl.obolibrary.org/obo/aro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> .
@@ -622,9 +615,9 @@
 <http://purl.obolibrary.org/obo/oba.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/oba/releases/2026-05-15/oba.owl> ;
+                <http://purl.obolibrary.org/obo/oba/releases/2026-07-14/oba.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-05-15" .
+                "2026-07-14" .
 
 <http://purl.obolibrary.org/obo/agro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
