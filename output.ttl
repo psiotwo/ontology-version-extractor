@@ -738,13 +738,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2019-04-18" .
 
-<http://purl.obolibrary.org/obo/bmont.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/bmont/releases/2025-06-20/bmont.owl> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "Version Release: 0.5.8" .
-
 <http://purl.obolibrary.org/obo/fao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#imports>
