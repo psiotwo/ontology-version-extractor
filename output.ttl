@@ -233,9 +233,9 @@
 <http://purl.obolibrary.org/obo/uo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/uo/releases/2026-01-16/uo.owl> ;
+                <http://purl.obolibrary.org/obo/uo/releases/2026-07-31/uo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-01-16" .
+                "2026-07-31" .
 
 <http://purl.obolibrary.org/obo/afpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
