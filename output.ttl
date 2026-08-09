@@ -105,9 +105,9 @@
 <http://purl.obolibrary.org/obo/go.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/go/releases/2026-06-15/go.owl> ;
+                <http://purl.obolibrary.org/obo/go/releases/2026-07-26/go.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-06-15" .
+                "2026-07-26" .
 
 <http://purl.obolibrary.org/obo/hao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
