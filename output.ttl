@@ -226,9 +226,9 @@
 <http://purl.obolibrary.org/obo/ecocore.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ecocore/releases/2022-03-09/ecocore.owl> ;
+                <http://purl.obolibrary.org/obo/ecocore/releases/2026-08-11/ecocore.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2022-03-09" .
+                "2026-08-11" .
 
 <http://purl.obolibrary.org/obo/uo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
