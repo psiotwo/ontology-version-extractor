@@ -169,9 +169,9 @@
 <http://purl.obolibrary.org/obo/emro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/emro/releases/2026-06-22/emro.owl> ;
+                <http://purl.obolibrary.org/obo/emro/releases/2026-08-24/emro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-06-22" .
+                "2026-08-24" .
 
 <http://purl.obolibrary.org/obo/bco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -313,7 +313,9 @@
         <http://www.w3.org/2002/07/owl#imports>
                 <http://purl.obolibrary.org/obo/chiro/imports/mp_import.owl> , <http://purl.obolibrary.org/obo/chiro/imports/hp_import.owl> , <http://purl.obolibrary.org/obo/chiro/imports/go_import.owl> , <http://purl.obolibrary.org/obo/chiro/imports/envo_import.owl> , <http://purl.obolibrary.org/obo/chiro/imports/chebi_import.owl> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chiro/releases/2015-11-23/chiro.owl> .
+                <http://purl.obolibrary.org/obo/chiro/releases/2026-08-24/chiro.owl> ;
+        <http://www.w3.org/2002/07/owl#versionInfo>
+                "2026-08-24" .
 
 <http://purl.obolibrary.org/obo/upheno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -576,7 +578,7 @@
 <http://purl.obolibrary.org/obo/cmo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cmo/releases/2026-08-15/cmo.owl> .
+                <http://purl.obolibrary.org/obo/cmo/releases/2026-08-22/cmo.owl> .
 
 <http://purl.obolibrary.org/obo/apollo_sv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -958,7 +960,7 @@
 <http://purl.obolibrary.org/obo/rs.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/rs/releases/2026-08-15/rs.owl> .
+                <http://purl.obolibrary.org/obo/rs/releases/2026-08-22/rs.owl> .
 
 <http://purl.obolibrary.org/obo/ido.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
