@@ -17,13 +17,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2024-02-07" .
 
-<http://purl.obolibrary.org/obo/fideo.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/fideo/releases/2023-12-18/fideo.owl> ;
-        <http://www.w3.org/2002/07/owl#versionInfo>
-                "2023-12-18" .
-
 <http://purl.obolibrary.org/obo/nbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -259,9 +252,9 @@
 <http://purl.obolibrary.org/obo/chebi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/chebi/254/chebi.owl> ;
+                <http://purl.obolibrary.org/obo/chebi/255/chebi.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "254" .
+                "255" .
 
 <http://purl.obolibrary.org/obo/txpo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -597,7 +590,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2026-08-04/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2026-09-01/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
