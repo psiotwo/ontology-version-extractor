@@ -149,7 +149,7 @@ STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/aism.owl,http://purl.o
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/omo.owl,http://purl.obolibrary.org/obo/omo/releases/2026-03-16/omo.owl,2026-03-16,2026-03-16,,
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/ngbo.owl,http://purl.obolibrary.org/obo/ngbo/2024-08-27/ngbo.owl,2024-08-27,2024-08-27,,
 STANDARD_OBO_VERSION_IRI_2,http://purl.obolibrary.org/obo/hso.owl,http://purl.obolibrary.org/obo/hso/2021-12-13/hso.owl,null,2021-12-13,,
-STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/hp.owl,http://purl.obolibrary.org/obo/hp/releases/2026-06-23/hp.owl,null,2026-06-23,,
+STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/hp.owl,http://purl.obolibrary.org/obo/hp/releases/2026-09-01/hp.owl,null,2026-09-01,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/cdno.owl,http://purl.obolibrary.org/obo/cdno/releases/2026-06-10/cdno.owl,null,2026-06-10,,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/poro.owl,http://purl.obolibrary.org/obo/poro/releases/2016-10-06/poro.owl,null,2016-10-06,http://purl.obolibrary.org/obo/poro/imports/cl_import.owl|http://purl.obolibrary.org/obo/poro/imports/uberon_import.owl|http://purl.obolibrary.org/obo/poro/imports/go_import.owl|http://purl.obolibrary.org/obo/poro/imports/pato_import.owl|http://purl.obolibrary.org/obo/poro/imports/ro_import.owl|http://purl.obolibrary.org/obo/poro/imports/chebi_import.owl,
 STANDARD_OBO_VERSION_IRI_1,http://purl.obolibrary.org/obo/ddpheno.owl,http://purl.obolibrary.org/obo/ddpheno/releases/2023-08-26/ddpheno.owl,2023-08-26,2023-08-26,,
