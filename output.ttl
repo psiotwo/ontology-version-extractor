@@ -226,9 +226,9 @@
 <http://purl.obolibrary.org/obo/ecocore.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ecocore/releases/2026-08-31/ecocore.owl> ;
+                <http://purl.obolibrary.org/obo/ecocore/releases/2026-10-08/ecocore.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-08-31" .
+                "2026-10-08" .
 
 <http://purl.obolibrary.org/obo/uo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -519,9 +519,9 @@
 <http://purl.obolibrary.org/obo/zp.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/zp/releases/2024-04-18/zp.owl> ;
+                <http://purl.obolibrary.org/obo/zp/releases/2026-10-08/zp.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2024-04-18" .
+                "2026-10-08" .
 
 <http://purl.obolibrary.org/obo/poro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
