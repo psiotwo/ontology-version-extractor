@@ -638,9 +638,9 @@
 <http://purl.obolibrary.org/obo/oba.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/oba/releases/2026-07-14/oba.owl> ;
+                <http://purl.obolibrary.org/obo/oba/releases/2026-10-10/oba.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-07-14" .
+                "2026-10-10" .
 
 <http://purl.obolibrary.org/obo/agro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
