@@ -147,11 +147,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2026-10-01" .
 
-<http://purl.obolibrary.org/obo/pr.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pr/73.1/pr.owl> .
-
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -590,7 +585,7 @@
 <http://purl.obolibrary.org/obo/mondo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mondo/releases/2026-10-06/mondo.owl> .
+                <http://purl.obolibrary.org/obo/mondo/releases/2026-11-03/mondo.owl> .
 
 <http://purl.obolibrary.org/obo/colao.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
