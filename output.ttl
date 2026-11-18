@@ -152,11 +152,6 @@
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2026-10-01" .
 
-<http://purl.obolibrary.org/obo/pr.owl>
-        a       <http://www.w3.org/2002/07/owl#Ontology> ;
-        <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pr/73.1/pr.owl> .
-
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
@@ -436,9 +431,9 @@
 <http://purl.obolibrary.org/obo/vbo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/vbo/releases/2026-04-15/vbo.owl> ;
+                <http://purl.obolibrary.org/obo/vbo/releases/2026-11-17/vbo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-04-15" .
+                "2026-11-17" .
 
 <http://purl.obolibrary.org/obo/fbdv.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1032,7 +1027,7 @@
 <http://purl.obolibrary.org/obo/cdno.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/cdno/releases/2026-06-10/cdno.owl> .
+                <http://purl.obolibrary.org/obo/cdno/releases/2026-11-17/cdno.owl> .
 
 <http://purl.obolibrary.org/obo/xco.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -1165,9 +1160,9 @@
 <http://purl.obolibrary.org/obo/pcl.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/pcl/releases/2025-07-07/pcl.owl> ;
+                <http://purl.obolibrary.org/obo/pcl/releases/2026-11-16/pcl.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-07-07" .
+                "2026-11-16" .
 
 <http://purl.obolibrary.org/obo/wbphenotype.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
