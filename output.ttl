@@ -41,9 +41,9 @@
 <http://purl.obolibrary.org/obo/ohd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/ohd/releases/2026-11-04/ohd.owl> ;
+                <http://purl.obolibrary.org/obo/ohd/releases/2026-11-18/ohd.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-11-04" .
+                "2026-11-18" .
 
 <http://purl.obolibrary.org/obo/plana.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -151,6 +151,11 @@
                 <http://purl.obolibrary.org/obo/pato/releases/2026-10-01/pato.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
                 "2026-10-01" .
+
+<http://purl.obolibrary.org/obo/pr.owl>
+        a       <http://www.w3.org/2002/07/owl#Ontology> ;
+        <http://www.w3.org/2002/07/owl#versionIRI>
+                <http://purl.obolibrary.org/obo/pr/73.1/pr.owl> .
 
 <http://purl.obolibrary.org/obo/aism.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -445,9 +450,9 @@
 <http://purl.obolibrary.org/obo/mro.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/mro/2026-10-20/mro.owl> ;
+                <http://purl.obolibrary.org/obo/mro/2026-11-18/mro.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2026-10-20" .
+                "2026-11-18" .
 
 <http://purl.obolibrary.org/obo/geo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
@@ -926,7 +931,7 @@
 <http://purl.obolibrary.org/obo/obi.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/obi/2026-07-27/obi.owl> .
+                <http://purl.obolibrary.org/obo/obi/2026-11-03/obi.owl> .
 
 <http://purl.obolibrary.org/obo/mfomd.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
