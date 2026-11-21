@@ -721,9 +721,9 @@
 <http://purl.obolibrary.org/obo/exo.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
         <http://www.w3.org/2002/07/owl#versionIRI>
-                <http://purl.obolibrary.org/obo/exo/releases/2025-08-29/exo.owl> ;
+                <http://purl.obolibrary.org/obo/exo/releases/2026-11-20/exo.owl> ;
         <http://www.w3.org/2002/07/owl#versionInfo>
-                "2025-08-29" .
+                "2026-11-20" .
 
 <http://purl.obolibrary.org/obo/ncbitaxon.owl>
         a       <http://www.w3.org/2002/07/owl#Ontology> ;
